@@ -1,0 +1,55 @@
+#blurb
+  h2
+    position: absolute
+    z-index: 1
+    width: 900px
+    top: 50%
+    left: 50%
+    margin-top: -100px
+    margin-left: -450px
+    line-height: 120%
+    font-family: 'Lato', $helvetica
+    font-size: 5em
+    font-weight: 100
+    color: $blurb-font
+    strong
+      font-weight: 800
+
+    &:before
+      z-index: -1
+      content: ""
+      position: absolute
+      top: 2px
+      left: -1%
+      width: 102%
+      height: 50%
+      background-color: $blurb-bg-1
+      @include transform(rotate(-0.8deg))
+
+    &:after
+      z-index: -1
+      content: ""
+      position: absolute
+      bottom: -8px
+      left: 7%
+      width: 86%
+      height: 50%
+      background-color: $blurb-bg-2
+      @include transform(rotate(0.4deg))
+
+  & > a
+    position: absolute
+    display: block
+    left: calc(50% - 40px)
+    bottom: -40px
+    width: 80px
+    height: 80px
+    border-radius: 40px
+    background-color: #EB2E66
+    color: white
+    line-height: 80px
+    text-align: center
+    &:hover
+      text-decoration: none
+
+

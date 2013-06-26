@@ -1,0 +1,86 @@
+#projects
+  ul
+    display: table-row
+  li
+    display: table-cell
+    position: relative
+    padding: 40px
+    border-right: 1px solid $projects-border
+  li:last-child
+    border-right: 0px
+  li:after
+    content: ''
+    position: absolute
+    left: calc(50% - 25px)
+    bottom: -1px
+    margin: 0 auto
+    width: 0
+    height: 0
+    border-left: 25px solid transparent
+    border-right: 25px solid transparent
+  h3 a
+    cursor: pointer
+  p
+    font-size: 0.9em
+
+.rgsoc
+  #projects
+    li#rgsoc
+      background-color: $rgsoc-tint
+      border-color: transparent
+      &:after
+        display: block
+        border-bottom: 25px solid $rgsoc-shade
+    h3
+      color: $rgsoc-shade
+  #testimonials
+    ul
+      background-color: $rgsoc-80
+    h3
+      color: $rgsoc-contrast
+    & > a
+      background-color: $rgsoc
+      &:after
+        background-color: $rgsoc
+
+.diversity
+  #projects
+    li#diversity
+      background-color: $diversity-tint
+      border-color: transparent
+      &:after
+        display: block
+        border-bottom: 25px solid $diversity-shade
+    h3
+      color: $diversity-shade
+  #testimonials
+    ul
+      background-color: $diversity-80
+    h3
+      color: $diversity-contrast
+    & > a
+      background-color: $diversity
+      &:after
+        background-color: $diversity
+
+.internships
+  #projects
+    li#internships
+      background-color: $internships-tint
+      border-color: transparent
+      &:after
+        display: block
+        border-bottom: 25px solid $internships-shade
+    h3
+      color: $internships-contrast
+  #testimonials
+    ul
+      background-color: $internships-80
+    h3
+      color: $internships-contrast
+    & > a
+      background-color: $internships
+      &:after
+        background-color: $internships
+
+

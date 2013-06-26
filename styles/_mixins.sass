@@ -1,0 +1,15 @@
+@mixin headline($top, $width, $height, $rotate, $background-color)
+  position: relative
+  color: white
+  &:before
+    z-index: -1
+    content: ""
+    position: absolute
+    top: $top
+    left: unquote("calc(50% - ") $width/2 unquote(")")
+    width: $width
+    height: $height
+    background-color: $background-color
+    @include transform(rotate($rotate))
+
+

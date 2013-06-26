@@ -1,0 +1,49 @@
+#sponsors
+  .platinum, .gold, .silver
+    clear: both
+    position: relative
+    margin: 20px auto 0 auto
+    width: 1060px
+    @include clearfix
+
+    li
+      float: left
+      padding: 20px
+      margin-right: 20px
+      background-color: white
+      border-radius: 8px
+      &:last-child
+        margin-right: 0
+    img
+      float: left
+      margin-right: 20px
+      border: 1px solid #ddd
+      border-radius: 4px
+      background-color: white
+    p
+      font-size: 1em
+      &:first-of-type
+        margin-top: 0
+
+  .platinum
+    margin-top: 0
+    li
+      width: 100%
+      font-size: 14px
+    img
+      height: 210px
+
+  .gold
+    li
+      width: calc(50% - 10px)
+      font-size: 13px
+    img
+      height: 130px
+      width: 210px
+
+  .silver
+    img
+      width: 210px
+      margin-right: 0
+
+

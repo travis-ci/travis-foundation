@@ -1,0 +1,223 @@
+@import vendor/bourbon/bourbon
+// @import 'grid-settings'
+// @import 'vendor/neat/neat'
+@import styles/colors
+
+$padding: 60px
+
+$header:     white
+$blurb-font: $yellow
+$blurb-bg-1: $violet
+$blurb-bg-2: $pink
+$lead:       white
+
+$rgsoc:                $violet
+$rgsoc-80:             $violet-80
+$rgsoc-tint:           tint($rgsoc, 85%)
+$rgsoc-shade:          shade($rgsoc, 10%)
+$rgsoc-contrast:       $yellow
+
+$diversity:            $pink
+$diversity-80:         $pink-80
+$diversity-tint:       tint($diversity, 80%)
+$diversity-shade:      shade($diversity, 10%)
+$diversity-contrast:   $yellow
+
+$internships:          $blue
+$internships-80:       $blue-80
+$internships-tint:     tint($internships, 80%)
+$internships-shade:    shade($internships, 10%)
+$internships-contrast: shade($pink, 10%)
+
+$packages-button-font: white
+$packages-button-bg:   $blue
+
+$company-packages:     $gray
+$company-packages-button: shade($gray, 10%)
+
+$thanks-folks:         $red-80
+
+$background-image-freckles: "images/patterns/subtle_freckles_2.png"
+
+$blurb-background:    white
+$lead-background:      #eee url($background-image-freckles) fixed
+$projects-border:      #eee
+$sponsors-background:  #eee url($background-image-freckles) fixed
+$footer-background:    #eee url($background-image-freckles) fixed
+
+$box-shadow-top: inset 1px 6px 12px -5px #aaa
+
+@import styles/mixins
+@import styles/_blurb
+@import styles/_projects
+@import styles/_testimonials
+@import styles/_sponsors
+@import styles/_packages
+
+body
+  position: relative
+  min-width: 1024px
+  margin: 0
+  padding: 0
+  font-family: 'Open Sans', $helvetica
+  font-weight: 100
+  color: #666
+*
+  box-sizing: border-box
+
+ul
+  margin: 0
+  padding: 0
+
+li
+  list-style-type: none
+
+h1, h2, h3, h4
+  margin-top: 0
+  font-weight: 500
+h2
+  margin-top: 20px
+  margin-bottom: 50px
+  line-height: 100%
+  font-family: 'Lato', $helvetica
+  font-size: 4em
+  font-weight: 200
+  text-align: center
+p
+  font-size: 1.15em
+  line-height: 170%
+p:last-child
+  margin-bottom: 0
+a
+  text-decoration: none
+a:hover
+  text-decoration: underline
+
+header
+  z-index: 3
+  position: fixed
+  width: 100%
+  height: 80px
+  padding: 0 40px
+  line-height: 80px
+  vertical-align: middle
+  background-color: white
+
+header, footer
+  @include clearfix
+  h1
+    float: left
+    margin: auto 0
+    color: black
+    letter-spacing: 1px
+    a:hover
+      text-decoration: none
+
+  ul
+    float: right
+  li
+    display: inline-block
+    margin-right: 25px
+  a
+    color: black
+header
+  h1 span
+    display: inline-block
+    width: 20px
+    height: 20px
+    margin-right: -1px
+    background: url(images/icons/heart.png) no-repeat top left
+
+footer
+  h1
+    font-size: 1em
+
+#blurb
+  position: relative
+  height: calc(100% - 160px)
+  min-height: 250px
+  max-height: 700px
+  padding-top: 80px
+
+section
+  padding: $padding
+
+#lead
+  padding: 80px 0 60px 0
+  background: $lead-background
+  box-shadow: $box-shadow-top
+  p
+    margin: 0 auto
+    max-width: 850px
+    text-align: center
+
+#projects
+  padding: 0
+  display: table
+
+#testimonials
+  position: relative
+  padding-left: 0
+  padding-right: 0
+  background: url(images/backgrounds/testimonials-2.jpg) no-repeat center 0px fixed
+  background-size: cover
+
+#donate
+  h2
+    @include headline(-0.1em, 500px, 1.2em, -0.8deg, $violet)
+  p
+    max-width: 580px
+    margin: 0 auto
+    text-align: center
+
+  #donations-total
+    background-color: $yellow-tint
+
+#private-packages
+  background: url(images/backgrounds/testimonials-2.jpg) no-repeat center 0px fixed
+  background-size: cover
+
+#company-packages
+  position: relative
+  padding: 40px
+  background-color: $company-packages
+  h3
+    font-size: 1.6em
+
+#thanks-companies
+  h2
+    @include headline(-0.15em, 700px, 1.3em, 0.8deg, $violet)
+  p
+    max-width: 900px
+    text-align: center
+    margin: 0 auto
+
+#sponsors
+  background: $sponsors-background
+  box-shadow: inset 0px 5px 5px #ddd
+
+
+#thanks-folks
+  h2
+    @include headline(-0.15em, 350px, 1.3em, -0.8deg, $violet)
+  p
+    max-width: 900px
+    text-align: center
+    margin: 0 auto
+
+#donors
+  background: url(images/backgrounds/thanks-folks-2.jpg) no-repeat center 0px fixed
+  background-size: cover
+
+  img
+    display: block
+    margin: 1em auto
+
+#contact
+  h2
+    @include headline(-0.15em, 700px, 1.3em, 0.8deg, $pink)
+
+footer
+  padding: 20px 40px
+  background: $footer-background
+  box-shadow: $box-shadow-top

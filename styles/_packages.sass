@@ -1,0 +1,98 @@
+.packages
+  @include clearfix
+  li
+    float: left
+    width: 18%
+    margin: 0 1.25%
+    padding: 20px
+    background-color: white
+    border-radius: 4px
+  li:first-child
+    margin-left: 0
+  li:last-child
+    margin-right: 0
+  h4
+    font-size: 1.9em
+    font-weight: 100
+    text-align: center
+    margin-bottom: 0.5em
+  p.price
+    margin-top: 0
+    font-size: 1em
+    font-weight: 300
+    text-align: center
+    color: #aaa
+  p
+    font-size: 0.9em
+  button
+    margin: 1.25em auto 0 auto
+    width: 100%
+    height: 3em
+    font-size: 1.17em
+    color: white
+    color: $packages-button-font
+    background-color: $packages-button-bg
+    border: 0px
+    border-radius: 4px
+
+#thanks-companies
+  & > a
+    position: absolute
+    cursor: pointer
+    top: 44px
+    right: 40px
+    padding-right: 70px
+    color: #AAA
+
+    span
+      display: block
+      position: absolute
+      top: -11px
+      right: 0
+      width: 50px
+      height: 50px
+      background-color: $company-packages-button
+      border-radius: 25px
+      &:before
+        content: ""
+        position: absolute
+        left: 18px
+        width: 14px
+        height: 14px
+        background: #fff
+        @include transform(rotate(-45deg))
+      &:after
+        content: ""
+        position: absolute
+        left: 20px
+        width: 10px
+        height: 10px
+        background: $company-packages-button
+        @include transform(rotate(-45deg))
+
+  &:not(.expanded)
+    h3
+      margin-bottom: 0
+    &:hover > a:before
+      content: "How do I sponsor?"
+    & > a span
+      &:before
+        top: 17px
+      &:after
+        top: 14px
+
+    p, ul
+      display: none
+  &.expanded
+    &:hover a:before
+      content: "Hide"
+    & > a span
+      &:before
+        top: 20px
+      &:after
+        top: 27px
+
+  ul
+    margin-top: 40px
+
+
