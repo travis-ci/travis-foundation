@@ -37,7 +37,7 @@ $company-packages-button: shade($gray, 10%)
 
 $thanks-folks:         $red-80
 
-$background-image-freckles: "images/patterns/subtle_freckles_2.png"
+$background-image-freckles: "/images/patterns/subtle_freckles_2.png"
 
 $blurb-background:    white
 $lead-background:      #eee url($background-image-freckles) fixed
@@ -112,6 +112,9 @@ header, footer
     letter-spacing: 1px
     a:hover
       text-decoration: none
+    span
+      display: inline-block
+      background: url(/images/icons/heart.svg) no-repeat top left
 
   ul
     float: right
@@ -120,13 +123,15 @@ header, footer
     margin-right: 25px
   a
     color: black
-header
-  h1 span
-    display: inline-block
-    width: 20px
-    height: 20px
-    margin-right: -1px
-    background: url(images/icons/heart.png) no-repeat top left
+
+header h1 span
+  width: 23px
+  height: 23px
+  background-size: 23px 23px
+footer h1 span
+  width: 14px
+  height: 14px
+  background-size: 14px 14px
 
 footer
   h1
@@ -158,7 +163,7 @@ section
 #testimonials
   position: relative
   padding: $padding 0
-  background: url(images/backgrounds/testimonials-2.jpg) no-repeat center 0px fixed
+  background: url(/images/backgrounds/testimonials-2.jpg) no-repeat center 0px fixed
   background-size: cover
 
 #donate
@@ -173,7 +178,7 @@ section
     background-color: $yellow-tint
 
 #private-packages
-  background: url(images/backgrounds/testimonials-2.jpg) no-repeat center 0px fixed
+  background: url(/images/backgrounds/testimonials-2.jpg) no-repeat center 0px fixed
   background-size: cover
 
 #company-packages
@@ -205,7 +210,7 @@ section
     margin: 0 auto
 
 #donors
-  background: url(images/backgrounds/thanks-folks-2.jpg) no-repeat center 0px fixed
+  background: url(/images/backgrounds/thanks-folks-2.jpg) no-repeat center 0px fixed
   background-size: cover
 
   img
