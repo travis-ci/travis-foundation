@@ -4,24 +4,42 @@
   li
     display: table-cell
     position: relative
+    overflow: hidden
+    width: 33%
     padding: 40px
     border-right: 1px solid $projects-border
-  li:last-child
-    border-right: 0px
-  li:after
-    content: ''
-    position: absolute
-    left: calc(50% - 25px)
-    bottom: -1px
-    margin: 0 auto
-    width: 0
-    height: 0
-    border-left: 25px solid transparent
-    border-right: 25px solid transparent
+
+    &:last-child
+      border-right: 0px
+      overflow: hidden
+
+    &.tbd:before
+      content: 'tbd'
+      position: absolute
+      top: 10px
+      right: -30px
+      width: 100px
+      height: 22px
+      text-align: center
+      color: white
+      border: 0px
+      background-color: #ddd
+      @include transform(rotate(45deg))
+
+    &:after
+      content: ''
+      position: absolute
+      left: calc(50% - 25px)
+      bottom: -1px
+      margin: 0 auto
+      width: 0
+      height: 0
+      border-left: 25px solid transparent
+      border-right: 25px solid transparent
   h3 a
     cursor: pointer
   p
-    font-size: 0.9em
+    font-size: 0.95em
 
 .rgsoc
   #projects
@@ -31,7 +49,9 @@
       &:after
         display: block
         border-bottom: 25px solid $rgsoc-shade
-    h3
+    li.tbd:before
+      // background-color: $rgsoc-tint
+    a
       color: $rgsoc-shade
   #testimonials
     ul
@@ -51,7 +71,9 @@
       &:after
         display: block
         border-bottom: 25px solid $diversity-shade
-    h3
+    li.tbd:before
+      // background-color: $diversity-tint
+    a
       color: $diversity-shade
   #testimonials
     ul
@@ -71,13 +93,15 @@
       &:after
         display: block
         border-bottom: 25px solid $internships-shade
-    h3
-      color: $internships-contrast
+    li.tbd:before
+      // background-color: $internships-tint
+    a
+      color: $internships-shade
   #testimonials
     ul
       background-color: $internships-80
     h3
-      color: $internships-contrast
+      color: $diversity-contrast
     & > a
       background-color: $internships
       &:after

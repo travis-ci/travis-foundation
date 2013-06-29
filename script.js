@@ -55,26 +55,31 @@ $.extend(CompanyPackages.prototype, {
   }
 });
 
+var BlurbHeading = function(element) {
+  this.element = element;
+  this.win = $(window);
+  this.win.scroll($.proxy(this.position, this));
+  this.position();
+}
+$.extend(BlurbHeading.prototype, {
+  position: function() {
+    var top = this.win.scrollTop();
+    if(top < 500) {
+      var offset = top * 0.625;
+      if(offset > 150) offset = 150;
+      this.element.css({ top: 'calc(50% + ' + offset + 'px)' });
+    }
+  },
+});
+
 $(function() {
   var projects = new Projects();
   // projects.start();
   new CompanyPackages();
 
-  var win  = $(window);
-  var nav  = $('header');
-  var h2   = $('#blurb h2');
-  var lead = $('#lead');
+  $.fn.blurb_heading = function() {
+    return new BlurbHeading(this);
+  };
 
-  win.scroll(function() {
-    var top = win.scrollTop();
-    if(top < 500 && lead.offset().top - top > 420) {
-      h2.css({ top: 'calc(50% + ' + (top * 0.625) + 'px)' });
-    }
-    if(h2.offset().top - top > 100) {
-      nav.show();
-    } else {
-      nav.hide();
-    }
-
-  });
+  $('#blurb h2').blurb_heading();
 });

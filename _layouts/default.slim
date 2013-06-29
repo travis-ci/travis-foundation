@@ -1,3 +1,4 @@
+doctype html
 html
   head
     meta charset="utf-8"
@@ -10,6 +11,7 @@ html
     header
       h1
         a href="/" Travis <span></span> Foundation
+
       ul
         li
           a href="/#projects" Projects
@@ -19,11 +21,16 @@ html
           a href="#faq" FAQ
         li
             a href="/#contact" Contact
+
     | {{content}}
+
     footer
-      h1
-        a href="/" Travis <span></span> Foundation
       ul
         li
           a href="/imprint" Imprint
-
+      p
+        ' An initiative run by
+        a href="http://travis-ci.org" Travis CI
+        '  &rarr;
+      h1
+        a href="/" Travis <span></span> Foundation
