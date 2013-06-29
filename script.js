@@ -65,7 +65,7 @@ $.extend(BlurbHeading.prototype, {
   position: function() {
     var top = this.win.scrollTop();
     if(top < 500) {
-      var offset = top * 0.625;
+      var offset = top * 0.625 - 40;
       if(offset > 150) offset = 150;
       this.element.css({ top: 'calc(50% + ' + offset + 'px)' });
     }
