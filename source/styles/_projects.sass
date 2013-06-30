@@ -9,7 +9,7 @@
     position: relative
     overflow: hidden
     width: 33%
-    padding: 40px
+    padding: $base-2
     border-right: 1px solid $projects-border
 
     &:last-child
@@ -17,28 +17,13 @@
       overflow: hidden
 
     &.tbd:before
-      content: 'tbd'
-      position: absolute
-      top: 10px
-      right: -30px
-      width: 100px
-      height: 22px
-      text-align: center
-      color: white
-      border: 0px
-      background-color: #ddd
-      @include transform(rotate(45deg))
+      @include badge(tbd, right, 50px, 24px, white, #ddd)
 
     &:after
-      content: ''
-      position: absolute
       @include calc(left, '50% - 25px')
       bottom: 0
       margin: 0 auto
-      width: 0
-      height: 0
-      border-left: 25px solid transparent
-      border-right: 25px solid transparent
+      @include triangle(25px, transparent)
   h3
     text-align: left
     a
@@ -55,124 +40,61 @@
     padding: $base-4 0
   li
     @include clearfix
-    max-width: 770px
+    max-width: 790px
     margin: 0 auto
     display: none
   li:first-child
     display: block
   img, video
     float: left
-    width: 245px
-    height: 165px
+    width: 268px
+    height: 182px
     margin-top: 4px
     margin-right: 40px
     border: 4px solid #fff
     border-radius: 4px
+  h3
+    text-align: left
   p
+    font-size: 1.1rem
     color: #fff
 
   & > a
     position: absolute
     @include calc(top, '50% - 25px')
-    width: 50px
-    height: 50px
-    display: block
-    border-radius: 25px
+    @include circle(50px, transparent)
     cursor: pointer
-    &:before
-      content: ""
-      position: absolute
-      top: 18px
-      width: 14px
-      height: 14px
-      background: #fff
-      @include transform(rotate(-45deg))
-    &:after
-      content: ""
-      position: absolute
-      top: 20px
-      width: 10px
-      height: 10px
-      @include transform(rotate(-45deg))
 
   & a#prev-testimonial
     left: 40px
-    &:before
-      left: 20px
-    &:after
-      left: 27px
+    @include arrow(left, 4px, white)
 
   & a#next-testimonial
     right: 40px
-    &:before
-      left: 17px
-    &:after
-      left: 14px
+    @include arrow(right, 4px, white)
 
-.rgsoc
-  #projects
-    li#rgsoc
-      background-color: $rgsoc-tint
-      border-color: transparent
-      &:after
-        display: block
-        border-bottom: 25px solid $rgsoc-shade
-    li.tbd:before
-      // background-color: $rgsoc-tint
-    a
-      color: $rgsoc-shade
-  #testimonials
-    ul
-      background-color: $rgsoc-80
-    h3
-      color: $rgsoc-contrast
-    & > a
-      background-color: $rgsoc
-      &:after
-        background-color: $rgsoc
+@mixin project($name, $colors)
+  .#{$name}
+    #projects
+      li##{$name}
+        background-color: nth($colors, 2)
+        border-color: transparent
+        &:after
+          display: block
+          border-bottom-color: nth($colors, 3)
+      a
+        color: nth($colors, 3)
+    #testimonials
+      ul
+        background-color: nth($colors, 4)
+      h3
+        color: nth($colors, 5)
+      & > a
+        background-color: nth($colors, 1)
+        &:after
+          background-color: nth($colors, 1)
 
-.diversity
-  #projects
-    li#diversity
-      background-color: $diversity-tint
-      border-color: transparent
-      &:after
-        display: block
-        border-bottom: 25px solid $diversity-shade
-    li.tbd:before
-      // background-color: $diversity-tint
-    a
-      color: $diversity-shade
-  #testimonials
-    ul
-      background-color: $diversity-80
-    h3
-      color: $diversity-contrast
-    & > a
-      background-color: $diversity
-      &:after
-        background-color: $diversity
-
-.internships
-  #projects
-    li#internships
-      background-color: $internships-tint
-      border-color: transparent
-      &:after
-        display: block
-        border-bottom: 25px solid $internships-shade
-    li.tbd:before
-      // background-color: $internships-tint
-    a
-      color: $internships-shade
-  #testimonials
-    ul
-      background-color: $internships-80
-    h3
-      color: $diversity-contrast
-    & > a
-      background-color: $internships
-      &:after
-        background-color: $internships
-
+@include project(rgsoc, $rgsoc $rgsoc-tint $rgsoc-shade $rgsoc-80 $rgsoc-contrast)
+@include project(diversity, $diversity $diversity-tint $diversity-shade $diversity-80 $diversity-contrast)
+@include project(internships, $internships $internships-tint $internships-shade $internships-80 $internships-contrast)
 

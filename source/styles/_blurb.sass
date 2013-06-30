@@ -1,15 +1,16 @@
 #blurb
   position: relative
-  @include calc(height, '100%')
+  margin-top: $base-4
+  @include calc(height, '100% - 170px')
   min-height: 25rem
-  max-height: 45rem
+  max-height: 65rem
 
   h2
     position: relative
     width: 920px
-    @include calc(top, '50% - 80px')
-    margin: -100px auto 0 auto
-    font-size: 5em
+    @include calc(top, '50% - 130px')
+    margin: 0 auto
+    font-size: 5rem
     font-weight: 100
     color: $blurb-font
     strong
@@ -21,25 +22,20 @@
   & > a
     position: absolute
     display: block
-    @include calc(left, '50% - 40px')
-    bottom: -40px
-    width: 80px
-    height: 80px
-    border-radius: 40px
-    background-color: #EB2E66
+    bottom: -$base-2
+    @include calc(left, "50% - #{$base-2}")
+    @include circle($base-4, #EB2E66)
     color: white
-    line-height: 80px
-    text-align: center
     &:hover
       text-decoration: none
 
   p
     position: absolute
-    right: 65px
+    left: $base-2
     top: 0
     margin: 0
     a
-      color: $pink
+      color: #999
       font-size: 0.7em
       &:hover
         text-decoration: underline

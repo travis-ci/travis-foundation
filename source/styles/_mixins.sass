@@ -12,6 +12,42 @@
   height: $height
   background-size: $width $height
 
+@mixin circle($size, $color)
+  width: $size
+  height: $size
+  line-height: $size
+  text-align: center
+  border-radius: $size
+  background-color: $color
+
+@mixin triangle($size, $color)
+  content: ''
+  position: absolute
+  width: 0
+  height: 0
+  border-left: $size solid transparent
+  border-right: $size solid transparent
+  border-bottom: $size solid $color
+
+@mixin arrow($position, $size, $color)
+  &:before
+    content: ""
+    position: absolute
+    @include calc(top, '50% - 7px')
+    @include calc($position, '50% - 5px')
+    width: #{10px + $size}
+    height: #{10px + $size}
+    background: $color
+    @include transform(rotate(-45deg))
+  &:after
+    content: ""
+    position: absolute
+    @include calc(top, '50% - 5px')
+    @include calc($position, '50% + 1px')
+    width: 10px
+    height: 10px
+    @include transform(rotate(-45deg))
+
 @mixin headline($position, $top, $width, $height, $rotate, $color, $background-color)
   z-index: 1
   position: relative
@@ -26,4 +62,20 @@
     height: $height
     background-color: $background-color
     @include transform(rotate($rotate))
+
+@mixin badge($text, $position, $width, $height, $color, $background-color)
+  content: quote($text)
+  position: absolute
+  top: 14px            // should be able to derive these from $width and $height, no?
+  #{$position}: -23px  // but burbon does not seem to include sin and cos functions
+  width: $width
+  height: 0
+  line-height: $height
+  text-align: center
+  color: $color
+  border: 0px
+  @include transform(rotate(45deg))
+  border-bottom: $height solid $background-color
+  border-left: $height solid transparent
+  border-right: $height solid transparent
 
