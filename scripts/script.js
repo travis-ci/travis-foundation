@@ -15,10 +15,11 @@
       _this.stop();
       return _this.next();
     });
-    return $('#prev-testimonial').click(function() {
+    $('#prev-testimonial').click(function() {
       _this.stop();
       return _this.prev();
     });
+    return this;
   };
 
   Projects.DELAY = 5000;
@@ -52,12 +53,11 @@
       return this.current = element;
     },
     start: function() {
-      var _this = this;
-
-      return this.timeout = setTimeout((function() {
-        _this.next();
-        return _this.start();
-      }), Projects.DELAY);
+      return this.timeout = setTimeout($.proxy(this.flip, this), Projects.DELAY);
+    },
+    flip: function() {
+      this.next();
+      return this.start();
     },
     stop: function() {
       return clearTimeout(this.timeout);
@@ -68,7 +68,8 @@
     if (location.hash === '#company-packages') {
       this.toggle();
     }
-    return $('#company-packages > a').click(this.toggle);
+    $('#company-packages > a').click(this.toggle);
+    return this;
   };
 
   $.extend(CompanyPackages.prototype, {
@@ -81,7 +82,8 @@
     this.element = element;
     this.win = $(window);
     this.win.scroll($.proxy(this.position, this));
-    return this.position();
+    this.position();
+    return this;
   };
 
   $.extend(BlurbHeading.prototype, {

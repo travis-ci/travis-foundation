@@ -11,6 +11,7 @@ Projects = ->
   $('#prev-testimonial').click =>
     @stop()
     @prev()
+  @
 
 Projects.DELAY = 5000
 $.extend Projects::,
@@ -32,27 +33,32 @@ $.extend Projects::,
     @current = element
 
   start: ->
-    @timeout = setTimeout((=>
-      @next()
-      @start()
-    ), Projects.DELAY)
+    @timeout = setTimeout($.proxy(@flip, this), Projects.DELAY)
+
+  flip: ->
+    @next()
+    @start()
 
   stop: ->
     clearTimeout @timeout
 
+
 CompanyPackages = ->
   @toggle()  if location.hash is '#company-packages'
   $('#company-packages > a').click @toggle
+  @
 
 $.extend CompanyPackages::,
   toggle: ->
     $('#company-packages').toggleClass 'expanded'
+
 
 BlurbHeading = (element) ->
   @element = element
   @win = $(window)
   @win.scroll $.proxy(@position, this)
   @position()
+  @
 
 $.extend BlurbHeading::,
   position: ->
@@ -66,7 +72,7 @@ $.fn.blurb_heading = -> new BlurbHeading(this)
 
 $ ->
   projects = new Projects()
-  # projects.start();
+  # projects.start()
   # new CompanyPackages()
 
   $('#blurb h2').blurb_heading()

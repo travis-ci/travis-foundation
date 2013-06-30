@@ -1,3 +1,10 @@
+@mixin calc($property, $value)
+  #{$property}: -webkit-calc(#{$value})
+  #{$property}: -moz-calc(#{$value})
+  #{$property}: -ie-calc(#{$value})
+  #{$property}: -o-calc(#{$value})
+  #{$property}: calc(#{$value})
+
 @mixin headline($top, $width, $height, $rotate, $background-color)
   position: relative
   color: white
@@ -6,7 +13,7 @@
     content: ""
     position: absolute
     top: $top
-    left: unquote("calc(50% - ") $width/2 unquote(")")
+    @include calc(left, '50% - #{$width/2}')
     width: $width
     height: $height
     background-color: $background-color
