@@ -7,3 +7,9 @@ guard 'sass', input: 'source', output: 'styles', line_numbers: true, debug_info:
 end
 
 guard 'coffeescript', input: 'source', output: 'scripts'
+
+guard 'livereload', grace_period: 1 do
+  watch(%r(.+\.(sass|coffee|slim))) do |m|
+    'http://localhost:4000/*'
+  end
+end
