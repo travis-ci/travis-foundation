@@ -1,6 +1,2 @@
+source: _source
 permalink: pretty
-exclude:
-  - Gemfile*
-sass:
-  syntax: sass        # scss|sass
-  style:  compressed  # nested|expanded|compact|compressed
