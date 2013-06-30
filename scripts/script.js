@@ -92,9 +92,9 @@
 
       top = this.win.scrollTop();
       if (top < 500) {
-        offset = top * 0.625 - 40;
-        if (offset > 150) {
-          offset = 150;
+        offset = top * 0.625 - 80;
+        if (offset > 80) {
+          offset = 80;
         }
         return this.element.css({
           top: 'calc(50% + ' + offset + 'px)'

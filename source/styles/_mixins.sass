@@ -5,12 +5,20 @@
   #{$property}: -o-calc(#{$value})
   #{$property}: calc(#{$value})
 
-@mixin headline($top, $width, $height, $rotate, $background-color)
+@mixin image($url, $width, $height)
+  display: inline-block
+  background: url($url) no-repeat top left
+  width: $width
+  height: $height
+  background-size: $width $height
+
+@mixin headline($position, $top, $width, $height, $rotate, $color, $background-color)
+  z-index: 1
   position: relative
-  color: white
-  &:before
-    z-index: -1
+  color: $color
+  &:#{$position}
     content: ""
+    z-index: -1
     position: absolute
     top: $top
     @include calc(left, '50% - #{$width/2}')
@@ -18,5 +26,4 @@
     height: $height
     background-color: $background-color
     @include transform(rotate($rotate))
-
 

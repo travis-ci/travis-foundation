@@ -1,7 +1,11 @@
 @import vendor/bourbon/bourbon
 @import styles/colors
 
-$padding: 5em
+$padding: 2.5em
+$base: 1.25rem // 20px
+$base-2: $base*2
+$base-4: $base*4
+$base-6: $base*6
 
 $header:     white
 $blurb-font: $yellow
@@ -45,86 +49,34 @@ $footer-background:    #eee url($background-image-freckles) fixed
 
 $box-shadow-top: inset 1px 6px 12px -5px #aaa
 
+$max-text-width: 56rem
+$image-heart: '/images/icons/heart.svg'
+
+@import styles/base
 @import styles/mixins
-@import styles/_blurb
-@import styles/_projects
-@import styles/_testimonials
-@import styles/_sponsors
-@import styles/_packages
-
-html, body
-  height: 100%
-
-body
-  position: relative
-  min-width: 1024px
-  margin: 80px 0
-  padding: 0 0 0 0
-  font-family: 'Open Sans', $helvetica
-  font-weight: 100
-  font-size: 1em
-  color: #666
-*
-  box-sizing: border-box
-
-ul
-  margin: 0
-  padding: 0
-
-li
-  list-style-type: none
-
-h1, h2, h3, h4
-  margin-top: 0
-  font-weight: 500
-h2
-  margin-top: 2em
-  margin-bottom: 2em
-  line-height: 100%
-  font-family: 'Lato', $helvetica
-  font-size: 4em
-  font-weight: 200
-  text-align: center
-h3
-  font-size: 1.4em
-p
-  font-size: 1.15em
-  line-height: 170%
-p:last-child
-  margin-bottom: 0
-a
-  color: $pink
-  text-decoration: none
-a:hover
-  text-decoration: underline
+@import styles/blurb
+@import styles/projects
 
 header
   z-index: 3
   position: fixed
   top: 0
   width: 100%
-  height: 80px
-  padding: 0 40px
-  line-height: 80px
   vertical-align: middle
   background-color: white
 
 header, footer
   @include clearfix
+  height: $base-4
+  padding: 0 $base-2
+  line-height: $base-4
   h1
     color: black
-    letter-spacing: 1px
     a:hover
       text-decoration: none
-    span
-      display: inline-block
-      background: url(/images/icons/heart.svg) no-repeat top left
-
-  ul
-    float: right
   li
     display: inline-block
-    margin-right: 25px
+    margin-right: $base
   a
     color: black
 
@@ -133,132 +85,35 @@ header
     margin: auto 0
     float: left
     span
-      width: 23px
-      height: 23px
-      background-size: 23px 23px
+      @include image($image-heart, 23px, 23px)
+  ul
+    float: right
 footer
-  position: relative
+  width: 100%
+  display: table
+  h1, p, ul
+    display: table-cell
+    width: 33%
   h1
     text-align: center
-    font-size: 1em
+    font-size: 1rem
     span
-      width: 14px
-      height: 14px
-      background-size: 14px 14px
+      @include image($image-heart, 14px, 14px)
   p
-    position: absolute
-    right: 65px
     margin: 0
-    font-size: 0.8em
+    text-align: right
+    font-size: 0.8rem
     a
       text-decoration: underline
 
-  ul
-    position: absolute
-    left: 65px
-
-#blurb
-  position: relative
-  @include calc(height, '100% - 160px')
-  min-height: 400px
-  max-height: 700px
-  padding-top: 0px
-  padding-bottom: 40px
-
-section
-  padding: 2em $padding
-
-#lead
-  padding: 6em 0 5em 0
-  background: $lead-background
-  box-shadow: $box-shadow-top
-  p
-    margin: 0 auto
-    max-width: 840px
-    text-align: center
-
-#projects
-  padding: 0
-  display: table
-
-#testimonials
-  position: relative
-  padding: $padding 0
-  background: url(/images/backgrounds/testimonials-2.jpg) no-repeat center 0px fixed
-  background-size: cover
-
-#donate
-  h2
-    @include headline(-0.1em, 500px, 1.2em, -0.8deg, $violet)
-  p
-    max-width: 580px
-    margin: 0 auto
-    text-align: center
-
-  #donations-total
-    background-color: $yellow-tint
-
-#private-packages
-  background: url(/images/backgrounds/testimonials-2.jpg) no-repeat center 0px fixed
-  background-size: cover
-
-#company-packages
-  position: relative
-  padding: 40px
-  background-color: $company-packages
-  h3
-    font-size: 1.6em
-
-#thanks-companies
-  h2
-    @include headline(-0.15em, 700px, 1.3em, 0.8deg, $violet)
-  p
-    max-width: 900px
-    text-align: center
-    margin: 0 auto
-
-#sponsors
-  background: $sponsors-background
-  box-shadow: inset 0px 5px 5px #ddd
-
-
-#thanks-folks
-  h2
-    @include headline(-0.15em, 350px, 1.3em, -0.8deg, $violet)
-  p
-    max-width: 900px
-    text-align: center
-    margin: 0 auto
-
-#donors
-  background: url(/images/backgrounds/thanks-folks-2.jpg) no-repeat center 0px fixed
-  background-size: cover
-
-  img
-    display: block
-    margin: 1em auto
-
 #about
   h2
-    @include headline(-0.15em, 700px, 1.3em, 0.8deg, $pink)
+    @include headline(before, -0.05rem, 44rem, 100%, 0.8deg, white, $pink)
+  // h3
+  //   @include headline(before, -0.05rem, 17rem, 100%, -0.8deg, white, $violet)
 
-article
-  background: $footer-background
-  margin: 0 -5em
-  padding: 4em
-  box-shadow: $box-shadow-top
-  text-align: center
-  & > *
-    max-width: 850px
-    margin-left: auto
-    margin-right: auto
 
 #contact
-  padding-bottom: 0
   h2
-    @include headline(-0.15em, 700px, 1.3em, -0.8deg, $violet)
+    @include headline(before, -0.05rem, 44rem, 100%, -0.8deg, white, $violet)
 
-footer
-  padding: 2em $padding
-  // background: $footer-background
-  // box-shadow: $box-shadow-top

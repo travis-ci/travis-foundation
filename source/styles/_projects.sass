@@ -1,4 +1,7 @@
 #projects
+  padding: 0
+  display: table
+
   ul
     display: table-row
   li
@@ -30,16 +33,81 @@
       content: ''
       position: absolute
       @include calc(left, '50% - 25px')
-      bottom: -1px
+      bottom: 0
       margin: 0 auto
       width: 0
       height: 0
       border-left: 25px solid transparent
       border-right: 25px solid transparent
-  h3 a
-    cursor: pointer
+  h3
+    text-align: left
+    a
+      cursor: pointer
   p
-    font-size: 0.95em
+    font-size: 0.95rem
+
+#testimonials
+  position: relative
+  background: url(/images/backgrounds/testimonials-2.jpg) no-repeat center 0 fixed
+  background-size: cover
+
+  ul
+    padding: $base-4 0
+  li
+    @include clearfix
+    max-width: 770px
+    margin: 0 auto
+    display: none
+  li:first-child
+    display: block
+  img, video
+    float: left
+    width: 245px
+    height: 165px
+    margin-top: 4px
+    margin-right: 40px
+    border: 4px solid #fff
+    border-radius: 4px
+  p
+    color: #fff
+
+  & > a
+    position: absolute
+    @include calc(top, '50% - 25px')
+    width: 50px
+    height: 50px
+    display: block
+    border-radius: 25px
+    cursor: pointer
+    &:before
+      content: ""
+      position: absolute
+      top: 18px
+      width: 14px
+      height: 14px
+      background: #fff
+      @include transform(rotate(-45deg))
+    &:after
+      content: ""
+      position: absolute
+      top: 20px
+      width: 10px
+      height: 10px
+      @include transform(rotate(-45deg))
+
+  & a#prev-testimonial
+    left: 40px
+    &:before
+      left: 20px
+    &:after
+      left: 27px
+
+  & a#next-testimonial
+    right: 40px
+    &:before
+      left: 17px
+    &:after
+      left: 14px
 
 .rgsoc
   #projects

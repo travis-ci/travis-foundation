@@ -1,41 +1,22 @@
 #blurb
+  position: relative
+  @include calc(height, '100%')
+  min-height: 25rem
+  max-height: 45rem
+
   h2
-    position: absolute
-    z-index: 1
-    width: 900px
-    @include calc(top, '50% - 40px')
-    left: 50%
-    margin-top: -100px
-    margin-left: -450px
-    line-height: 120%
-    font-family: 'Lato', $helvetica
+    position: relative
+    width: 920px
+    @include calc(top, '50% - 80px')
+    margin: -100px auto 0 auto
     font-size: 5em
     font-weight: 100
     color: $blurb-font
     strong
       font-weight: 800
 
-    &:before
-      z-index: -1
-      content: ""
-      position: absolute
-      top: 2px
-      left: -1%
-      width: 102%
-      height: 50%
-      background-color: $blurb-bg-1
-      @include transform(rotate(-0.8deg))
-
-    &:after
-      z-index: -1
-      content: ""
-      position: absolute
-      bottom: -8px
-      left: 7%
-      width: 86%
-      height: 50%
-      background-color: $blurb-bg-2
-      @include transform(rotate(0.4deg))
+    @include headline(before, 2px, 100%, 50%, -0.8deg, $blurb-font, $blurb-bg-1)
+    @include headline(after, 52%, 86%%, 50%, 0.4deg, $blurb-font, $blurb-bg-2)
 
   & > a
     position: absolute
@@ -62,3 +43,13 @@
       font-size: 0.7em
       &:hover
         text-decoration: underline
+
+#lead
+  padding: $base-4 0
+  background: $lead-background
+  box-shadow: $box-shadow-top
+  p
+    margin: 0 auto
+    max-width: $max-text-width
+    text-align: center
+

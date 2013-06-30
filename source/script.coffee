@@ -64,8 +64,8 @@ $.extend BlurbHeading::,
   position: ->
     top = @win.scrollTop()
     if top < 500
-      offset = top * 0.625 - 40
-      offset = 150  if offset > 150
+      offset = top * 0.625 - 80
+      offset = 80 if offset > 80
       @element.css top: 'calc(50% + ' + offset + 'px)'
 
 $.fn.blurb_heading = -> new BlurbHeading(this)
@@ -76,3 +76,4 @@ $ ->
   # new CompanyPackages()
 
   $('#blurb h2').blurb_heading()
+

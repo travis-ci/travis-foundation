@@ -2,11 +2,11 @@ doctype html
 html
   head
     meta charset="utf-8"
-    link href="/styles.css" rel="stylesheet"
+    link href="/styles/styles.css" rel="stylesheet"
     link href="/styles/fonts/opensans.css" rel="stylesheet" type="text/css"
     link href="/styles/fonts/lato.css" rel="stylesheet" type="text/css"
-    script src="/vendor/jquery-1.9.1.min.js"
-    script src="/script.js"
+    script src="/scripts/vendor/jquery-1.9.1.min.js"
+    script src="/scripts/script.js"
   body
     header
       h1
@@ -22,15 +22,15 @@ html
         li
             a href="/#contact" Contact
 
-    | {{content}}
+    ' {{content}}
 
     footer
       ul
         li
           a href="/imprint" Imprint
+      h1
+        a href="/" Travis <span></span> Foundation
       p
         ' An initiative run by
         a href="http://travis-ci.org" Travis CI
         '  &rarr;
-      h1
-        a href="/" Travis <span></span> Foundation
