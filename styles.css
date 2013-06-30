@@ -1,4 +1,4 @@
-/* line 2, styles/_blurb.sass */
+/* line 2, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_blurb.sass */
 #blurb h2 {
   position: absolute;
   z-index: 1;
@@ -12,10 +12,10 @@
   font-size: 5em;
   font-weight: 100;
   color: #faea5b; }
-  /* line 15, styles/_blurb.sass */
+  /* line 15, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_blurb.sass */
   #blurb h2 strong {
     font-weight: 800; }
-  /* line 18, styles/_blurb.sass */
+  /* line 18, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_blurb.sass */
   #blurb h2:before {
     z-index: -1;
     content: "";
@@ -30,7 +30,7 @@
     -ms-transform: rotate(-0.8deg);
     -o-transform: rotate(-0.8deg);
     transform: rotate(-0.8deg); }
-  /* line 29, styles/_blurb.sass */
+  /* line 29, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_blurb.sass */
   #blurb h2:after {
     z-index: -1;
     content: "";
@@ -45,7 +45,7 @@
     -ms-transform: rotate(0.4deg);
     -o-transform: rotate(0.4deg);
     transform: rotate(0.4deg); }
-/* line 40, styles/_blurb.sass */
+/* line 40, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_blurb.sass */
 #blurb > a {
   position: absolute;
   display: block;
@@ -58,27 +58,27 @@
   color: white;
   line-height: 80px;
   text-align: center; }
-  /* line 52, styles/_blurb.sass */
+  /* line 52, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_blurb.sass */
   #blurb > a:hover {
     text-decoration: none; }
-/* line 55, styles/_blurb.sass */
+/* line 55, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_blurb.sass */
 #blurb p {
   position: absolute;
   right: 65px;
   top: 0;
   margin: 0; }
-  /* line 60, styles/_blurb.sass */
+  /* line 60, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_blurb.sass */
   #blurb p a {
     color: #eb2e66;
     font-size: 0.7em; }
-    /* line 63, styles/_blurb.sass */
+    /* line 63, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_blurb.sass */
     #blurb p a:hover {
       text-decoration: underline; }
 
-/* line 2, styles/_projects.sass */
+/* line 2, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_projects.sass */
 #projects ul {
   display: table-row; }
-/* line 4, styles/_projects.sass */
+/* line 4, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_projects.sass */
 #projects li {
   display: table-cell;
   position: relative;
@@ -86,11 +86,11 @@
   width: 33%;
   padding: 40px;
   border-right: 1px solid #eeeeee; }
-  /* line 12, styles/_projects.sass */
+  /* line 12, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_projects.sass */
   #projects li:last-child {
     border-right: 0px;
     overflow: hidden; }
-  /* line 16, styles/_projects.sass */
+  /* line 16, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_projects.sass */
   #projects li.tbd:before {
     content: "tbd";
     position: absolute;
@@ -107,7 +107,7 @@
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg); }
-  /* line 29, styles/_projects.sass */
+  /* line 29, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_projects.sass */
   #projects li:after {
     content: "";
     position: absolute;
@@ -118,106 +118,106 @@
     height: 0;
     border-left: 25px solid transparent;
     border-right: 25px solid transparent; }
-/* line 39, styles/_projects.sass */
+/* line 39, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_projects.sass */
 #projects h3 a {
   cursor: pointer; }
-/* line 41, styles/_projects.sass */
+/* line 41, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_projects.sass */
 #projects p {
   font-size: 0.95em; }
 
-/* line 46, styles/_projects.sass */
+/* line 46, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_projects.sass */
 .rgsoc #projects li#rgsoc {
   background-color: #e6e3ec;
   border-color: transparent; }
-  /* line 49, styles/_projects.sass */
+  /* line 49, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_projects.sass */
   .rgsoc #projects li#rgsoc:after {
     display: block;
     border-bottom: 25px solid #533e77; }
-/* line 54, styles/_projects.sass */
+/* line 54, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_projects.sass */
 .rgsoc #projects a {
   color: #533e77; }
-/* line 57, styles/_projects.sass */
+/* line 57, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_projects.sass */
 .rgsoc #testimonials ul {
   background-color: rgba(93, 69, 133, 0.8); }
-/* line 59, styles/_projects.sass */
+/* line 59, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_projects.sass */
 .rgsoc #testimonials h3 {
   color: #faea5b; }
-/* line 61, styles/_projects.sass */
+/* line 61, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_projects.sass */
 .rgsoc #testimonials > a {
   background-color: #5d4585; }
-  /* line 63, styles/_projects.sass */
+  /* line 63, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_projects.sass */
   .rgsoc #testimonials > a:after {
     background-color: #5d4585; }
 
-/* line 68, styles/_projects.sass */
+/* line 68, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_projects.sass */
 .diversity #projects li#diversity {
   background-color: #fbd5e0;
   border-color: transparent; }
-  /* line 71, styles/_projects.sass */
+  /* line 71, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_projects.sass */
   .diversity #projects li#diversity:after {
     display: block;
     border-bottom: 25px solid #d3295b; }
-/* line 76, styles/_projects.sass */
+/* line 76, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_projects.sass */
 .diversity #projects a {
   color: #d3295b; }
-/* line 79, styles/_projects.sass */
+/* line 79, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_projects.sass */
 .diversity #testimonials ul {
   background-color: rgba(255, 43, 102, 0.8); }
-/* line 81, styles/_projects.sass */
+/* line 81, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_projects.sass */
 .diversity #testimonials h3 {
   color: #faea5b; }
-/* line 83, styles/_projects.sass */
+/* line 83, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_projects.sass */
 .diversity #testimonials > a {
   background-color: #eb2e66; }
-  /* line 85, styles/_projects.sass */
+  /* line 85, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_projects.sass */
   .diversity #testimonials > a:after {
     background-color: #eb2e66; }
 
-/* line 90, styles/_projects.sass */
+/* line 90, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_projects.sass */
 .internships #projects li#internships {
   background-color: #cce2f4;
   border-color: transparent; }
-  /* line 93, styles/_projects.sass */
+  /* line 93, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_projects.sass */
   .internships #projects li#internships:after {
     display: block;
     border-bottom: 25px solid #0066b4; }
-/* line 98, styles/_projects.sass */
+/* line 98, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_projects.sass */
 .internships #projects a {
   color: #0066b4; }
-/* line 101, styles/_projects.sass */
+/* line 101, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_projects.sass */
 .internships #testimonials ul {
   background-color: rgba(0, 114, 200, 0.8); }
-/* line 103, styles/_projects.sass */
+/* line 103, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_projects.sass */
 .internships #testimonials h3 {
   color: #faea5b; }
-/* line 105, styles/_projects.sass */
+/* line 105, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_projects.sass */
 .internships #testimonials > a {
   background-color: #0072c8; }
-  /* line 107, styles/_projects.sass */
+  /* line 107, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_projects.sass */
   .internships #testimonials > a:after {
     background-color: #0072c8; }
 
-/* line 3, styles/_testimonials.sass */
+/* line 3, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_testimonials.sass */
 #testimonials ul {
   margin: -5em 0;
   padding: 5em 0; }
-/* line 6, styles/_testimonials.sass */
+/* line 6, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_testimonials.sass */
 #testimonials li {
   *zoom: 1;
   max-width: 770px;
   margin: 0 auto;
   display: none; }
-  /* line 18, vendor/bourbon/addons/_clearfix.scss */
+  /* line 18, source/vendor/bourbon/addons/_clearfix.scss */
   #testimonials li:before, #testimonials li:after {
     content: " ";
     display: table; }
-  /* line 23, vendor/bourbon/addons/_clearfix.scss */
+  /* line 23, source/vendor/bourbon/addons/_clearfix.scss */
   #testimonials li:after {
     clear: both; }
-/* line 11, styles/_testimonials.sass */
+/* line 11, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_testimonials.sass */
 #testimonials li:first-child {
   display: block; }
-/* line 13, styles/_testimonials.sass */
+/* line 13, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_testimonials.sass */
 #testimonials img, #testimonials video {
   float: left;
   width: 245px;
@@ -226,10 +226,10 @@
   margin-right: 40px;
   border: 4px solid white;
   border-radius: 4px; }
-/* line 21, styles/_testimonials.sass */
+/* line 21, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_testimonials.sass */
 #testimonials p {
   color: white; }
-/* line 24, styles/_testimonials.sass */
+/* line 24, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_testimonials.sass */
 #testimonials > a {
   position: absolute;
   top: calc(50% - 25px);
@@ -238,7 +238,7 @@
   display: block;
   border-radius: 25px;
   cursor: pointer; }
-  /* line 32, styles/_testimonials.sass */
+  /* line 32, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_testimonials.sass */
   #testimonials > a:before {
     content: "";
     position: absolute;
@@ -251,7 +251,7 @@
     -ms-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
     transform: rotate(-45deg); }
-  /* line 40, styles/_testimonials.sass */
+  /* line 40, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_testimonials.sass */
   #testimonials > a:after {
     content: "";
     position: absolute;
@@ -263,96 +263,96 @@
     -ms-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
     transform: rotate(-45deg); }
-/* line 48, styles/_testimonials.sass */
+/* line 48, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_testimonials.sass */
 #testimonials a#prev-testimonial {
   left: 40px; }
-  /* line 50, styles/_testimonials.sass */
+  /* line 50, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_testimonials.sass */
   #testimonials a#prev-testimonial:before {
     left: 20px; }
-  /* line 52, styles/_testimonials.sass */
+  /* line 52, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_testimonials.sass */
   #testimonials a#prev-testimonial:after {
     left: 27px; }
-/* line 55, styles/_testimonials.sass */
+/* line 55, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_testimonials.sass */
 #testimonials a#next-testimonial {
   right: 40px; }
-  /* line 57, styles/_testimonials.sass */
+  /* line 57, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_testimonials.sass */
   #testimonials a#next-testimonial:before {
     left: 17px; }
-  /* line 59, styles/_testimonials.sass */
+  /* line 59, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_testimonials.sass */
   #testimonials a#next-testimonial:after {
     left: 14px; }
 
-/* line 2, styles/_sponsors.sass */
+/* line 2, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_sponsors.sass */
 #sponsors .platinum, #sponsors .gold, #sponsors .silver {
   clear: both;
   position: relative;
   margin: 20px auto 0 auto;
   width: 1060px;
   *zoom: 1; }
-  /* line 18, vendor/bourbon/addons/_clearfix.scss */
+  /* line 18, source/vendor/bourbon/addons/_clearfix.scss */
   #sponsors .platinum:before, #sponsors .platinum:after, #sponsors .gold:before, #sponsors .gold:after, #sponsors .silver:before, #sponsors .silver:after {
     content: " ";
     display: table; }
-  /* line 23, vendor/bourbon/addons/_clearfix.scss */
+  /* line 23, source/vendor/bourbon/addons/_clearfix.scss */
   #sponsors .platinum:after, #sponsors .gold:after, #sponsors .silver:after {
     clear: both; }
-  /* line 9, styles/_sponsors.sass */
+  /* line 9, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_sponsors.sass */
   #sponsors .platinum li, #sponsors .gold li, #sponsors .silver li {
     float: left;
     padding: 20px;
     margin-right: 20px;
     background-color: white;
     border-radius: 8px; }
-    /* line 15, styles/_sponsors.sass */
+    /* line 15, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_sponsors.sass */
     #sponsors .platinum li:last-child, #sponsors .gold li:last-child, #sponsors .silver li:last-child {
       margin-right: 0; }
-  /* line 17, styles/_sponsors.sass */
+  /* line 17, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_sponsors.sass */
   #sponsors .platinum img, #sponsors .gold img, #sponsors .silver img {
     float: left;
     margin-right: 20px;
     border: 1px solid #dddddd;
     border-radius: 4px;
     background-color: white; }
-  /* line 23, styles/_sponsors.sass */
+  /* line 23, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_sponsors.sass */
   #sponsors .platinum p, #sponsors .gold p, #sponsors .silver p {
     font-size: 1em; }
-    /* line 25, styles/_sponsors.sass */
+    /* line 25, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_sponsors.sass */
     #sponsors .platinum p:first-of-type, #sponsors .gold p:first-of-type, #sponsors .silver p:first-of-type {
       margin-top: 0; }
-/* line 28, styles/_sponsors.sass */
+/* line 28, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_sponsors.sass */
 #sponsors .platinum {
   margin-top: 0; }
-  /* line 30, styles/_sponsors.sass */
+  /* line 30, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_sponsors.sass */
   #sponsors .platinum li {
     width: 100%;
     font-size: 14px; }
-  /* line 33, styles/_sponsors.sass */
+  /* line 33, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_sponsors.sass */
   #sponsors .platinum img {
     height: 210px; }
-/* line 37, styles/_sponsors.sass */
+/* line 37, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_sponsors.sass */
 #sponsors .gold li {
   width: calc(50% - 10px);
   font-size: 13px; }
-/* line 40, styles/_sponsors.sass */
+/* line 40, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_sponsors.sass */
 #sponsors .gold img {
   height: 130px;
   width: 210px; }
-/* line 45, styles/_sponsors.sass */
+/* line 45, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_sponsors.sass */
 #sponsors .silver img {
   width: 210px;
   margin-right: 0; }
 
-/* line 1, styles/_packages.sass */
+/* line 1, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_packages.sass */
 .packages {
   *zoom: 1; }
-  /* line 18, vendor/bourbon/addons/_clearfix.scss */
+  /* line 18, source/vendor/bourbon/addons/_clearfix.scss */
   .packages:before, .packages:after {
     content: " ";
     display: table; }
-  /* line 23, vendor/bourbon/addons/_clearfix.scss */
+  /* line 23, source/vendor/bourbon/addons/_clearfix.scss */
   .packages:after {
     clear: both; }
-  /* line 3, styles/_packages.sass */
+  /* line 3, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_packages.sass */
   .packages li {
     float: left;
     width: 18%;
@@ -360,29 +360,29 @@
     padding: 20px;
     background-color: white;
     border-radius: 4px; }
-  /* line 10, styles/_packages.sass */
+  /* line 10, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_packages.sass */
   .packages li:first-child {
     margin-left: 0; }
-  /* line 12, styles/_packages.sass */
+  /* line 12, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_packages.sass */
   .packages li:last-child {
     margin-right: 0; }
-  /* line 14, styles/_packages.sass */
+  /* line 14, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_packages.sass */
   .packages h4 {
     font-size: 1.9em;
     font-weight: 100;
     text-align: center;
     margin-bottom: 0.5em; }
-  /* line 19, styles/_packages.sass */
+  /* line 19, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_packages.sass */
   .packages p.price {
     margin-top: 0;
     font-size: 1em;
     font-weight: 300;
     text-align: center;
     color: #aaaaaa; }
-  /* line 25, styles/_packages.sass */
+  /* line 25, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_packages.sass */
   .packages p {
     font-size: 0.9em; }
-  /* line 27, styles/_packages.sass */
+  /* line 27, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_packages.sass */
   .packages button {
     margin: 1.25em auto 0 auto;
     width: 100%;
@@ -394,7 +394,7 @@
     border: 0px;
     border-radius: 4px; }
 
-/* line 39, styles/_packages.sass */
+/* line 39, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_packages.sass */
 #thanks-companies > a {
   position: absolute;
   cursor: pointer;
@@ -402,7 +402,7 @@
   right: 40px;
   padding-right: 70px;
   color: #aaaaaa; }
-  /* line 47, styles/_packages.sass */
+  /* line 47, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_packages.sass */
   #thanks-companies > a span {
     display: block;
     position: absolute;
@@ -412,7 +412,7 @@
     height: 50px;
     background-color: #d4d8d8;
     border-radius: 25px; }
-    /* line 56, styles/_packages.sass */
+    /* line 56, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_packages.sass */
     #thanks-companies > a span:before {
       content: "";
       position: absolute;
@@ -425,7 +425,7 @@
       -ms-transform: rotate(-45deg);
       -o-transform: rotate(-45deg);
       transform: rotate(-45deg); }
-    /* line 64, styles/_packages.sass */
+    /* line 64, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_packages.sass */
     #thanks-companies > a span:after {
       content: "";
       position: absolute;
@@ -438,39 +438,39 @@
       -ms-transform: rotate(-45deg);
       -o-transform: rotate(-45deg);
       transform: rotate(-45deg); }
-/* line 74, styles/_packages.sass */
+/* line 74, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_packages.sass */
 #thanks-companies:not(.expanded) h3 {
   margin-bottom: 0; }
-/* line 76, styles/_packages.sass */
+/* line 76, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_packages.sass */
 #thanks-companies:not(.expanded):hover > a:before {
   content: "How do I sponsor?"; }
-/* line 79, styles/_packages.sass */
+/* line 79, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_packages.sass */
 #thanks-companies:not(.expanded) > a span:before {
   top: 17px; }
-/* line 81, styles/_packages.sass */
+/* line 81, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_packages.sass */
 #thanks-companies:not(.expanded) > a span:after {
   top: 14px; }
-/* line 84, styles/_packages.sass */
+/* line 84, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_packages.sass */
 #thanks-companies:not(.expanded) p, #thanks-companies:not(.expanded) ul {
   display: none; }
-/* line 87, styles/_packages.sass */
+/* line 87, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_packages.sass */
 #thanks-companies.expanded:hover a:before {
   content: "Hide"; }
-/* line 90, styles/_packages.sass */
+/* line 90, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_packages.sass */
 #thanks-companies.expanded > a span:before {
   top: 20px; }
-/* line 92, styles/_packages.sass */
+/* line 92, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_packages.sass */
 #thanks-companies.expanded > a span:after {
   top: 27px; }
-/* line 95, styles/_packages.sass */
+/* line 95, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_packages.sass */
 #thanks-companies ul {
   margin-top: 40px; }
 
-/* line 55, styles.sass */
+/* line 55, source/styles.sass */
 html, body {
   height: 100%; }
 
-/* line 58, styles.sass */
+/* line 58, source/styles.sass */
 body {
   position: relative;
   min-width: 1024px;
@@ -481,25 +481,25 @@ body {
   font-size: 1em;
   color: #666666; }
 
-/* line 67, styles.sass */
+/* line 67, source/styles.sass */
 * {
   box-sizing: border-box; }
 
-/* line 70, styles.sass */
+/* line 70, source/styles.sass */
 ul {
   margin: 0;
   padding: 0; }
 
-/* line 74, styles.sass */
+/* line 74, source/styles.sass */
 li {
   list-style-type: none; }
 
-/* line 77, styles.sass */
+/* line 77, source/styles.sass */
 h1, h2, h3, h4 {
   margin-top: 0;
   font-weight: 500; }
 
-/* line 80, styles.sass */
+/* line 80, source/styles.sass */
 h2 {
   margin-top: 2em;
   margin-bottom: 2em;
@@ -509,29 +509,29 @@ h2 {
   font-weight: 200;
   text-align: center; }
 
-/* line 88, styles.sass */
+/* line 88, source/styles.sass */
 h3 {
   font-size: 1.4em; }
 
-/* line 90, styles.sass */
+/* line 90, source/styles.sass */
 p {
   font-size: 1.15em;
   line-height: 170%; }
 
-/* line 93, styles.sass */
+/* line 93, source/styles.sass */
 p:last-child {
   margin-bottom: 0; }
 
-/* line 95, styles.sass */
+/* line 95, source/styles.sass */
 a {
   color: #eb2e66;
   text-decoration: none; }
 
-/* line 98, styles.sass */
+/* line 98, source/styles.sass */
 a:hover {
   text-decoration: underline; }
 
-/* line 101, styles.sass */
+/* line 101, source/styles.sass */
 header {
   z-index: 3;
   position: fixed;
@@ -543,75 +543,75 @@ header {
   vertical-align: middle;
   background-color: white; }
 
-/* line 112, styles.sass */
+/* line 112, source/styles.sass */
 header, footer {
   *zoom: 1; }
-  /* line 18, vendor/bourbon/addons/_clearfix.scss */
+  /* line 18, source/vendor/bourbon/addons/_clearfix.scss */
   header:before, header:after, footer:before, footer:after {
     content: " ";
     display: table; }
-  /* line 23, vendor/bourbon/addons/_clearfix.scss */
+  /* line 23, source/vendor/bourbon/addons/_clearfix.scss */
   header:after, footer:after {
     clear: both; }
-  /* line 114, styles.sass */
+  /* line 114, source/styles.sass */
   header h1, footer h1 {
     color: black;
     letter-spacing: 1px; }
-    /* line 117, styles.sass */
+    /* line 117, source/styles.sass */
     header h1 a:hover, footer h1 a:hover {
       text-decoration: none; }
-    /* line 119, styles.sass */
+    /* line 119, source/styles.sass */
     header h1 span, footer h1 span {
       display: inline-block;
       background: url(/images/icons/heart.svg) no-repeat top left; }
-  /* line 123, styles.sass */
+  /* line 123, source/styles.sass */
   header ul, footer ul {
     float: right; }
-  /* line 125, styles.sass */
+  /* line 125, source/styles.sass */
   header li, footer li {
     display: inline-block;
     margin-right: 25px; }
-  /* line 128, styles.sass */
+  /* line 128, source/styles.sass */
   header a, footer a {
     color: black; }
 
-/* line 132, styles.sass */
+/* line 132, source/styles.sass */
 header h1 {
   margin: auto 0;
   float: left; }
-  /* line 135, styles.sass */
+  /* line 135, source/styles.sass */
   header h1 span {
     width: 23px;
     height: 23px;
     background-size: 23px 23px; }
 
-/* line 139, styles.sass */
+/* line 139, source/styles.sass */
 footer {
   position: relative; }
-  /* line 141, styles.sass */
+  /* line 141, source/styles.sass */
   footer h1 {
     text-align: center;
     font-size: 1em; }
-    /* line 144, styles.sass */
+    /* line 144, source/styles.sass */
     footer h1 span {
       width: 14px;
       height: 14px;
       background-size: 14px 14px; }
-  /* line 148, styles.sass */
+  /* line 148, source/styles.sass */
   footer p {
     position: absolute;
     right: 65px;
     margin: 0;
     font-size: 0.8em; }
-    /* line 153, styles.sass */
+    /* line 153, source/styles.sass */
     footer p a {
       text-decoration: underline; }
-  /* line 156, styles.sass */
+  /* line 156, source/styles.sass */
   footer ul {
     position: absolute;
     left: 65px; }
 
-/* line 160, styles.sass */
+/* line 160, source/styles.sass */
 #blurb {
   position: relative;
   height: calc(100% - 160px);
@@ -620,38 +620,38 @@ footer {
   padding-top: 0px;
   padding-bottom: 40px; }
 
-/* line 168, styles.sass */
+/* line 168, source/styles.sass */
 section {
   padding: 2em 5em; }
 
-/* line 171, styles.sass */
+/* line 171, source/styles.sass */
 #lead {
   padding: 6em 0 5em 0;
   background: #eeeeee url("/images/patterns/subtle_freckles_2.png") fixed;
   box-shadow: inset 1px 6px 12px -5px #aaaaaa; }
-  /* line 175, styles.sass */
+  /* line 175, source/styles.sass */
   #lead p {
     margin: 0 auto;
     max-width: 840px;
     text-align: center; }
 
-/* line 180, styles.sass */
+/* line 180, source/styles.sass */
 #projects {
   padding: 0;
   display: table; }
 
-/* line 184, styles.sass */
+/* line 184, source/styles.sass */
 #testimonials {
   position: relative;
   padding: 5em 0;
   background: url(/images/backgrounds/testimonials-2.jpg) no-repeat center 0px fixed;
   background-size: cover; }
 
-/* line 191, styles.sass */
+/* line 191, source/styles.sass */
 #donate h2 {
   position: relative;
   color: white; }
-  /* line 4, styles/_mixins.sass */
+  /* line 4, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_mixins.sass */
   #donate h2:before {
     z-index: -1;
     content: "";
@@ -666,34 +666,34 @@ section {
     -ms-transform: rotate(-0.8deg);
     -o-transform: rotate(-0.8deg);
     transform: rotate(-0.8deg); }
-/* line 193, styles.sass */
+/* line 193, source/styles.sass */
 #donate p {
   max-width: 580px;
   margin: 0 auto;
   text-align: center; }
-/* line 198, styles.sass */
+/* line 198, source/styles.sass */
 #donate #donations-total {
   background-color: #fbf08c; }
 
-/* line 201, styles.sass */
+/* line 201, source/styles.sass */
 #private-packages {
   background: url(/images/backgrounds/testimonials-2.jpg) no-repeat center 0px fixed;
   background-size: cover; }
 
-/* line 205, styles.sass */
+/* line 205, source/styles.sass */
 #company-packages {
   position: relative;
   padding: 40px;
   background-color: #ecf0f1; }
-  /* line 209, styles.sass */
+  /* line 209, source/styles.sass */
   #company-packages h3 {
     font-size: 1.6em; }
 
-/* line 213, styles.sass */
+/* line 213, source/styles.sass */
 #thanks-companies h2 {
   position: relative;
   color: white; }
-  /* line 4, styles/_mixins.sass */
+  /* line 4, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_mixins.sass */
   #thanks-companies h2:before {
     z-index: -1;
     content: "";
@@ -708,22 +708,22 @@ section {
     -ms-transform: rotate(0.8deg);
     -o-transform: rotate(0.8deg);
     transform: rotate(0.8deg); }
-/* line 215, styles.sass */
+/* line 215, source/styles.sass */
 #thanks-companies p {
   max-width: 900px;
   text-align: center;
   margin: 0 auto; }
 
-/* line 220, styles.sass */
+/* line 220, source/styles.sass */
 #sponsors {
   background: #eeeeee url("/images/patterns/subtle_freckles_2.png") fixed;
   box-shadow: inset 0px 5px 5px #dddddd; }
 
-/* line 226, styles.sass */
+/* line 226, source/styles.sass */
 #thanks-folks h2 {
   position: relative;
   color: white; }
-  /* line 4, styles/_mixins.sass */
+  /* line 4, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_mixins.sass */
   #thanks-folks h2:before {
     z-index: -1;
     content: "";
@@ -738,26 +738,26 @@ section {
     -ms-transform: rotate(-0.8deg);
     -o-transform: rotate(-0.8deg);
     transform: rotate(-0.8deg); }
-/* line 228, styles.sass */
+/* line 228, source/styles.sass */
 #thanks-folks p {
   max-width: 900px;
   text-align: center;
   margin: 0 auto; }
 
-/* line 233, styles.sass */
+/* line 233, source/styles.sass */
 #donors {
   background: url(/images/backgrounds/thanks-folks-2.jpg) no-repeat center 0px fixed;
   background-size: cover; }
-  /* line 237, styles.sass */
+  /* line 237, source/styles.sass */
   #donors img {
     display: block;
     margin: 1em auto; }
 
-/* line 242, styles.sass */
+/* line 242, source/styles.sass */
 #about h2 {
   position: relative;
   color: white; }
-  /* line 4, styles/_mixins.sass */
+  /* line 4, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_mixins.sass */
   #about h2:before {
     z-index: -1;
     content: "";
@@ -773,27 +773,27 @@ section {
     -o-transform: rotate(0.8deg);
     transform: rotate(0.8deg); }
 
-/* line 245, styles.sass */
+/* line 245, source/styles.sass */
 article {
   background: #eeeeee url("/images/patterns/subtle_freckles_2.png") fixed;
   margin: 0 -5em;
   padding: 4em;
   box-shadow: inset 1px 6px 12px -5px #aaaaaa;
   text-align: center; }
-  /* line 251, styles.sass */
+  /* line 251, source/styles.sass */
   article > * {
     max-width: 850px;
     margin-left: auto;
     margin-right: auto; }
 
-/* line 256, styles.sass */
+/* line 256, source/styles.sass */
 #contact {
   padding-bottom: 0; }
-  /* line 258, styles.sass */
+  /* line 258, source/styles.sass */
   #contact h2 {
     position: relative;
     color: white; }
-    /* line 4, styles/_mixins.sass */
+    /* line 4, /Users/sven/Development/projects/travis/travis-foundation/source/styles/_mixins.sass */
     #contact h2:before {
       z-index: -1;
       content: "";
@@ -809,6 +809,6 @@ article {
       -o-transform: rotate(-0.8deg);
       transform: rotate(-0.8deg); }
 
-/* line 261, styles.sass */
+/* line 261, source/styles.sass */
 footer {
   padding: 2em 5em; }

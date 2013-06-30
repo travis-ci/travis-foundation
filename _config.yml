@@ -1,3 +1,9 @@
 safe: true
-source: _source
 permalink: pretty
+exclude:
+  - 'Gemfile*'
+  - 'Guardfile'
+  - '*.coffeescript'
+  - '*.sass'
+  - '*.slim'
+  - 'source'
