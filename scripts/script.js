@@ -96,7 +96,6 @@
         if (offset > 50) {
           offset = 50;
         }
-        console.log(offset);
         return this.element.css({
           top: 'calc(50% + ' + offset + 'px)'
         });
