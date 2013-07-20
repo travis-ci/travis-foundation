@@ -171,20 +171,20 @@ article {
     left: 2.5rem;
     top: 0;
     margin: 0; }
-    /* line 37, source/styles/_blurb.sass */
+    /* line 38, source/styles/_blurb.sass */
     #blurb p a {
-      color: #999999;
+      color: #cccccc;
       font-size: 0.7em; }
-      /* line 40, source/styles/_blurb.sass */
+      /* line 41, source/styles/_blurb.sass */
       #blurb p a:hover {
         text-decoration: underline; }
 
-/* line 43, source/styles/_blurb.sass */
+/* line 44, source/styles/_blurb.sass */
 #lead {
   padding: 5rem 0;
   background: #eeeeee url("/images/patterns/subtle_freckles_2.png") fixed;
   box-shadow: inset 1px 6px 12px -5px #aaaaaa; }
-  /* line 47, source/styles/_blurb.sass */
+  /* line 48, source/styles/_blurb.sass */
   #lead p {
     margin: 0 auto;
     max-width: 56rem;
@@ -423,7 +423,7 @@ article {
   .internships #testimonials > a:after {
     background-color: #0072c8; }
 
-/* line 62, source/styles.sass */
+/* line 63, source/styles.sass */
 header {
   z-index: 3;
   position: fixed;
@@ -432,86 +432,86 @@ header {
   vertical-align: middle;
   background-color: white; }
 
-/* line 70, source/styles.sass */
+/* line 71, source/styles.sass */
 header, footer {
   height: 5rem;
   padding: 0 2.5rem;
   line-height: 5rem; }
-  /* line 74, source/styles.sass */
+  /* line 75, source/styles.sass */
   header h1, footer h1 {
     color: black; }
-    /* line 76, source/styles.sass */
+    /* line 77, source/styles.sass */
     header h1 a:hover, footer h1 a:hover {
       text-decoration: none; }
-  /* line 78, source/styles.sass */
+  /* line 79, source/styles.sass */
   header li, footer li {
     display: inline-block;
     margin-right: 1.25rem; }
-  /* line 81, source/styles.sass */
+  /* line 82, source/styles.sass */
   header a, footer a {
     color: black; }
 
-/* line 85, source/styles.sass */
+/* line 86, source/styles.sass */
 header h1 {
   margin: auto 0;
   font-weight: 500;
   float: left;
   letter-spacing: 1px; }
-  /* line 90, source/styles.sass */
+  /* line 91, source/styles.sass */
   header h1 span {
     display: inline-block;
     background: url("/images/icons/heart.svg") no-repeat top left;
     width: 23px;
     height: 23px;
     background-size: 23px 23px; }
-/* line 92, source/styles.sass */
+/* line 93, source/styles.sass */
 header ul {
   float: right; }
 
-/* line 95, source/styles.sass */
+/* line 96, source/styles.sass */
 footer {
   width: 100%;
   display: table; }
-  /* line 98, source/styles.sass */
+  /* line 99, source/styles.sass */
   footer > * {
     display: table-cell;
     width: 33%;
     padding: 1rem 0; }
-  /* line 102, source/styles.sass */
+  /* line 103, source/styles.sass */
   footer h1 {
     text-align: center;
     font-size: 1rem; }
-    /* line 105, source/styles.sass */
+    /* line 106, source/styles.sass */
     footer h1 span {
       display: inline-block;
       background: url("/images/icons/heart.svg") no-repeat top left;
       width: 14px;
       height: 14px;
       background-size: 14px 14px; }
-  /* line 107, source/styles.sass */
+  /* line 108, source/styles.sass */
   footer .right {
     text-align: right; }
-  /* line 109, source/styles.sass */
+  /* line 110, source/styles.sass */
   footer img {
     vertical-align: middle;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale"); }
-    /* line 114, source/styles.sass */
+    /* line 115, source/styles.sass */
     footer img:hover {
       filter: none;
       -webkit-filter: none; }
-  /* line 117, source/styles.sass */
+  /* line 118, source/styles.sass */
   footer #travis-mascot {
     width: 3rem; }
-  /* line 119, source/styles.sass */
+  /* line 120, source/styles.sass */
   footer #made-in-berlin {
     width: 3.5rem; }
 
-/* line 123, source/styles.sass */
+/* line 124, source/styles.sass */
 #about {
   position: relative; }
-  /* line 125, source/styles.sass */
+  /* line 126, source/styles.sass */
   #about h2 {
     z-index: 1;
     position: relative;
@@ -536,10 +536,10 @@ footer {
       -o-transform: rotate(0.8deg);
       transform: rotate(0.8deg); }
 
-/* line 129, source/styles.sass */
+/* line 130, source/styles.sass */
 #contact {
   position: relative; }
-  /* line 131, source/styles.sass */
+  /* line 132, source/styles.sass */
   #contact h2 {
     z-index: 1;
     position: relative;
@@ -563,7 +563,7 @@ footer {
       -ms-transform: rotate(-0.8deg);
       -o-transform: rotate(-0.8deg);
       transform: rotate(-0.8deg); }
-  /* line 133, source/styles.sass */
+  /* line 134, source/styles.sass */
   #contact > a {
     content: " ";
     position: absolute;
@@ -592,6 +592,6 @@ footer {
       font-weight: normal;
       font-style: normal;
       line-height: 1em; }
-    /* line 143, source/styles.sass */
+    /* line 144, source/styles.sass */
     #contact > a:hover {
       text-decoration: none; }
