@@ -1,30 +1,27 @@
 #projects
   padding: 0
-  display: table
 
   ul
-    display: table-row
+    display: -webkit-flex
+    display: flex
 
   li
-    display: table-cell
+    position: relative
+    flex: 1
     overflow: hidden
     width: 33%
+    padding: $base-2
     border-right: 1px solid $projects-border
+
     &:last-child
       border-right: 0px
       overflow: hidden
 
-    .ff
-      position: relative
-      width: 100%
-      height: 100%
-      padding: $base-2
-
-      &:after
-        @include calc(left, '50% - 25px')
-        bottom: 0
-        margin: 0 auto
-        @include triangle(25px, transparent)
+    &:after
+      @include calc(left, '50% - 25px')
+      bottom: 0
+      margin: 0 auto
+      @include triangle(25px, transparent)
 
     &.tbd div:before
       @include badge(tbd, right, 50px, 24px, white, #ddd)
@@ -86,12 +83,11 @@
   .#{$name}
     #projects
       li##{$name}
-        .ff
-          background-color: nth($colors, 2)
-          border-color: transparent
-          &:after
-            display: block
-            border-bottom-color: nth($colors, 3)
+        background-color: nth($colors, 2)
+        border-color: transparent
+        &:after
+          display: block
+          border-bottom-color: nth($colors, 3)
       a
         color: nth($colors, 3)
     #testimonials
