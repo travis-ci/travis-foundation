@@ -24,6 +24,7 @@
       bottom: 0
       margin: 0 auto
       @include triangle(25px, transparent)
+
   h3
     text-align: left
     a
@@ -64,14 +65,18 @@
     @include calc(top, '50% - 25px')
     @include circle(50px, transparent)
     cursor: pointer
+    color: white !important
+    font-size: 1.25rem
+    &:hover
+      text-decoration: none
 
   & a#prev-testimonial
     left: 40px
-    @include arrow(left, 4px, white)
+    @include icon-after($chevron-left)
 
   & a#next-testimonial
     right: 40px
-    @include arrow(right, 4px, white)
+    @include icon-after($chevron-right)
 
 @mixin project($name, $colors)
   .#{$name}

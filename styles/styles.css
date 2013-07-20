@@ -245,25 +245,25 @@ article {
       border-left: 25px solid transparent;
       border-right: 25px solid transparent;
       border-bottom: 25px solid transparent; }
-  /* line 27, source/styles/_projects.sass */
+  /* line 28, source/styles/_projects.sass */
   #projects h3 {
     text-align: left; }
-    /* line 29, source/styles/_projects.sass */
+    /* line 30, source/styles/_projects.sass */
     #projects h3 a {
       cursor: pointer; }
-  /* line 31, source/styles/_projects.sass */
+  /* line 32, source/styles/_projects.sass */
   #projects p {
     font-size: 0.95rem; }
 
-/* line 34, source/styles/_projects.sass */
+/* line 35, source/styles/_projects.sass */
 #testimonials {
   position: relative;
   background: url(/images/backgrounds/testimonials-2.jpg) no-repeat center 0 fixed;
   background-size: cover; }
-  /* line 39, source/styles/_projects.sass */
+  /* line 40, source/styles/_projects.sass */
   #testimonials ul {
     padding: 5rem 0; }
-  /* line 41, source/styles/_projects.sass */
+  /* line 42, source/styles/_projects.sass */
   #testimonials li {
     *zoom: 1;
     max-width: 790px;
@@ -276,10 +276,10 @@ article {
     /* line 23, source/vendor/bourbon/addons/_clearfix.scss */
     #testimonials li:after {
       clear: both; }
-  /* line 46, source/styles/_projects.sass */
+  /* line 47, source/styles/_projects.sass */
   #testimonials li:first-child {
     display: block; }
-  /* line 48, source/styles/_projects.sass */
+  /* line 49, source/styles/_projects.sass */
   #testimonials img, #testimonials video {
     float: left;
     width: 268px;
@@ -288,14 +288,14 @@ article {
     margin-right: 40px;
     border: 4px solid white;
     border-radius: 4px; }
-  /* line 56, source/styles/_projects.sass */
+  /* line 57, source/styles/_projects.sass */
   #testimonials h3 {
     text-align: left; }
-  /* line 58, source/styles/_projects.sass */
+  /* line 59, source/styles/_projects.sass */
   #testimonials p {
     font-size: 1.1rem;
     color: white; }
-  /* line 62, source/styles/_projects.sass */
+  /* line 63, source/styles/_projects.sass */
   #testimonials > a {
     position: absolute;
     top: -webkit-calc(50% - 25px);
@@ -309,182 +309,121 @@ article {
     text-align: center;
     border-radius: 50px;
     background-color: transparent;
-    cursor: pointer; }
-  /* line 68, source/styles/_projects.sass */
+    cursor: pointer;
+    color: white !important;
+    font-size: 1.25rem; }
+    /* line 70, source/styles/_projects.sass */
+    #testimonials > a:hover {
+      text-decoration: none; }
+  /* line 73, source/styles/_projects.sass */
   #testimonials a#prev-testimonial {
     left: 40px; }
-    /* line 33, source/styles/_mixins.sass */
-    #testimonials a#prev-testimonial:before {
-      content: "";
-      position: absolute;
-      top: -webkit-calc(50% - 7px);
-      top: -moz-calc(50% - 7px);
-      top: -ie-calc(50% - 7px);
-      top: -o-calc(50% - 7px);
-      top: calc(50% - 7px);
-      left: -webkit-calc(50% - 5px);
-      left: -moz-calc(50% - 5px);
-      left: -ie-calc(50% - 5px);
-      left: -o-calc(50% - 5px);
-      left: calc(50% - 5px);
-      width: 14px;
-      height: 14px;
-      background: white;
-      -webkit-transform: rotate(-45deg);
-      -moz-transform: rotate(-45deg);
-      -ms-transform: rotate(-45deg);
-      -o-transform: rotate(-45deg);
-      transform: rotate(-45deg); }
-    /* line 42, source/styles/_mixins.sass */
+    /* line 95, source/styles/_mixins.sass */
     #testimonials a#prev-testimonial:after {
-      content: "";
-      position: absolute;
-      top: -webkit-calc(50% - 5px);
-      top: -moz-calc(50% - 5px);
-      top: -ie-calc(50% - 5px);
-      top: -o-calc(50% - 5px);
-      top: calc(50% - 5px);
-      left: -webkit-calc(50% + 1px);
-      left: -moz-calc(50% + 1px);
-      left: -ie-calc(50% + 1px);
-      left: -o-calc(50% + 1px);
-      left: calc(50% + 1px);
-      width: 10px;
-      height: 10px;
-      -webkit-transform: rotate(-45deg);
-      -moz-transform: rotate(-45deg);
-      -ms-transform: rotate(-45deg);
-      -o-transform: rotate(-45deg);
-      transform: rotate(-45deg); }
-  /* line 72, source/styles/_projects.sass */
+      content: "\f053";
+      display: inline-block;
+      width: 1em;
+      text-decoration: inherit;
+      font-family: FontAwesome;
+      font-weight: normal;
+      font-style: normal;
+      line-height: 1em; }
+  /* line 77, source/styles/_projects.sass */
   #testimonials a#next-testimonial {
     right: 40px; }
-    /* line 33, source/styles/_mixins.sass */
-    #testimonials a#next-testimonial:before {
-      content: "";
-      position: absolute;
-      top: -webkit-calc(50% - 7px);
-      top: -moz-calc(50% - 7px);
-      top: -ie-calc(50% - 7px);
-      top: -o-calc(50% - 7px);
-      top: calc(50% - 7px);
-      right: -webkit-calc(50% - 5px);
-      right: -moz-calc(50% - 5px);
-      right: -ie-calc(50% - 5px);
-      right: -o-calc(50% - 5px);
-      right: calc(50% - 5px);
-      width: 14px;
-      height: 14px;
-      background: white;
-      -webkit-transform: rotate(-45deg);
-      -moz-transform: rotate(-45deg);
-      -ms-transform: rotate(-45deg);
-      -o-transform: rotate(-45deg);
-      transform: rotate(-45deg); }
-    /* line 42, source/styles/_mixins.sass */
+    /* line 95, source/styles/_mixins.sass */
     #testimonials a#next-testimonial:after {
-      content: "";
-      position: absolute;
-      top: -webkit-calc(50% - 5px);
-      top: -moz-calc(50% - 5px);
-      top: -ie-calc(50% - 5px);
-      top: -o-calc(50% - 5px);
-      top: calc(50% - 5px);
-      right: -webkit-calc(50% + 1px);
-      right: -moz-calc(50% + 1px);
-      right: -ie-calc(50% + 1px);
-      right: -o-calc(50% + 1px);
-      right: calc(50% + 1px);
-      width: 10px;
-      height: 10px;
-      -webkit-transform: rotate(-45deg);
-      -moz-transform: rotate(-45deg);
-      -ms-transform: rotate(-45deg);
-      -o-transform: rotate(-45deg);
-      transform: rotate(-45deg); }
+      content: "\f054";
+      display: inline-block;
+      width: 1em;
+      text-decoration: inherit;
+      font-family: FontAwesome;
+      font-weight: normal;
+      font-style: normal;
+      line-height: 1em; }
 
-/* line 79, source/styles/_projects.sass */
+/* line 84, source/styles/_projects.sass */
 .rgsoc #projects li#rgsoc {
   background-color: #e6e3ec;
   border-color: transparent; }
-  /* line 82, source/styles/_projects.sass */
+  /* line 87, source/styles/_projects.sass */
   .rgsoc #projects li#rgsoc:after {
     display: block;
     border-bottom-color: #533e77; }
-/* line 85, source/styles/_projects.sass */
+/* line 90, source/styles/_projects.sass */
 .rgsoc #projects a {
   color: #533e77; }
-/* line 88, source/styles/_projects.sass */
+/* line 93, source/styles/_projects.sass */
 .rgsoc #testimonials ul {
   background-color: rgba(93, 69, 133, 0.8); }
-/* line 90, source/styles/_projects.sass */
+/* line 95, source/styles/_projects.sass */
 .rgsoc #testimonials h3 {
   color: #faea5b; }
-/* line 92, source/styles/_projects.sass */
+/* line 97, source/styles/_projects.sass */
 .rgsoc #testimonials a {
   color: #faea5b; }
-/* line 94, source/styles/_projects.sass */
+/* line 99, source/styles/_projects.sass */
 .rgsoc #testimonials > a {
   background-color: #5d4585; }
-  /* line 96, source/styles/_projects.sass */
+  /* line 101, source/styles/_projects.sass */
   .rgsoc #testimonials > a:after {
     background-color: #5d4585; }
 
-/* line 79, source/styles/_projects.sass */
+/* line 84, source/styles/_projects.sass */
 .diversity #projects li#diversity {
   background-color: #fbd5e0;
   border-color: transparent; }
-  /* line 82, source/styles/_projects.sass */
+  /* line 87, source/styles/_projects.sass */
   .diversity #projects li#diversity:after {
     display: block;
     border-bottom-color: #d3295b; }
-/* line 85, source/styles/_projects.sass */
+/* line 90, source/styles/_projects.sass */
 .diversity #projects a {
   color: #d3295b; }
-/* line 88, source/styles/_projects.sass */
+/* line 93, source/styles/_projects.sass */
 .diversity #testimonials ul {
   background-color: rgba(255, 43, 102, 0.8); }
-/* line 90, source/styles/_projects.sass */
+/* line 95, source/styles/_projects.sass */
 .diversity #testimonials h3 {
   color: #faea5b; }
-/* line 92, source/styles/_projects.sass */
+/* line 97, source/styles/_projects.sass */
 .diversity #testimonials a {
   color: #faea5b; }
-/* line 94, source/styles/_projects.sass */
+/* line 99, source/styles/_projects.sass */
 .diversity #testimonials > a {
   background-color: #eb2e66; }
-  /* line 96, source/styles/_projects.sass */
+  /* line 101, source/styles/_projects.sass */
   .diversity #testimonials > a:after {
     background-color: #eb2e66; }
 
-/* line 79, source/styles/_projects.sass */
+/* line 84, source/styles/_projects.sass */
 .internships #projects li#internships {
   background-color: #cce2f4;
   border-color: transparent; }
-  /* line 82, source/styles/_projects.sass */
+  /* line 87, source/styles/_projects.sass */
   .internships #projects li#internships:after {
     display: block;
     border-bottom-color: #0066b4; }
-/* line 85, source/styles/_projects.sass */
+/* line 90, source/styles/_projects.sass */
 .internships #projects a {
   color: #0066b4; }
-/* line 88, source/styles/_projects.sass */
+/* line 93, source/styles/_projects.sass */
 .internships #testimonials ul {
   background-color: rgba(0, 114, 200, 0.8); }
-/* line 90, source/styles/_projects.sass */
+/* line 95, source/styles/_projects.sass */
 .internships #testimonials h3 {
   color: #faea5b; }
-/* line 92, source/styles/_projects.sass */
+/* line 97, source/styles/_projects.sass */
 .internships #testimonials a {
   color: #faea5b; }
-/* line 94, source/styles/_projects.sass */
+/* line 99, source/styles/_projects.sass */
 .internships #testimonials > a {
   background-color: #0072c8; }
-  /* line 96, source/styles/_projects.sass */
+  /* line 101, source/styles/_projects.sass */
   .internships #testimonials > a:after {
     background-color: #0072c8; }
 
-/* line 60, source/styles.sass */
+/* line 62, source/styles.sass */
 header {
   z-index: 3;
   position: fixed;
@@ -493,116 +432,166 @@ header {
   vertical-align: middle;
   background-color: white; }
 
-/* line 68, source/styles.sass */
+/* line 70, source/styles.sass */
 header, footer {
   height: 5rem;
   padding: 0 2.5rem;
   line-height: 5rem; }
-  /* line 72, source/styles.sass */
+  /* line 74, source/styles.sass */
   header h1, footer h1 {
     color: black; }
-    /* line 74, source/styles.sass */
+    /* line 76, source/styles.sass */
     header h1 a:hover, footer h1 a:hover {
       text-decoration: none; }
-  /* line 76, source/styles.sass */
+  /* line 78, source/styles.sass */
   header li, footer li {
     display: inline-block;
     margin-right: 1.25rem; }
-  /* line 79, source/styles.sass */
+  /* line 81, source/styles.sass */
   header a, footer a {
     color: black; }
 
-/* line 83, source/styles.sass */
+/* line 85, source/styles.sass */
 header h1 {
   margin: auto 0;
   font-weight: 500;
   float: left;
   letter-spacing: 1px; }
-  /* line 88, source/styles.sass */
+  /* line 90, source/styles.sass */
   header h1 span {
     display: inline-block;
     background: url("/images/icons/heart.svg") no-repeat top left;
     width: 23px;
     height: 23px;
     background-size: 23px 23px; }
-/* line 90, source/styles.sass */
+/* line 92, source/styles.sass */
 header ul {
   float: right; }
 
-/* line 92, source/styles.sass */
+/* line 95, source/styles.sass */
 footer {
   width: 100%;
   display: table; }
-  /* line 95, source/styles.sass */
-  footer h1, footer p, footer ul {
-    display: table-cell;
-    width: 33%; }
   /* line 98, source/styles.sass */
+  footer > * {
+    display: table-cell;
+    width: 33%;
+    padding: 1rem 0; }
+  /* line 102, source/styles.sass */
   footer h1 {
     text-align: center;
     font-size: 1rem; }
-    /* line 101, source/styles.sass */
+    /* line 105, source/styles.sass */
     footer h1 span {
       display: inline-block;
       background: url("/images/icons/heart.svg") no-repeat top left;
       width: 14px;
       height: 14px;
       background-size: 14px 14px; }
-  /* line 103, source/styles.sass */
-  footer p {
-    margin: 0;
-    text-align: right;
-    font-size: 0.8rem; }
-    /* line 107, source/styles.sass */
-    footer p a {
-      text-decoration: underline; }
+  /* line 107, source/styles.sass */
+  footer .right {
+    text-align: right; }
+  /* line 109, source/styles.sass */
+  footer img {
+    vertical-align: middle;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale"); }
+    /* line 114, source/styles.sass */
+    footer img:hover {
+      filter: none;
+      -webkit-filter: none; }
+  /* line 117, source/styles.sass */
+  footer #travis-mascot {
+    width: 3rem; }
+  /* line 119, source/styles.sass */
+  footer #made-in-berlin {
+    width: 3.5rem; }
 
-/* line 111, source/styles.sass */
-#about h2 {
-  z-index: 1;
-  position: relative;
-  color: white; }
-  /* line 55, source/styles/_mixins.sass */
-  #about h2:before {
-    content: "";
-    z-index: -1;
-    position: absolute;
-    top: -0.05rem;
-    left: -webkit-calc(50% - 22rem);
-    left: -moz-calc(50% - 22rem);
-    left: -ie-calc(50% - 22rem);
-    left: -o-calc(50% - 22rem);
-    left: calc(50% - 22rem);
-    width: 44rem;
-    height: 100%;
-    background-color: #eb2e66;
-    -webkit-transform: rotate(0.8deg);
-    -moz-transform: rotate(0.8deg);
-    -ms-transform: rotate(0.8deg);
-    -o-transform: rotate(0.8deg);
-    transform: rotate(0.8deg); }
+/* line 123, source/styles.sass */
+#about {
+  position: relative; }
+  /* line 125, source/styles.sass */
+  #about h2 {
+    z-index: 1;
+    position: relative;
+    color: white; }
+    /* line 55, source/styles/_mixins.sass */
+    #about h2:before {
+      content: "";
+      z-index: -1;
+      position: absolute;
+      top: -0.05rem;
+      left: -webkit-calc(50% - 22rem);
+      left: -moz-calc(50% - 22rem);
+      left: -ie-calc(50% - 22rem);
+      left: -o-calc(50% - 22rem);
+      left: calc(50% - 22rem);
+      width: 44rem;
+      height: 100%;
+      background-color: #eb2e66;
+      -webkit-transform: rotate(0.8deg);
+      -moz-transform: rotate(0.8deg);
+      -ms-transform: rotate(0.8deg);
+      -o-transform: rotate(0.8deg);
+      transform: rotate(0.8deg); }
 
-/* line 116, source/styles.sass */
-#contact h2 {
-  z-index: 1;
-  position: relative;
-  color: white; }
-  /* line 55, source/styles/_mixins.sass */
-  #contact h2:before {
-    content: "";
-    z-index: -1;
+/* line 129, source/styles.sass */
+#contact {
+  position: relative; }
+  /* line 131, source/styles.sass */
+  #contact h2 {
+    z-index: 1;
+    position: relative;
+    color: white; }
+    /* line 55, source/styles/_mixins.sass */
+    #contact h2:before {
+      content: "";
+      z-index: -1;
+      position: absolute;
+      top: -0.05rem;
+      left: -webkit-calc(50% - 22rem);
+      left: -moz-calc(50% - 22rem);
+      left: -ie-calc(50% - 22rem);
+      left: -o-calc(50% - 22rem);
+      left: calc(50% - 22rem);
+      width: 44rem;
+      height: 100%;
+      background-color: #5d4585;
+      -webkit-transform: rotate(-0.8deg);
+      -moz-transform: rotate(-0.8deg);
+      -ms-transform: rotate(-0.8deg);
+      -o-transform: rotate(-0.8deg);
+      transform: rotate(-0.8deg); }
+  /* line 133, source/styles.sass */
+  #contact > a {
+    content: " ";
     position: absolute;
-    top: -0.05rem;
-    left: -webkit-calc(50% - 22rem);
-    left: -moz-calc(50% - 22rem);
-    left: -ie-calc(50% - 22rem);
-    left: -o-calc(50% - 22rem);
-    left: calc(50% - 22rem);
-    width: 44rem;
-    height: 100%;
-    background-color: #5d4585;
-    -webkit-transform: rotate(-0.8deg);
-    -moz-transform: rotate(-0.8deg);
-    -ms-transform: rotate(-0.8deg);
-    -o-transform: rotate(-0.8deg);
-    transform: rotate(-0.8deg); }
+    display: block;
+    top: 10rem;
+    color: white;
+    font-size: 1.5rem;
+    left: -webkit-calc(50% - 2.5rem);
+    left: -moz-calc(50% - 2.5rem);
+    left: -ie-calc(50% - 2.5rem);
+    left: -o-calc(50% - 2.5rem);
+    left: calc(50% - 2.5rem);
+    width: 5rem;
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    border-radius: 5rem;
+    background-color: #eb2e66; }
+    /* line 95, source/styles/_mixins.sass */
+    #contact > a:after {
+      content: "\f078";
+      display: inline-block;
+      width: 1em;
+      text-decoration: inherit;
+      font-family: FontAwesome;
+      font-weight: normal;
+      font-style: normal;
+      line-height: 1em; }
+    /* line 143, source/styles.sass */
+    #contact > a:hover {
+      text-decoration: none; }

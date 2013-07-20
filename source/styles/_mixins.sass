@@ -79,3 +79,20 @@
   border-left: $height solid transparent
   border-right: $height solid transparent
 
+@mixin icon($icon)
+  content: $icon
+  display: inline-block
+  width: 1em
+  text-decoration: inherit
+  font-family: FontAwesome
+  font-weight: normal
+  font-style: normal
+  line-height: 1em
+@mixin icon-before($icon)
+  &:before
+    @include icon($icon)
+@mixin icon-after($icon)
+  &:after
+    @include icon($icon)
+
+

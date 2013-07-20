@@ -5,6 +5,7 @@ html
     link href="/styles/styles.css" rel="stylesheet"
     link href="/styles/fonts/opensans.css" rel="stylesheet" type="text/css"
     link href="/styles/fonts/lato.css" rel="stylesheet" type="text/css"
+    link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet"
     script src="/scripts/vendor/jquery-1.9.1.min.js"
     script src="/scripts/script.js"
   body
@@ -25,12 +26,18 @@ html
     ' {{content}}
 
     footer
-      ul
+      ul.left
         li
-          a href="/imprint" Imprint
+          img#travis-mascot src="/images/travis-mascot-200px.png"
+        li
+          a href="http://about.travis-ci.org"
+            ' An initiative run by Travis CI &rarr;
       h1
         a href="/" Travis <span></span> Foundation
-      p
-        ' An initiative run by
-        a href="http://travis-ci.org" Travis CI
-        '  &rarr;
+      ul.right
+        li
+          a href="mailto:foundation@travis-ci.com" E-Mail
+        li
+          a href="/imprint" Imprint
+        li
+          img#made-in-berlin src="/images/made-in-berlin-badge.png"
