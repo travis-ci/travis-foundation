@@ -1,18 +1,19 @@
 /* line 1, source/styles/_base.sass */
 * {
+  -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 4, source/styles/_base.sass */
+/* line 5, source/styles/_base.sass */
 html, body {
   height: 100%;
   padding: 0 0; }
 
-/* line 8, source/styles/_base.sass */
+/* line 9, source/styles/_base.sass */
 html {
   font-size: 100%;
   margin: 0 0; }
 
-/* line 12, source/styles/_base.sass */
+/* line 13, source/styles/_base.sass */
 body {
   position: relative;
   font: 100 1rem/1.75 "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -20,55 +21,55 @@ body {
   min-width: 64rem;
   margin: 0 auto; }
 
-/* line 19, source/styles/_base.sass */
+/* line 20, source/styles/_base.sass */
 ul {
   margin: 0;
   padding: 0; }
 
-/* line 23, source/styles/_base.sass */
+/* line 24, source/styles/_base.sass */
 li {
   list-style-type: none; }
 
-/* line 26, source/styles/_base.sass */
+/* line 27, source/styles/_base.sass */
 h1, h2, h3 {
   margin-top: 0; }
 
-/* line 29, source/styles/_base.sass */
+/* line 30, source/styles/_base.sass */
 h2 {
   margin: 7.5rem 0;
   font: 200 4rem "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center; }
 
-/* line 33, source/styles/_base.sass */
+/* line 34, source/styles/_base.sass */
 h3 {
   font-size: 1.4rem;
   font-weight: 500;
   text-align: center; }
 
-/* line 37, source/styles/_base.sass */
+/* line 38, source/styles/_base.sass */
 p {
   font-size: 1.25rem; }
 
-/* line 39, source/styles/_base.sass */
+/* line 40, source/styles/_base.sass */
 p:last-child {
   margin-bottom: 0; }
 
-/* line 41, source/styles/_base.sass */
+/* line 42, source/styles/_base.sass */
 a {
   color: #eb2e66;
   text-decoration: none; }
 
-/* line 44, source/styles/_base.sass */
+/* line 45, source/styles/_base.sass */
 a:hover {
   text-decoration: underline; }
 
-/* line 47, source/styles/_base.sass */
+/* line 48, source/styles/_base.sass */
 article {
   padding: 4em 0;
   text-align: center;
   box-shadow: inset 1px 6px 12px -5px #aaaaaa;
   background: #eeeeee url("/images/patterns/subtle_freckles_2.png") fixed; }
-  /* line 52, source/styles/_base.sass */
+  /* line 53, source/styles/_base.sass */
   article p {
     max-width: 56rem;
     margin-left: auto;
@@ -78,22 +79,22 @@ article {
 #blurb {
   position: relative;
   margin-top: 5rem;
+  height: calc(100% - 170px);
   height: -webkit-calc(100% - 170px);
   height: -moz-calc(100% - 170px);
   height: -ie-calc(100% - 170px);
   height: -o-calc(100% - 170px);
-  height: calc(100% - 170px);
   min-height: 25rem;
   max-height: 65rem; }
   /* line 8, source/styles/_blurb.sass */
   #blurb h2 {
     position: relative;
     width: 920px;
+    top: calc(50% - 130px);
     top: -webkit-calc(50% - 130px);
     top: -moz-calc(50% - 130px);
     top: -ie-calc(50% - 130px);
     top: -o-calc(50% - 130px);
-    top: calc(50% - 130px);
     margin: 0 auto;
     font-size: 5rem;
     font-weight: 100;
@@ -113,11 +114,11 @@ article {
       z-index: -1;
       position: absolute;
       top: 2px;
+      left: calc(50% - 50%);
       left: -webkit-calc(50% - 50%);
       left: -moz-calc(50% - 50%);
       left: -ie-calc(50% - 50%);
       left: -o-calc(50% - 50%);
-      left: calc(50% - 50%);
       width: 100%;
       height: 50%;
       background-color: #5d4585;
@@ -132,12 +133,12 @@ article {
       z-index: -1;
       position: absolute;
       top: 52%;
-      left: -webkit-calc(50% - 43%%);
-      left: -moz-calc(50% - 43%%);
-      left: -ie-calc(50% - 43%%);
-      left: -o-calc(50% - 43%%);
-      left: calc(50% - 43%%);
-      width: 86%%;
+      left: calc(50% - 43%);
+      left: -webkit-calc(50% - 43%);
+      left: -moz-calc(50% - 43%);
+      left: -ie-calc(50% - 43%);
+      left: -o-calc(50% - 43%);
+      width: 86%;
       height: 50%;
       background-color: #eb2e66;
       -webkit-transform: rotate(0.4deg);
@@ -150,11 +151,11 @@ article {
     position: absolute;
     display: block;
     bottom: -2.5rem;
+    left: calc(50% - 2.5rem);
     left: -webkit-calc(50% - 2.5rem);
     left: -moz-calc(50% - 2.5rem);
     left: -ie-calc(50% - 2.5rem);
     left: -o-calc(50% - 2.5rem);
-    left: calc(50% - 2.5rem);
     width: 5rem;
     height: 5rem;
     line-height: 5rem;
@@ -197,20 +198,40 @@ article {
   /* line 5, source/styles/_projects.sass */
   #projects ul {
     display: table-row; }
-  /* line 7, source/styles/_projects.sass */
+  /* line 8, source/styles/_projects.sass */
   #projects li {
     display: table-cell;
-    position: relative;
     overflow: hidden;
     width: 33%;
-    padding: 2.5rem;
     border-right: 1px solid #eeeeee; }
-    /* line 15, source/styles/_projects.sass */
+    /* line 13, source/styles/_projects.sass */
     #projects li:last-child {
       border-right: 0px;
       overflow: hidden; }
-    /* line 19, source/styles/_projects.sass */
-    #projects li.tbd:before {
+    /* line 17, source/styles/_projects.sass */
+    #projects li .ff {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      padding: 2.5rem; }
+      /* line 23, source/styles/_projects.sass */
+      #projects li .ff:after {
+        left: calc(50% - 25px);
+        left: -webkit-calc(50% - 25px);
+        left: -moz-calc(50% - 25px);
+        left: -ie-calc(50% - 25px);
+        left: -o-calc(50% - 25px);
+        bottom: 0;
+        margin: 0 auto;
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-bottom: 25px solid transparent; }
+    /* line 29, source/styles/_projects.sass */
+    #projects li.tbd div:before {
       content: "tbd";
       position: absolute;
       top: 14px;
@@ -229,41 +250,25 @@ article {
       border-bottom: 24px solid #dddddd;
       border-left: 24px solid transparent;
       border-right: 24px solid transparent; }
-    /* line 22, source/styles/_projects.sass */
-    #projects li:after {
-      left: -webkit-calc(50% - 25px);
-      left: -moz-calc(50% - 25px);
-      left: -ie-calc(50% - 25px);
-      left: -o-calc(50% - 25px);
-      left: calc(50% - 25px);
-      bottom: 0;
-      margin: 0 auto;
-      content: "";
-      position: absolute;
-      width: 0;
-      height: 0;
-      border-left: 25px solid transparent;
-      border-right: 25px solid transparent;
-      border-bottom: 25px solid transparent; }
-  /* line 28, source/styles/_projects.sass */
+  /* line 32, source/styles/_projects.sass */
   #projects h3 {
     text-align: left; }
-    /* line 30, source/styles/_projects.sass */
+    /* line 34, source/styles/_projects.sass */
     #projects h3 a {
       cursor: pointer; }
-  /* line 32, source/styles/_projects.sass */
+  /* line 36, source/styles/_projects.sass */
   #projects p {
     font-size: 0.95rem; }
 
-/* line 35, source/styles/_projects.sass */
+/* line 39, source/styles/_projects.sass */
 #testimonials {
   position: relative;
   background: url(/images/backgrounds/testimonials-2.jpg) no-repeat center 0 fixed;
   background-size: cover; }
-  /* line 40, source/styles/_projects.sass */
+  /* line 44, source/styles/_projects.sass */
   #testimonials ul {
     padding: 5rem 0; }
-  /* line 42, source/styles/_projects.sass */
+  /* line 46, source/styles/_projects.sass */
   #testimonials li {
     *zoom: 1;
     max-width: 790px;
@@ -276,10 +281,10 @@ article {
     /* line 23, source/vendor/bourbon/addons/_clearfix.scss */
     #testimonials li:after {
       clear: both; }
-  /* line 47, source/styles/_projects.sass */
+  /* line 51, source/styles/_projects.sass */
   #testimonials li:first-child {
     display: block; }
-  /* line 49, source/styles/_projects.sass */
+  /* line 53, source/styles/_projects.sass */
   #testimonials img, #testimonials video {
     float: left;
     width: 268px;
@@ -288,21 +293,21 @@ article {
     margin-right: 40px;
     border: 4px solid white;
     border-radius: 4px; }
-  /* line 57, source/styles/_projects.sass */
+  /* line 61, source/styles/_projects.sass */
   #testimonials h3 {
     text-align: left; }
-  /* line 59, source/styles/_projects.sass */
+  /* line 63, source/styles/_projects.sass */
   #testimonials p {
     font-size: 1.1rem;
     color: white; }
-  /* line 63, source/styles/_projects.sass */
+  /* line 67, source/styles/_projects.sass */
   #testimonials > a {
     position: absolute;
+    top: calc(50% - 25px);
     top: -webkit-calc(50% - 25px);
     top: -moz-calc(50% - 25px);
     top: -ie-calc(50% - 25px);
     top: -o-calc(50% - 25px);
-    top: calc(50% - 25px);
     width: 50px;
     height: 50px;
     line-height: 50px;
@@ -312,10 +317,10 @@ article {
     cursor: pointer;
     color: white !important;
     font-size: 1.25rem; }
-    /* line 70, source/styles/_projects.sass */
+    /* line 74, source/styles/_projects.sass */
     #testimonials > a:hover {
       text-decoration: none; }
-  /* line 73, source/styles/_projects.sass */
+  /* line 77, source/styles/_projects.sass */
   #testimonials a#prev-testimonial {
     left: 40px; }
     /* line 95, source/styles/_mixins.sass */
@@ -328,7 +333,7 @@ article {
       font-weight: normal;
       font-style: normal;
       line-height: 1em; }
-  /* line 77, source/styles/_projects.sass */
+  /* line 81, source/styles/_projects.sass */
   #testimonials a#next-testimonial {
     right: 40px; }
     /* line 95, source/styles/_mixins.sass */
@@ -342,84 +347,84 @@ article {
       font-style: normal;
       line-height: 1em; }
 
-/* line 84, source/styles/_projects.sass */
-.rgsoc #projects li#rgsoc {
+/* line 89, source/styles/_projects.sass */
+.rgsoc #projects li#rgsoc .ff {
   background-color: #e6e3ec;
   border-color: transparent; }
-  /* line 87, source/styles/_projects.sass */
-  .rgsoc #projects li#rgsoc:after {
+  /* line 92, source/styles/_projects.sass */
+  .rgsoc #projects li#rgsoc .ff:after {
     display: block;
     border-bottom-color: #533e77; }
-/* line 90, source/styles/_projects.sass */
+/* line 95, source/styles/_projects.sass */
 .rgsoc #projects a {
   color: #533e77; }
-/* line 93, source/styles/_projects.sass */
+/* line 98, source/styles/_projects.sass */
 .rgsoc #testimonials ul {
   background-color: rgba(93, 69, 133, 0.8); }
-/* line 95, source/styles/_projects.sass */
+/* line 100, source/styles/_projects.sass */
 .rgsoc #testimonials h3 {
   color: #faea5b; }
-/* line 97, source/styles/_projects.sass */
+/* line 102, source/styles/_projects.sass */
 .rgsoc #testimonials a {
   color: #faea5b; }
-/* line 99, source/styles/_projects.sass */
+/* line 104, source/styles/_projects.sass */
 .rgsoc #testimonials > a {
   background-color: #5d4585; }
-  /* line 101, source/styles/_projects.sass */
+  /* line 106, source/styles/_projects.sass */
   .rgsoc #testimonials > a:after {
     background-color: #5d4585; }
 
-/* line 84, source/styles/_projects.sass */
-.diversity #projects li#diversity {
+/* line 89, source/styles/_projects.sass */
+.diversity #projects li#diversity .ff {
   background-color: #fbd5e0;
   border-color: transparent; }
-  /* line 87, source/styles/_projects.sass */
-  .diversity #projects li#diversity:after {
+  /* line 92, source/styles/_projects.sass */
+  .diversity #projects li#diversity .ff:after {
     display: block;
     border-bottom-color: #d3295b; }
-/* line 90, source/styles/_projects.sass */
+/* line 95, source/styles/_projects.sass */
 .diversity #projects a {
   color: #d3295b; }
-/* line 93, source/styles/_projects.sass */
+/* line 98, source/styles/_projects.sass */
 .diversity #testimonials ul {
   background-color: rgba(255, 43, 102, 0.8); }
-/* line 95, source/styles/_projects.sass */
+/* line 100, source/styles/_projects.sass */
 .diversity #testimonials h3 {
   color: #faea5b; }
-/* line 97, source/styles/_projects.sass */
+/* line 102, source/styles/_projects.sass */
 .diversity #testimonials a {
   color: #faea5b; }
-/* line 99, source/styles/_projects.sass */
+/* line 104, source/styles/_projects.sass */
 .diversity #testimonials > a {
   background-color: #eb2e66; }
-  /* line 101, source/styles/_projects.sass */
+  /* line 106, source/styles/_projects.sass */
   .diversity #testimonials > a:after {
     background-color: #eb2e66; }
 
-/* line 84, source/styles/_projects.sass */
-.internships #projects li#internships {
+/* line 89, source/styles/_projects.sass */
+.internships #projects li#internships .ff {
   background-color: #cce2f4;
   border-color: transparent; }
-  /* line 87, source/styles/_projects.sass */
-  .internships #projects li#internships:after {
+  /* line 92, source/styles/_projects.sass */
+  .internships #projects li#internships .ff:after {
     display: block;
     border-bottom-color: #0066b4; }
-/* line 90, source/styles/_projects.sass */
+/* line 95, source/styles/_projects.sass */
 .internships #projects a {
   color: #0066b4; }
-/* line 93, source/styles/_projects.sass */
+/* line 98, source/styles/_projects.sass */
 .internships #testimonials ul {
   background-color: rgba(0, 114, 200, 0.8); }
-/* line 95, source/styles/_projects.sass */
+/* line 100, source/styles/_projects.sass */
 .internships #testimonials h3 {
   color: #faea5b; }
-/* line 97, source/styles/_projects.sass */
+/* line 102, source/styles/_projects.sass */
 .internships #testimonials a {
   color: #faea5b; }
-/* line 99, source/styles/_projects.sass */
+/* line 104, source/styles/_projects.sass */
 .internships #testimonials > a {
   background-color: #0072c8; }
-  /* line 101, source/styles/_projects.sass */
+  /* line 106, source/styles/_projects.sass */
   .internships #testimonials > a:after {
     background-color: #0072c8; }
 
@@ -522,11 +527,11 @@ footer {
       z-index: -1;
       position: absolute;
       top: -0.05rem;
+      left: calc(50% - 22rem);
       left: -webkit-calc(50% - 22rem);
       left: -moz-calc(50% - 22rem);
       left: -ie-calc(50% - 22rem);
       left: -o-calc(50% - 22rem);
-      left: calc(50% - 22rem);
       width: 44rem;
       height: 100%;
       background-color: #eb2e66;
@@ -536,10 +541,10 @@ footer {
       -o-transform: rotate(0.8deg);
       transform: rotate(0.8deg); }
 
-/* line 130, source/styles.sass */
+/* line 129, source/styles.sass */
 #contact {
   position: relative; }
-  /* line 132, source/styles.sass */
+  /* line 131, source/styles.sass */
   #contact h2 {
     z-index: 1;
     position: relative;
@@ -550,11 +555,11 @@ footer {
       z-index: -1;
       position: absolute;
       top: -0.05rem;
+      left: calc(50% - 22rem);
       left: -webkit-calc(50% - 22rem);
       left: -moz-calc(50% - 22rem);
       left: -ie-calc(50% - 22rem);
       left: -o-calc(50% - 22rem);
-      left: calc(50% - 22rem);
       width: 44rem;
       height: 100%;
       background-color: #5d4585;
@@ -563,7 +568,7 @@ footer {
       -ms-transform: rotate(-0.8deg);
       -o-transform: rotate(-0.8deg);
       transform: rotate(-0.8deg); }
-  /* line 134, source/styles.sass */
+  /* line 133, source/styles.sass */
   #contact > a {
     content: " ";
     position: absolute;
@@ -571,11 +576,11 @@ footer {
     top: 10rem;
     color: white;
     font-size: 1.5rem;
+    left: calc(50% - 2.5rem);
     left: -webkit-calc(50% - 2.5rem);
     left: -moz-calc(50% - 2.5rem);
     left: -ie-calc(50% - 2.5rem);
     left: -o-calc(50% - 2.5rem);
-    left: calc(50% - 2.5rem);
     width: 5rem;
     height: 5rem;
     line-height: 5rem;
@@ -592,6 +597,6 @@ footer {
       font-weight: normal;
       font-style: normal;
       line-height: 1em; }
-    /* line 144, source/styles.sass */
+    /* line 143, source/styles.sass */
     #contact > a:hover {
       text-decoration: none; }

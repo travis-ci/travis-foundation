@@ -1,9 +1,9 @@
 @mixin calc($property, $value)
+  #{$property}: calc(#{$value})
   #{$property}: -webkit-calc(#{$value})
   #{$property}: -moz-calc(#{$value})
   #{$property}: -ie-calc(#{$value})
   #{$property}: -o-calc(#{$value})
-  #{$property}: calc(#{$value})
 
 @mixin image($url, $width, $height)
   display: inline-block
