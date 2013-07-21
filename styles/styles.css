@@ -230,7 +230,7 @@ article {
       border-right: 25px solid transparent;
       border-bottom: 25px solid transparent; }
     /* line 28, source/styles/_projects.sass */
-    #projects li.tbd div:before {
+    #projects li.tbd:before {
       content: "tbd";
       position: absolute;
       top: 14px;
