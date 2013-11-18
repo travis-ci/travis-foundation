@@ -619,31 +619,3 @@ footer {
     /* line 143, source/styles.sass */
     #contact > a:hover {
       text-decoration: none; }
-
-/* line 146, source/styles.sass */
-#rgsoc {
-  position: relative; }
-  /* line 148, source/styles.sass */
-  #rgsoc h2 {
-    z-index: 1;
-    position: relative;
-    color: white; }
-    /* line 55, source/styles/_mixins.sass */
-    #rgsoc h2:before {
-      content: "";
-      z-index: -1;
-      position: absolute;
-      top: -0.05rem;
-      left: calc(50% - 25rem);
-      left: -webkit-calc(50% - 25rem);
-      left: -moz-calc(50% - 25rem);
-      left: -ie-calc(50% - 25rem);
-      left: -o-calc(50% - 25rem);
-      width: 50rem;
-      height: 100%;
-      background-color: #5d4585;
-      -webkit-transform: rotate(0.5deg);
-      -moz-transform: rotate(0.5deg);
-      -ms-transform: rotate(0.5deg);
-      -o-transform: rotate(0.5deg);
-      transform: rotate(0.5deg); }
