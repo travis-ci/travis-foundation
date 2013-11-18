@@ -46,30 +46,30 @@ h3 {
   font-weight: 500;
   text-align: center; }
 
-/* line 38, source/styles/_base.sass */
+/* line 39, source/styles/_base.sass */
 p {
   font-size: 1.25rem; }
 
-/* line 40, source/styles/_base.sass */
+/* line 41, source/styles/_base.sass */
 p:last-child {
   margin-bottom: 0; }
 
-/* line 42, source/styles/_base.sass */
+/* line 43, source/styles/_base.sass */
 a {
   color: #eb2e66;
   text-decoration: none; }
 
-/* line 45, source/styles/_base.sass */
+/* line 46, source/styles/_base.sass */
 a:hover {
   text-decoration: underline; }
 
-/* line 48, source/styles/_base.sass */
+/* line 49, source/styles/_base.sass */
 article {
   padding: 4em 0;
   text-align: center;
   box-shadow: inset 1px 6px 12px -5px #aaaaaa;
   background: #eeeeee url("/images/patterns/subtle_freckles_2.png") fixed; }
-  /* line 53, source/styles/_base.sass */
+  /* line 54, source/styles/_base.sass */
   article p {
     max-width: 56rem;
     margin-left: auto;
