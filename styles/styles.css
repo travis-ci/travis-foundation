@@ -246,7 +246,7 @@ article {
       -ms-transform: rotate(45deg);
       -o-transform: rotate(45deg);
       transform: rotate(45deg);
-      border-bottom: 24px solid #dddddd;
+      border-bottom: 24px solid #bbbbbb;
       border-left: 24px solid transparent;
       border-right: 24px solid transparent; }
     /* line 31, source/styles/_projects.sass */
@@ -266,7 +266,7 @@ article {
       -ms-transform: rotate(45deg);
       -o-transform: rotate(45deg);
       transform: rotate(45deg);
-      border-bottom: 24px solid #50c931;
+      border-bottom: 24px solid rgba(93, 69, 133, 0.8);
       border-left: 24px solid transparent;
       border-right: 24px solid transparent; }
   /* line 34, source/styles/_projects.sass */
