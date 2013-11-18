@@ -31,7 +31,7 @@ $diversity-contrast:   $yellow
 $internships:          $pink
 $internships-80:       $pink-80
 $internships-tint:     tint($internships, 80%)
-$internships-shade:    shade($internships, 10%) 
+$internships-shade:    shade($internships, 10%)
 $internships-contrast: $yellow
 
 $packages-button-font: white
@@ -142,3 +142,9 @@ footer
     @include icon-after($chevron-down)
     &:hover
       text-decoration: none
+
+#rgsoc
+  position: relative
+  h2
+    @include headline(before, -0.05rem, 50rem, 100%, 0.5deg, white, $violet)
+
