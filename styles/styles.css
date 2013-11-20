@@ -64,12 +64,26 @@ a:hover {
   text-decoration: underline; }
 
 /* line 49, source/styles/_base.sass */
+p.nav {
+  position: absolute;
+  left: 2.5rem;
+  top: 8.5rem;
+  margin: 0; }
+  /* line 54, source/styles/_base.sass */
+  p.nav a {
+    color: #cccccc;
+    font-size: 0.7em; }
+    /* line 57, source/styles/_base.sass */
+    p.nav a:hover {
+      text-decoration: underline; }
+
+/* line 60, source/styles/_base.sass */
 article {
   padding: 4em 0;
   text-align: center;
   box-shadow: inset 1px 6px 12px -5px #aaaaaa;
   background: #eeeeee url("/images/patterns/subtle_freckles_2.png") fixed; }
-  /* line 54, source/styles/_base.sass */
+  /* line 65, source/styles/_base.sass */
   article p {
     max-width: 56rem;
     margin-left: auto;
