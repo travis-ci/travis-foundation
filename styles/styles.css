@@ -193,15 +193,16 @@ article {
 
 /* line 1, source/styles/_projects.sass */
 #projects {
-  padding: 0; }
-  /* line 4, source/styles/_projects.sass */
+  margin-top: -5rem;
+  padding: 5rem 0 0 0; }
+  /* line 5, source/styles/_projects.sass */
   #projects ul {
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex; }
-  /* line 10, source/styles/_projects.sass */
+  /* line 11, source/styles/_projects.sass */
   #projects li {
     position: relative;
     flex: 1;
@@ -209,11 +210,11 @@ article {
     width: 34%;
     padding: 2.5rem;
     border-right: 1px solid #eeeeee; }
-    /* line 18, source/styles/_projects.sass */
+    /* line 19, source/styles/_projects.sass */
     #projects li:last-child {
       border-right: 0px;
       overflow: hidden; }
-    /* line 22, source/styles/_projects.sass */
+    /* line 23, source/styles/_projects.sass */
     #projects li:after {
       left: calc(50% - 25px);
       left: -webkit-calc(50% - 25px);
@@ -229,7 +230,7 @@ article {
       border-left: 25px solid transparent;
       border-right: 25px solid transparent;
       border-bottom: 25px solid transparent; }
-    /* line 28, source/styles/_projects.sass */
+    /* line 29, source/styles/_projects.sass */
     #projects li.tbd:before {
       content: "tbd";
       position: absolute;
@@ -249,7 +250,7 @@ article {
       border-bottom: 24px solid #bbbbbb;
       border-left: 24px solid transparent;
       border-right: 24px solid transparent; }
-    /* line 31, source/styles/_projects.sass */
+    /* line 32, source/styles/_projects.sass */
     #projects li.done:before {
       content: "done";
       position: absolute;
@@ -269,7 +270,7 @@ article {
       border-bottom: 24px solid rgba(93, 69, 133, 0.8);
       border-left: 24px solid transparent;
       border-right: 24px solid transparent; }
-    /* line 34, source/styles/_projects.sass */
+    /* line 35, source/styles/_projects.sass */
     #projects li.new:before {
       content: "new";
       position: absolute;
@@ -289,25 +290,25 @@ article {
       border-bottom: 24px solid rgba(255, 43, 102, 0.8);
       border-left: 24px solid transparent;
       border-right: 24px solid transparent; }
-  /* line 36, source/styles/_projects.sass */
+  /* line 37, source/styles/_projects.sass */
   #projects h3 {
     text-align: left; }
-    /* line 38, source/styles/_projects.sass */
+    /* line 39, source/styles/_projects.sass */
     #projects h3 a {
       cursor: pointer; }
-  /* line 40, source/styles/_projects.sass */
+  /* line 41, source/styles/_projects.sass */
   #projects p {
     font-size: 0.95rem; }
 
-/* line 43, source/styles/_projects.sass */
+/* line 44, source/styles/_projects.sass */
 #testimonials {
   position: relative;
   background: url(/images/backgrounds/testimonials-2.jpg) no-repeat center 0 fixed;
   background-size: cover; }
-  /* line 48, source/styles/_projects.sass */
+  /* line 49, source/styles/_projects.sass */
   #testimonials ul {
     padding: 5rem 0; }
-  /* line 50, source/styles/_projects.sass */
+  /* line 51, source/styles/_projects.sass */
   #testimonials li {
     *zoom: 1;
     max-width: 790px;
@@ -320,10 +321,10 @@ article {
     /* line 23, source/vendor/bourbon/addons/_clearfix.scss */
     #testimonials li:after {
       clear: both; }
-  /* line 55, source/styles/_projects.sass */
+  /* line 56, source/styles/_projects.sass */
   #testimonials li:first-child {
     display: block; }
-  /* line 57, source/styles/_projects.sass */
+  /* line 58, source/styles/_projects.sass */
   #testimonials img, #testimonials video {
     position: absolute;
     width: 268px;
@@ -332,20 +333,20 @@ article {
     margin-right: 40px;
     border: 4px solid white;
     border-radius: 4px; }
-  /* line 65, source/styles/_projects.sass */
+  /* line 66, source/styles/_projects.sass */
   #testimonials li > *:not(img) {
     margin-left: 310px; }
-  /* line 67, source/styles/_projects.sass */
+  /* line 68, source/styles/_projects.sass */
   #testimonials h3 {
     text-align: left; }
-  /* line 69, source/styles/_projects.sass */
+  /* line 70, source/styles/_projects.sass */
   #testimonials p {
     font-size: 0.95rem;
     color: white; }
-    /* line 72, source/styles/_projects.sass */
+    /* line 73, source/styles/_projects.sass */
     #testimonials p .quote {
       font-style: italic; }
-  /* line 75, source/styles/_projects.sass */
+  /* line 76, source/styles/_projects.sass */
   #testimonials > a {
     position: absolute;
     top: calc(50% - 25px);
@@ -362,10 +363,10 @@ article {
     cursor: pointer;
     color: white !important;
     font-size: 1.25rem; }
-    /* line 82, source/styles/_projects.sass */
+    /* line 83, source/styles/_projects.sass */
     #testimonials > a:hover {
       text-decoration: none; }
-  /* line 85, source/styles/_projects.sass */
+  /* line 86, source/styles/_projects.sass */
   #testimonials a#prev-testimonial {
     left: 40px; }
     /* line 95, source/styles/_mixins.sass */
@@ -378,7 +379,7 @@ article {
       font-weight: normal;
       font-style: normal;
       line-height: 1em; }
-  /* line 89, source/styles/_projects.sass */
+  /* line 90, source/styles/_projects.sass */
   #testimonials a#next-testimonial {
     right: 40px; }
     /* line 95, source/styles/_mixins.sass */
@@ -392,84 +393,84 @@ article {
       font-style: normal;
       line-height: 1em; }
 
-/* line 96, source/styles/_projects.sass */
+/* line 97, source/styles/_projects.sass */
 .rgsoc #projects li#rgsoc {
   background-color: #e6e3ec;
   border-color: transparent; }
-  /* line 99, source/styles/_projects.sass */
+  /* line 100, source/styles/_projects.sass */
   .rgsoc #projects li#rgsoc:after {
     display: block;
     border-bottom-color: #533e77; }
-/* line 102, source/styles/_projects.sass */
+/* line 103, source/styles/_projects.sass */
 .rgsoc #projects a {
   color: #533e77; }
-/* line 105, source/styles/_projects.sass */
+/* line 106, source/styles/_projects.sass */
 .rgsoc #testimonials ul {
   background-color: rgba(93, 69, 133, 0.8); }
-/* line 107, source/styles/_projects.sass */
+/* line 108, source/styles/_projects.sass */
 .rgsoc #testimonials h3 {
   color: #faea5b; }
-/* line 109, source/styles/_projects.sass */
+/* line 110, source/styles/_projects.sass */
 .rgsoc #testimonials a {
   color: #faea5b; }
-/* line 111, source/styles/_projects.sass */
+/* line 112, source/styles/_projects.sass */
 .rgsoc #testimonials > a {
   background-color: #5d4585; }
-  /* line 113, source/styles/_projects.sass */
+  /* line 114, source/styles/_projects.sass */
   .rgsoc #testimonials > a:after {
     background-color: #5d4585; }
 
-/* line 96, source/styles/_projects.sass */
+/* line 97, source/styles/_projects.sass */
 .diversity #projects li#diversity {
   background-color: #cce2f4;
   border-color: transparent; }
-  /* line 99, source/styles/_projects.sass */
+  /* line 100, source/styles/_projects.sass */
   .diversity #projects li#diversity:after {
     display: block;
     border-bottom-color: #0066b4; }
-/* line 102, source/styles/_projects.sass */
+/* line 103, source/styles/_projects.sass */
 .diversity #projects a {
   color: #0066b4; }
-/* line 105, source/styles/_projects.sass */
+/* line 106, source/styles/_projects.sass */
 .diversity #testimonials ul {
   background-color: rgba(0, 114, 200, 0.8); }
-/* line 107, source/styles/_projects.sass */
+/* line 108, source/styles/_projects.sass */
 .diversity #testimonials h3 {
   color: #faea5b; }
-/* line 109, source/styles/_projects.sass */
+/* line 110, source/styles/_projects.sass */
 .diversity #testimonials a {
   color: #faea5b; }
-/* line 111, source/styles/_projects.sass */
+/* line 112, source/styles/_projects.sass */
 .diversity #testimonials > a {
   background-color: #0072c8; }
-  /* line 113, source/styles/_projects.sass */
+  /* line 114, source/styles/_projects.sass */
   .diversity #testimonials > a:after {
     background-color: #0072c8; }
 
-/* line 96, source/styles/_projects.sass */
+/* line 97, source/styles/_projects.sass */
 .internships #projects li#internships {
   background-color: #fbd5e0;
   border-color: transparent; }
-  /* line 99, source/styles/_projects.sass */
+  /* line 100, source/styles/_projects.sass */
   .internships #projects li#internships:after {
     display: block;
     border-bottom-color: #d3295b; }
-/* line 102, source/styles/_projects.sass */
+/* line 103, source/styles/_projects.sass */
 .internships #projects a {
   color: #d3295b; }
-/* line 105, source/styles/_projects.sass */
+/* line 106, source/styles/_projects.sass */
 .internships #testimonials ul {
   background-color: rgba(255, 43, 102, 0.8); }
-/* line 107, source/styles/_projects.sass */
+/* line 108, source/styles/_projects.sass */
 .internships #testimonials h3 {
   color: #faea5b; }
-/* line 109, source/styles/_projects.sass */
+/* line 110, source/styles/_projects.sass */
 .internships #testimonials a {
   color: #faea5b; }
-/* line 111, source/styles/_projects.sass */
+/* line 112, source/styles/_projects.sass */
 .internships #testimonials > a {
   background-color: #eb2e66; }
-  /* line 113, source/styles/_projects.sass */
+  /* line 114, source/styles/_projects.sass */
   .internships #testimonials > a:after {
     background-color: #eb2e66; }
 
