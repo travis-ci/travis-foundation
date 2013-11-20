@@ -340,7 +340,7 @@ article {
     text-align: left; }
   /* line 69, source/styles/_projects.sass */
   #testimonials p {
-    font-size: 1.1rem;
+    font-size: 0.95rem;
     color: white; }
     /* line 72, source/styles/_projects.sass */
     #testimonials p .quote {
