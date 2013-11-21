@@ -46,30 +46,44 @@ h3 {
   font-weight: 500;
   text-align: center; }
 
-/* line 38, source/styles/_base.sass */
+/* line 39, source/styles/_base.sass */
 p {
   font-size: 1.25rem; }
 
-/* line 40, source/styles/_base.sass */
+/* line 41, source/styles/_base.sass */
 p:last-child {
   margin-bottom: 0; }
 
-/* line 42, source/styles/_base.sass */
+/* line 43, source/styles/_base.sass */
 a {
   color: #eb2e66;
   text-decoration: none; }
 
-/* line 45, source/styles/_base.sass */
+/* line 46, source/styles/_base.sass */
 a:hover {
   text-decoration: underline; }
 
-/* line 48, source/styles/_base.sass */
+/* line 49, source/styles/_base.sass */
+p.nav {
+  position: absolute;
+  left: 2.5rem;
+  top: 8.5rem;
+  margin: 0; }
+  /* line 54, source/styles/_base.sass */
+  p.nav a {
+    color: #cccccc;
+    font-size: 0.7em; }
+    /* line 57, source/styles/_base.sass */
+    p.nav a:hover {
+      text-decoration: underline; }
+
+/* line 60, source/styles/_base.sass */
 article {
   padding: 4em 0;
   text-align: center;
   box-shadow: inset 1px 6px 12px -5px #aaaaaa;
   background: #eeeeee url("/images/patterns/subtle_freckles_2.png") fixed; }
-  /* line 53, source/styles/_base.sass */
+  /* line 65, source/styles/_base.sass */
   article p {
     max-width: 56rem;
     margin-left: auto;
@@ -193,15 +207,16 @@ article {
 
 /* line 1, source/styles/_projects.sass */
 #projects {
-  padding: 0; }
-  /* line 4, source/styles/_projects.sass */
+  margin-top: -5rem;
+  padding: 5rem 0 0 0; }
+  /* line 5, source/styles/_projects.sass */
   #projects ul {
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex; }
-  /* line 10, source/styles/_projects.sass */
+  /* line 11, source/styles/_projects.sass */
   #projects li {
     position: relative;
     flex: 1;
@@ -209,11 +224,11 @@ article {
     width: 34%;
     padding: 2.5rem;
     border-right: 1px solid #eeeeee; }
-    /* line 18, source/styles/_projects.sass */
+    /* line 19, source/styles/_projects.sass */
     #projects li:last-child {
       border-right: 0px;
       overflow: hidden; }
-    /* line 22, source/styles/_projects.sass */
+    /* line 23, source/styles/_projects.sass */
     #projects li:after {
       left: calc(50% - 25px);
       left: -webkit-calc(50% - 25px);
@@ -229,7 +244,7 @@ article {
       border-left: 25px solid transparent;
       border-right: 25px solid transparent;
       border-bottom: 25px solid transparent; }
-    /* line 28, source/styles/_projects.sass */
+    /* line 29, source/styles/_projects.sass */
     #projects li.tbd:before {
       content: "tbd";
       position: absolute;
@@ -246,28 +261,68 @@ article {
       -ms-transform: rotate(45deg);
       -o-transform: rotate(45deg);
       transform: rotate(45deg);
-      border-bottom: 24px solid #dddddd;
+      border-bottom: 24px solid #bbbbbb;
       border-left: 24px solid transparent;
       border-right: 24px solid transparent; }
-  /* line 31, source/styles/_projects.sass */
+    /* line 32, source/styles/_projects.sass */
+    #projects li.done:before {
+      content: "done";
+      position: absolute;
+      top: 14px;
+      right: -23px;
+      width: 50px;
+      height: 0;
+      line-height: 24px;
+      text-align: center;
+      color: white;
+      border: 0px;
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      transform: rotate(45deg);
+      border-bottom: 24px solid rgba(93, 69, 133, 0.8);
+      border-left: 24px solid transparent;
+      border-right: 24px solid transparent; }
+    /* line 35, source/styles/_projects.sass */
+    #projects li.new:before {
+      content: "new";
+      position: absolute;
+      top: 14px;
+      right: -23px;
+      width: 50px;
+      height: 0;
+      line-height: 24px;
+      text-align: center;
+      color: white;
+      border: 0px;
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      transform: rotate(45deg);
+      border-bottom: 24px solid rgba(255, 43, 102, 0.8);
+      border-left: 24px solid transparent;
+      border-right: 24px solid transparent; }
+  /* line 37, source/styles/_projects.sass */
   #projects h3 {
     text-align: left; }
-    /* line 33, source/styles/_projects.sass */
+    /* line 39, source/styles/_projects.sass */
     #projects h3 a {
       cursor: pointer; }
-  /* line 35, source/styles/_projects.sass */
+  /* line 41, source/styles/_projects.sass */
   #projects p {
     font-size: 0.95rem; }
 
-/* line 38, source/styles/_projects.sass */
+/* line 44, source/styles/_projects.sass */
 #testimonials {
   position: relative;
   background: url(/images/backgrounds/testimonials-2.jpg) no-repeat center 0 fixed;
   background-size: cover; }
-  /* line 43, source/styles/_projects.sass */
+  /* line 49, source/styles/_projects.sass */
   #testimonials ul {
     padding: 5rem 0; }
-  /* line 45, source/styles/_projects.sass */
+  /* line 51, source/styles/_projects.sass */
   #testimonials li {
     *zoom: 1;
     max-width: 790px;
@@ -280,26 +335,32 @@ article {
     /* line 23, source/vendor/bourbon/addons/_clearfix.scss */
     #testimonials li:after {
       clear: both; }
-  /* line 50, source/styles/_projects.sass */
+  /* line 56, source/styles/_projects.sass */
   #testimonials li:first-child {
     display: block; }
-  /* line 52, source/styles/_projects.sass */
+  /* line 58, source/styles/_projects.sass */
   #testimonials img, #testimonials video {
-    float: left;
+    position: absolute;
     width: 268px;
     height: 182px;
     margin-top: 4px;
     margin-right: 40px;
     border: 4px solid white;
     border-radius: 4px; }
-  /* line 60, source/styles/_projects.sass */
+  /* line 66, source/styles/_projects.sass */
+  #testimonials li > *:not(img) {
+    margin-left: 310px; }
+  /* line 68, source/styles/_projects.sass */
   #testimonials h3 {
     text-align: left; }
-  /* line 62, source/styles/_projects.sass */
+  /* line 70, source/styles/_projects.sass */
   #testimonials p {
-    font-size: 1.1rem;
+    font-size: 0.95rem;
     color: white; }
-  /* line 66, source/styles/_projects.sass */
+    /* line 73, source/styles/_projects.sass */
+    #testimonials p .quote {
+      font-style: italic; }
+  /* line 76, source/styles/_projects.sass */
   #testimonials > a {
     position: absolute;
     top: calc(50% - 25px);
@@ -316,10 +377,10 @@ article {
     cursor: pointer;
     color: white !important;
     font-size: 1.25rem; }
-    /* line 73, source/styles/_projects.sass */
+    /* line 83, source/styles/_projects.sass */
     #testimonials > a:hover {
       text-decoration: none; }
-  /* line 76, source/styles/_projects.sass */
+  /* line 86, source/styles/_projects.sass */
   #testimonials a#prev-testimonial {
     left: 40px; }
     /* line 95, source/styles/_mixins.sass */
@@ -332,7 +393,7 @@ article {
       font-weight: normal;
       font-style: normal;
       line-height: 1em; }
-  /* line 80, source/styles/_projects.sass */
+  /* line 90, source/styles/_projects.sass */
   #testimonials a#next-testimonial {
     right: 40px; }
     /* line 95, source/styles/_mixins.sass */
@@ -346,86 +407,86 @@ article {
       font-style: normal;
       line-height: 1em; }
 
-/* line 87, source/styles/_projects.sass */
+/* line 97, source/styles/_projects.sass */
 .rgsoc #projects li#rgsoc {
   background-color: #e6e3ec;
   border-color: transparent; }
-  /* line 90, source/styles/_projects.sass */
+  /* line 100, source/styles/_projects.sass */
   .rgsoc #projects li#rgsoc:after {
     display: block;
     border-bottom-color: #533e77; }
-/* line 93, source/styles/_projects.sass */
+/* line 103, source/styles/_projects.sass */
 .rgsoc #projects a {
   color: #533e77; }
-/* line 96, source/styles/_projects.sass */
+/* line 106, source/styles/_projects.sass */
 .rgsoc #testimonials ul {
   background-color: rgba(93, 69, 133, 0.8); }
-/* line 98, source/styles/_projects.sass */
+/* line 108, source/styles/_projects.sass */
 .rgsoc #testimonials h3 {
   color: #faea5b; }
-/* line 100, source/styles/_projects.sass */
+/* line 110, source/styles/_projects.sass */
 .rgsoc #testimonials a {
   color: #faea5b; }
-/* line 102, source/styles/_projects.sass */
+/* line 112, source/styles/_projects.sass */
 .rgsoc #testimonials > a {
   background-color: #5d4585; }
-  /* line 104, source/styles/_projects.sass */
+  /* line 114, source/styles/_projects.sass */
   .rgsoc #testimonials > a:after {
     background-color: #5d4585; }
 
-/* line 87, source/styles/_projects.sass */
+/* line 97, source/styles/_projects.sass */
 .diversity #projects li#diversity {
-  background-color: #fbd5e0;
-  border-color: transparent; }
-  /* line 90, source/styles/_projects.sass */
-  .diversity #projects li#diversity:after {
-    display: block;
-    border-bottom-color: #d3295b; }
-/* line 93, source/styles/_projects.sass */
-.diversity #projects a {
-  color: #d3295b; }
-/* line 96, source/styles/_projects.sass */
-.diversity #testimonials ul {
-  background-color: rgba(255, 43, 102, 0.8); }
-/* line 98, source/styles/_projects.sass */
-.diversity #testimonials h3 {
-  color: #faea5b; }
-/* line 100, source/styles/_projects.sass */
-.diversity #testimonials a {
-  color: #faea5b; }
-/* line 102, source/styles/_projects.sass */
-.diversity #testimonials > a {
-  background-color: #eb2e66; }
-  /* line 104, source/styles/_projects.sass */
-  .diversity #testimonials > a:after {
-    background-color: #eb2e66; }
-
-/* line 87, source/styles/_projects.sass */
-.internships #projects li#internships {
   background-color: #cce2f4;
   border-color: transparent; }
-  /* line 90, source/styles/_projects.sass */
-  .internships #projects li#internships:after {
+  /* line 100, source/styles/_projects.sass */
+  .diversity #projects li#diversity:after {
     display: block;
     border-bottom-color: #0066b4; }
-/* line 93, source/styles/_projects.sass */
-.internships #projects a {
+/* line 103, source/styles/_projects.sass */
+.diversity #projects a {
   color: #0066b4; }
-/* line 96, source/styles/_projects.sass */
-.internships #testimonials ul {
+/* line 106, source/styles/_projects.sass */
+.diversity #testimonials ul {
   background-color: rgba(0, 114, 200, 0.8); }
-/* line 98, source/styles/_projects.sass */
+/* line 108, source/styles/_projects.sass */
+.diversity #testimonials h3 {
+  color: #faea5b; }
+/* line 110, source/styles/_projects.sass */
+.diversity #testimonials a {
+  color: #faea5b; }
+/* line 112, source/styles/_projects.sass */
+.diversity #testimonials > a {
+  background-color: #0072c8; }
+  /* line 114, source/styles/_projects.sass */
+  .diversity #testimonials > a:after {
+    background-color: #0072c8; }
+
+/* line 97, source/styles/_projects.sass */
+.internships #projects li#internships {
+  background-color: #fbd5e0;
+  border-color: transparent; }
+  /* line 100, source/styles/_projects.sass */
+  .internships #projects li#internships:after {
+    display: block;
+    border-bottom-color: #d3295b; }
+/* line 103, source/styles/_projects.sass */
+.internships #projects a {
+  color: #d3295b; }
+/* line 106, source/styles/_projects.sass */
+.internships #testimonials ul {
+  background-color: rgba(255, 43, 102, 0.8); }
+/* line 108, source/styles/_projects.sass */
 .internships #testimonials h3 {
   color: #faea5b; }
-/* line 100, source/styles/_projects.sass */
+/* line 110, source/styles/_projects.sass */
 .internships #testimonials a {
   color: #faea5b; }
-/* line 102, source/styles/_projects.sass */
+/* line 112, source/styles/_projects.sass */
 .internships #testimonials > a {
-  background-color: #0072c8; }
-  /* line 104, source/styles/_projects.sass */
+  background-color: #eb2e66; }
+  /* line 114, source/styles/_projects.sass */
   .internships #testimonials > a:after {
-    background-color: #0072c8; }
+    background-color: #eb2e66; }
 
 /* line 63, source/styles.sass */
 header {
