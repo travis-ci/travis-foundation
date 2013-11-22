@@ -111,6 +111,7 @@
     var projects;
 
     projects = new Projects();
+    projects.start();
     return $('#blurb h2').blurb_heading();
   });
 
