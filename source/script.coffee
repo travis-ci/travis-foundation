@@ -72,7 +72,7 @@ $.fn.blurb_heading = -> new BlurbHeading(this)
 
 $ ->
   projects = new Projects()
-  # projects.start()
+  projects.start()
   # new CompanyPackages()
 
   $('#blurb h2').blurb_heading()
