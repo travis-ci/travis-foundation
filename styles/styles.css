@@ -325,7 +325,7 @@ article {
   /* line 51, source/styles/_projects.sass */
   #testimonials li {
     *zoom: 1;
-    max-width: 790px;
+    max-width: 830px;
     margin: 0 auto;
     display: none; }
     /* line 18, source/vendor/bourbon/addons/_clearfix.scss */
