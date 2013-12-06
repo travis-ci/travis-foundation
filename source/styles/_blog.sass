@@ -1,0 +1,88 @@
+/*
+ * BLOG INDEX
+ */
+#blog
+  article
+    overflow: auto
+  h2
+    margin-bottom: 3rem
+
+.blog-wrapper, .post-wrapper
+  clear: both
+  width: 65%
+  margin: auto
+
+.blog-stream
+  width: 65%
+  float: left
+
+.blog-post
+  margin: auto
+  text-align: left
+  padding-bottom: 2rem
+  margin-bottom: 4rem
+  border-bottom: 1px $gray2 solid
+.blog-post:last-child
+  border: none
+
+.post-title
+  margin-bottom: 0
+  font-size: 2rem
+  text-align: left
+
+.post-info
+  display: inline-block
+  padding: .2rem .5em .3em
+  font-size: 1rem
+  color: #fff
+  background-color: $violet
+  a
+    color: $yellow
+
+.blog-footer
+  text-align: right
+
+.post-more
+  display: inline-block
+  font-size: 1rem
+  background-color: $pink
+  a
+    display: inline-block
+    padding: .2rem .5em .3em
+    color: $yellow
+
+/*
+ * BLOG INDEX
+ */
+#blog-post
+  article
+    margin-top: 5em
+    overflow: auto
+  .post-wrapper
+    padding-top: 0
+
+
+/*
+ * SIDEBAR
+ */
+.blog-sidebar
+  width: 25%
+  float: right
+
+.blog-recent
+  margin-bottom: 5rem
+  h3
+    margin-bottom: .5rem
+    text-align: left
+  ul
+    text-align: left
+  li:before
+    content: ""
+    display: inline-block
+    width: .8rem
+    height: .8rem
+    background-image: url(/images/icons/heart.svg)
+    background-size: .8rem
+    background-repeat: no-repeat
+  a
+    font-size: 1.2rem
