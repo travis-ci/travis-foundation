@@ -13,10 +13,13 @@ article
 .blog-post
   margin: auto
   text-align: left
-
+  padding-bottom: 2rem
+  margin-bottom: 4rem
+  border-bottom: 1px $gray2 solid
+.blog-post:last-child
+  border: none
 
 .blog-header
-  
 
 .post-title
   margin-bottom: 0
@@ -47,11 +50,29 @@ article
     color: $yellow
 
 
+/*
+ * SIDEBAR
+ */
 .blog-sidebar
-  width: 30%
+  width: 25%
   float: right
 
 .blog-recent
-
+  margin-bottom: 5rem
+  h3
+    margin-bottom: .5rem
+    text-align: left
+  ul
+    text-align: left
+  li:before
+    content: ""
+    display: inline-block
+    width: .8rem
+    height: .8rem
+    background-image: url(/images/icons/heart.svg)
+    background-size: .8rem
+    background-repeat: no-repeat
+  a
+    font-size: 1.2rem
 
 .blog-twitter

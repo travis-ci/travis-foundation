@@ -519,44 +519,76 @@ article {
 /* line 13, source/styles/_blog.sass */
 .blog-post {
   margin: auto;
-  text-align: left; }
+  text-align: left;
+  padding-bottom: 2rem;
+  margin-bottom: 4rem;
+  border-bottom: 1px #bbbbbb solid; }
 
-/* line 21, source/styles/_blog.sass */
+/* line 19, source/styles/_blog.sass */
+.blog-post:last-child {
+  border: none; }
+
+/* line 24, source/styles/_blog.sass */
 .post-title {
   margin-bottom: 0;
   font-size: 2rem;
   text-align: left; }
 
-/* line 26, source/styles/_blog.sass */
+/* line 29, source/styles/_blog.sass */
 .post-info {
   display: inline-block;
   padding: 0.2rem 0.5em 0.3em;
   font-size: 1rem;
   color: white;
   background-color: #5d4585; }
-  /* line 32, source/styles/_blog.sass */
+  /* line 35, source/styles/_blog.sass */
   .post-info a {
     color: #faea5b; }
 
-/* line 37, source/styles/_blog.sass */
+/* line 40, source/styles/_blog.sass */
 .blog-footer {
   text-align: right; }
 
-/* line 40, source/styles/_blog.sass */
+/* line 43, source/styles/_blog.sass */
 .post-more {
   display: inline-block;
   font-size: 1rem;
   background-color: #eb2e66; }
-  /* line 44, source/styles/_blog.sass */
+  /* line 47, source/styles/_blog.sass */
   .post-more a {
     display: inline-block;
     padding: 0.2rem 0.5em 0.3em;
     color: #faea5b; }
 
-/* line 50, source/styles/_blog.sass */
+/* SIDEBAR
+ */
+/* line 56, source/styles/_blog.sass */
 .blog-sidebar {
-  width: 30%;
+  width: 25%;
   float: right; }
+
+/* line 60, source/styles/_blog.sass */
+.blog-recent {
+  margin-bottom: 5rem; }
+  /* line 62, source/styles/_blog.sass */
+  .blog-recent h3 {
+    margin-bottom: 0.5rem;
+    text-align: left; }
+  /* line 65, source/styles/_blog.sass */
+  .blog-recent ul {
+    text-align: left; }
+  /* line 67, source/styles/_blog.sass */
+  .blog-recent li:before {
+    content: "";
+    display: inline-block;
+    width: 0.8rem;
+    height: 0.8rem;
+    background-image: url(/images/icons/heart.svg);
+    background-size: 0.8rem;
+    background-repeat: no-repeat; }
+  /* line 75, source/styles/_blog.sass */
+  .blog-recent a {
+    font-size: 1.2rem; }
 
 /* line 65, source/styles.sass */
 header {
