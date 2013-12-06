@@ -501,7 +501,64 @@ img.sponsor {
     filter: none;
     -webkit-filter: none; }
 
-/* line 64, source/styles.sass */
+/* line 1, source/styles/_blog.sass */
+article {
+  overflow: auto; }
+
+/* line 4, source/styles/_blog.sass */
+.blog-wrapper {
+  clear: both;
+  width: 65%;
+  margin: auto; }
+
+/* line 9, source/styles/_blog.sass */
+.blog-stream {
+  width: 65%;
+  float: left; }
+
+/* line 13, source/styles/_blog.sass */
+.blog-post {
+  margin: auto;
+  text-align: left; }
+
+/* line 21, source/styles/_blog.sass */
+.post-title {
+  margin-bottom: 0;
+  font-size: 2rem;
+  text-align: left; }
+
+/* line 26, source/styles/_blog.sass */
+.post-info {
+  display: inline-block;
+  padding: 0.2rem 0.5em 0.3em;
+  font-size: 1rem;
+  color: white;
+  background-color: #5d4585; }
+  /* line 32, source/styles/_blog.sass */
+  .post-info a {
+    color: #faea5b; }
+
+/* line 37, source/styles/_blog.sass */
+.blog-footer {
+  text-align: right; }
+
+/* line 40, source/styles/_blog.sass */
+.post-more {
+  display: inline-block;
+  font-size: 1rem;
+  background-color: #eb2e66; }
+  /* line 44, source/styles/_blog.sass */
+  .post-more a {
+    display: inline-block;
+    padding: 0.2rem 0.5em 0.3em;
+    color: #faea5b; }
+
+/* line 50, source/styles/_blog.sass */
+.blog-sidebar {
+  width: 30%;
+  float: right; }
+
+/* line 65, source/styles.sass */
 header {
   z-index: 3;
   position: fixed;
@@ -510,86 +567,86 @@ header {
   vertical-align: middle;
   background-color: white; }
 
-/* line 72, source/styles.sass */
+/* line 73, source/styles.sass */
 header, footer {
   height: 5rem;
   padding: 0 2.5rem;
   line-height: 5rem; }
-  /* line 76, source/styles.sass */
+  /* line 77, source/styles.sass */
   header h1, footer h1 {
     color: black; }
-    /* line 78, source/styles.sass */
+    /* line 79, source/styles.sass */
     header h1 a:hover, footer h1 a:hover {
       text-decoration: none; }
-  /* line 80, source/styles.sass */
+  /* line 81, source/styles.sass */
   header li, footer li {
     display: inline-block;
     margin-right: 1.25rem; }
-  /* line 83, source/styles.sass */
+  /* line 84, source/styles.sass */
   header a, footer a {
     color: black; }
 
-/* line 87, source/styles.sass */
+/* line 88, source/styles.sass */
 header h1 {
   margin: auto 0;
   font-weight: 500;
   float: left;
   letter-spacing: 1px; }
-  /* line 92, source/styles.sass */
+  /* line 93, source/styles.sass */
   header h1 span {
     display: inline-block;
     background: url("/images/icons/heart.svg") no-repeat top left;
     width: 23px;
     height: 23px;
     background-size: 23px 23px; }
-/* line 94, source/styles.sass */
+/* line 95, source/styles.sass */
 header ul {
   float: right; }
 
-/* line 97, source/styles.sass */
+/* line 98, source/styles.sass */
 footer {
   width: 100%;
   display: table; }
-  /* line 100, source/styles.sass */
+  /* line 101, source/styles.sass */
   footer > * {
     display: table-cell;
     width: 33%;
     padding: 1rem 0; }
-  /* line 104, source/styles.sass */
+  /* line 105, source/styles.sass */
   footer h1 {
     text-align: center;
     font-size: 1rem; }
-    /* line 107, source/styles.sass */
+    /* line 108, source/styles.sass */
     footer h1 span {
       display: inline-block;
       background: url("/images/icons/heart.svg") no-repeat top left;
       width: 14px;
       height: 14px;
       background-size: 14px 14px; }
-  /* line 109, source/styles.sass */
+  /* line 110, source/styles.sass */
   footer .right {
     text-align: right; }
-  /* line 111, source/styles.sass */
+  /* line 112, source/styles.sass */
   footer img {
     vertical-align: middle;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale"); }
-    /* line 116, source/styles.sass */
+    /* line 117, source/styles.sass */
     footer img:hover {
       filter: none;
       -webkit-filter: none; }
-  /* line 119, source/styles.sass */
+  /* line 120, source/styles.sass */
   footer #travis-mascot {
     width: 3rem; }
-  /* line 121, source/styles.sass */
+  /* line 122, source/styles.sass */
   footer #made-in-berlin {
     width: 3.5rem; }
 
-/* line 125, source/styles.sass */
+/* line 126, source/styles.sass */
 #about {
   position: relative; }
-  /* line 127, source/styles.sass */
+  /* line 128, source/styles.sass */
   #about h2 {
     z-index: 1;
     position: relative;
@@ -614,10 +671,10 @@ footer {
       -o-transform: rotate(0.8deg);
       transform: rotate(0.8deg); }
 
-/* line 130, source/styles.sass */
+/* line 131, source/styles.sass */
 #contact {
   position: relative; }
-  /* line 132, source/styles.sass */
+  /* line 133, source/styles.sass */
   #contact h2 {
     z-index: 1;
     position: relative;
@@ -641,7 +698,7 @@ footer {
       -ms-transform: rotate(-0.8deg);
       -o-transform: rotate(-0.8deg);
       transform: rotate(-0.8deg); }
-  /* line 134, source/styles.sass */
+  /* line 135, source/styles.sass */
   #contact > a {
     content: " ";
     position: absolute;
@@ -670,6 +727,6 @@ footer {
       font-weight: normal;
       font-style: normal;
       line-height: 1em; }
-    /* line 144, source/styles.sass */
+    /* line 145, source/styles.sass */
     #contact > a:hover {
       text-decoration: none; }
