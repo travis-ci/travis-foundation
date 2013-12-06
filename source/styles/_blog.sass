@@ -1,7 +1,13 @@
-article
-  overflow: auto
+/*
+ * BLOG INDEX
+ */
+#blog
+  article
+    overflow: auto
+  h2
+    margin-bottom: 3rem
 
-.blog-wrapper
+.blog-wrapper, .post-wrapper
   clear: both
   width: 65%
   margin: auto
@@ -19,8 +25,6 @@ article
 .blog-post:last-child
   border: none
 
-.blog-header
-
 .post-title
   margin-bottom: 0
   font-size: 2rem
@@ -35,8 +39,6 @@ article
   a
     color: $yellow
 
-.blog-content
-
 .blog-footer
   text-align: right
 
@@ -48,6 +50,16 @@ article
     display: inline-block
     padding: .2rem .5em .3em
     color: $yellow
+
+/*
+ * BLOG INDEX
+ */
+#blog-post
+  article
+    margin-top: 5em
+    overflow: auto
+  .post-wrapper
+    padding-top: 0
 
 
 /*
@@ -74,5 +86,3 @@ article
     background-repeat: no-repeat
   a
     font-size: 1.2rem
-
-.blog-twitter

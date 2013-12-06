@@ -1,0 +1,72 @@
+doctype html
+html
+  head
+    meta charset="utf-8"
+    title Travis Foundation
+    link href="/styles/styles.css" rel="stylesheet"
+    link href="/styles/fonts/opensans.css" rel="stylesheet" type="text/css"
+    link href="/styles/fonts/lato.css" rel="stylesheet" type="text/css"
+    link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet"
+    script src="/scripts/vendor/jquery-1.9.1.min.js"
+    script src="/scripts/script.js"
+  body
+    header
+      h1
+        a href="/" Travis <span></span> Foundation
+
+      ul
+        li
+          a href="/#projects" Projects
+        / li
+        /   a href="/#donate" Please donate!
+        li
+          a href="/#about" About
+        li
+            a href="/#contact" Contact
+
+    section#blog-post
+      p.nav
+        a href="/blog" &larr; Blog
+      article
+        .post-wrapper
+          .blog-stream
+            section.blog-post
+              .blog-header
+                h3.post-title 
+                  a href="#" Lorem ipsum dolor sit amet
+                p.post-info 
+                  |Decemeber 6th, 2013 by 
+                  | <a href="#">Someone</a>
+              main.blog-content
+                ' {{content}}
+          aside.blog-sidebar
+            .blog-recent
+              h3 Recent Posts
+              ul
+                li
+                  a href="" other post
+                li
+                  a href="" some other post
+                li
+                  a href="" and another
+            .blog-twitter
+              a.twitter-timeline data-dnt="true" href="https://twitter.com/travis_fnd"  data-widget-id="408987351906398208" Tweets von @travis_fnd
+              javascript:
+                !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+
+    footer
+      ul.left
+        li
+          img#travis-mascot src="/images/travis-mascot-200px.png"
+        li
+          a href="http://about.travis-ci.org"
+            ' An initiative run by Travis CI &rarr;
+      h1
+        a href="/" Travis <span></span> Foundation
+      ul.right
+        li
+          a href="mailto:foundation@travis-ci.com" E-Mail
+        li
+          a href="/imprint" Imprint
+        li
+          img#made-in-berlin src="/images/made-in-berlin-badge.png"

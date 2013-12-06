@@ -1,12 +1,6 @@
----
-title: Hello, Rails Girls World!
-layout: post
-created_at: Sat Jun 12 2013
-permalink: blog/hello_world
-current: blog
-author: Sven
-twitter: svenfuchs
----
+' ---
+  layout: post
+  ---
 
     puts "Hello, Rails Girls world!"
 
