@@ -1,7 +1,11 @@
 doctype html
 html
   | {% include head.html %}
-  body.default
+  body.blog
     | {% include header.html %}
-    | {{content}}
+    section
+      main
+        | {{content}}
+      | {% include blog_sidebar.html %}
     | {% include footer.html %}
+

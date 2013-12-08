@@ -1,0 +1,13 @@
+aside.right
+  h3 Recent Posts
+  ul
+  | {% for post in site.posts limit:15 %}
+  li
+    a href="{{ post.url }}" {{ post.title }}
+  | {% endfor %}
+
+  / .twitter-timeline data-dnt="true" href="https://twitter.com/travis_fnd" data-widget-id="408987351906398208"
+  / javascript:
+  /   !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+
+

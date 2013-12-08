@@ -82,7 +82,7 @@ header, footer
     display: inline-block
     margin-right: $base
   a
-    color: black
+    color: #666
 
 header
   h1
@@ -145,11 +145,63 @@ footer
     &:hover
       text-decoration: none
 
-// #rgsoc
-//   position: relative
-//   h2
-//     @include headline(before, -0.05rem, 50rem, 100%, 0.5deg, white, $violet)
+.default
+  article
+    padding: 4em 0
+    text-align: center
+    box-shadow: $box-shadow-top
+    background: $footer-background
+    p
+      max-width: $max-text-width
+      margin-left: auto
+      margin-right: auto
+  h2
+    margin: $base-6 0
+    font: 200 4rem 'Lato', $helvetica
+    text-align: center
+  p.nav
+    position: absolute
+    left: $base-2
+    top: 8.5rem
+    margin: 0
+    a
+      color: #ccc
+      font-size: 0.7em
+      &:hover
+        text-decoration: underline
 
-// section#rgsoc p,
-// section#funds p
-//   text-align: left
+.blog
+  section
+    margin-top: 8.5rem
+    display: table
+  main, aside
+    display: table-cell
+    vertical-align: top
+  main
+    width: 60%
+
+  article
+    padding: 0 2.5rem
+    margin-bottom: 3.5rem
+    h2
+      font-weight: 500
+      font-size: 1.65rem
+    .info
+      font-size: 0.9rem
+
+  #disqus_thread
+    margin-top: 3.5rem
+
+  aside
+    width: 20%
+    padding: 0 2.5rem
+    h3
+      margin-bottom: 0.5rem
+      text-align: left
+      font-size: 1rem
+      font-weight: normal
+    .twitter-timeline
+      margin-top: 3.5em
+
+  // footer
+  //   margin-top: 3.5rem
