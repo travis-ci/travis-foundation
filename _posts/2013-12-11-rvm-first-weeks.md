@@ -9,7 +9,7 @@ twitter: mpapis
 
 ---
 
-For the last two weeks I started working on RVM 2.0 while fixing some issues in RVM 1.x, so the progress was slower than I hoped, but finally I got down to it and here it is! The [beginning of RVM 2.0](https://github.com/rvm/rvm2-ui). It’s a work-in-progress still, but already very close to the target solution. While on my way to the Paymill office (that’s why I love train travel!). I created [a piece of RVM 2.0](https://github.com/rvm/gem-wrappers) that can also be used in RVM 1.x and will soon be a part of RVM 1.x.
+For the last two weeks I started working on RVM 2.0 while fixing some issues in RVM 1.x, so the progress was slower than I hoped, but finally I got down to it and here it is! The [beginning of RVM 2.0](https://github.com/rvm/rvm2-ui). It’s a work-in-progress still, but already very close to the target solution. While on my way to the Paymill office (that’s why I love train travel!), I created [a piece of RVM 2.0](https://github.com/rvm/gem-wrappers) that can also be used in RVM 1.x and will soon be a part of RVM 1.x.
 
 The major change in RVM 2.0 will be switching from shell script to Ruby. This will allow a lot of things, but most importantly that the tool can be splitted into smaller gems and that we can add tests to them. Thanks to the modularization and extended testing, RVM 2.0 will not only be just a tool for Ruby -  it will become a tool for managing the whole development environment including other languages, databases, libraries, dependencies…. 
 
