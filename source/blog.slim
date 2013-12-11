@@ -8,8 +8,12 @@ article
   h2
     a href="{{ post.url }}" {{ post.title }}
   p.info
-    ' {{ post.date | date: "%B %-d, %Y" }},&nbsp;
-    ' {{ post.author }}
+    ' {% if post.twitter %}
+    a href="http://twitter.com/{{ post.twitter }}" {{ post.author }},
+    ' {% else %}
+      ' {{ post.author }},
+    ' {% endif %}
+    ' {{ post.date | date: "%B %-d, %Y" }}
   .content
     | {{ post.content }}
 | {% endfor %}
