@@ -13,7 +13,7 @@ article
     ' {% else %}
       ' {{ post.author }},
     ' {% endif %}
-    ' {{ post.date | date: "%B %-d, %Y" }},&nbsp;
+    ' {{ post.date | date: "%B %-d, %Y" }}
   .content
     | {{ post.content }}
 | {% endfor %}
