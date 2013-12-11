@@ -3,7 +3,6 @@
 
   Projects = function() {
     var _this = this;
-
     this.projects = $('#projects li');
     this.wrapper = this.projects.closest('div');
     this.current = this.projects.first();
@@ -27,7 +26,6 @@
   $.extend(Projects.prototype, {
     prev: function() {
       var element;
-
       element = $(this.current).prev('li');
       if (element.length === 0) {
         element = this.projects.last();
@@ -36,7 +34,6 @@
     },
     next: function() {
       var element;
-
       element = $(this.current).next('li');
       if (element.length === 0) {
         element = this.projects.first();
@@ -45,7 +42,6 @@
     },
     activate: function(element) {
       var id;
-
       id = element.attr('id');
       $('#testimonial-' + this.current.attr('id')).hide();
       $('#testimonial-' + id).show();
@@ -89,7 +85,6 @@
   $.extend(BlurbHeading.prototype, {
     position: function() {
       var offset, top;
-
       top = this.win.scrollTop();
       if (top < 500) {
         offset = top * 0.625 - 130;
@@ -109,7 +104,6 @@
 
   $(function() {
     var projects;
-
     projects = new Projects();
     projects.start();
     return $('#blurb h2').blurb_heading();
