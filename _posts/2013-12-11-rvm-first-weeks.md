@@ -5,7 +5,7 @@ author: Michal Papis
 twitter: mpapis
 ---
 
-*Michal Papis is the the current maintainer of RVM. Travis Foundation has been able to secure funding for RVM from [PAYMILL](Paymill.com) so that he can continue working on RVM for two months, beginning mid November.*
+*Michal Papis is the the current maintainer of RVM. Travis Foundation has secured funding for RVM from [PAYMILL](Paymill.com) so that Michal can continue working on RVM for two months, beginning mid November.*
 
 ---
 
