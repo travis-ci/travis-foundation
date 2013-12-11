@@ -6,12 +6,7 @@ layout: blog
     <a href="{{ page.url }}">{{ page.title }}</a>
   </h2>
   <p class="info">
-        {% if page.twitter %}
-      <a href='http://twitter.com/{{ page.twitter }}'>{{ page.author }}</a>,
-    {% else %}
-      {{ page.author }},
-    {% endif %}
-    {{ page.date | date: "%B %-d, %Y" }}
+    {{ page.date | date: "%B %-d, %Y" }},&nbsp; {{ page.author }} 
   </p>
   <div class="content">
     {{ content }} 
