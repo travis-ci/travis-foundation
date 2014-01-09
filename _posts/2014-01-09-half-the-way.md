@@ -18,11 +18,12 @@ We had an amazing time learning JavaScript from the bottom up. One goal was tryi
 
 The next day, I visited the [Munich Ruby User Group](http://munich.rubyshift.org/) - “RubyShift”, and I gave an intro to RVM wrappers and the gem-wrappers replacement. I’ve met inspiring people and hope to visit them again soon. 
 
-On my way from Munich to Berlin for the “Winter Hacking” with [Rails Girls Berlin](http://railsgirlsberlinb.de), I worked on RVM2-ui (https://github.com/rvm/rvm2-ui). It’s a Ruby library for handling the console output in RVM 2.0. By the time I reached Berlin I had a good test coverage and everything was working as expected.
+On my way from Munich to Berlin for the “Winter Hacking” with [Rails Girls Berlin](http://railsgirlsberlinb.de), I worked on [RVM2-ui](https://github.com/rvm/rvm2-ui). It’s a Ruby library for handling the console output in RVM 2.0. By the time I reached Berlin I had a good test coverage and everything was working as expected.
 
 At the event, I helped some of the attendees to understand Rails and automated testing. After the attendees made it through a day of hacking, there was some mulled wine and time to sum up everything. At the end of the day, I caught the train home, my head still buzzing with the amazing conversations we had about software and life. 
 
-Back home, I was charged with energy after such exciting times and got right back to coding. I made further improvements to [gem-wrappers](https://github.com/rvm/gem-wrappers), moved [pluginator](https://github.com/rvm/pluginator) to version 1.0.0 added support for Ruby versions older than 2.0. Most importantly, I have put more work into extracting pieces of RVM 1.x into RubyGems. That way they can be reused by anyone. The last of these is [gem-empty](https://github.com/rvm/gem-empty), another gem useful outside of RVM.
+Back home, I was charged with energy after such exciting times and got right back to coding. I made further improvements to [gem-wrappers](https://github.com/rvm/gem-wrappers), moved [pluginator](https://github.com/rvm/pluginator) to version 1.0.0 added support for Ruby versions older than 2.0. Most importantly, I have put more work into extracting pieces of RVM 1.x into RubyGems. That way they can be reused by anyone. The last of these is [gem-empty](https://github.com/rvm/gem-empty), another gem useful outside of RVM. Indeed, one of my gems has already found use outside of RVM: Josh Lubaway’s pre-commits tool is now [using pluginator](https://github.com/jish/pre-commit/issues/104)
+
 
 
 All in all, a lot happened the last month, I made new friends and wrote lots of great code. What a way to end the year and start the new one!
