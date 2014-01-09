@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Half the way with Travis Foundation and PAYMILL
+title: Midway through to RVM 2
 author: Michal Papis
 twitter: mpapis
 ---
