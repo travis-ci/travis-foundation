@@ -1,1 +1,8 @@
 script: echo 'we have no tests yet'
+deploy:
+  provider: heroku
+  api_key:
+    secure: WsBQP3WRRP90Kes6HOJb1l8dj0W9Q+w76ZUxkvkX1eUyjVX1kJJ1TlGWINDlqxJHjQttxU7Q+gBAVUjaPCDYpKIZiz540zqTHlAyGqzpCL0NjK2iX3raVwNUPzcScQ4XfQ+72PCQCB9gAlpARjaSYvVfnjA1q7+ZYzUH+n1xGzM=
+  app: travis-foundation-production
+  on:
+    repo: travis-ci/travis-foundation
