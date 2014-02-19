@@ -9,7 +9,7 @@ Join us at [kod.io](http://linz.kod.io/) March 1, 2014! This developer conferenc
 
 To make this conference even more wonderful [Travis CI](http://travis-ci.com) is sponsoring discounts for underrepresented minorities in our community - e.g. women, LGBT people, people of color, people with disabilities etc. 
 
-**We have 10 discounted tickes for you** (100 instead of 175 €) and would love to meet you in Linz. **Send us an email** to [foundation@travis-ci.org](mailto:foundation@travis-ci.org) to get yours until March 26th.
+**We have 10 discounted tickes for you** (100 instead of 175 €) and would love to meet you in Linz. **Send us an email** to [foundation@travis-ci.org](mailto:foundation@travis-ci.org) to get yours until February 26th.
 
 
 "Increasing diversity in tech is something both my co-organizer Uğur Özyılmazel and I feel strongly about. We're excited about the Travis Foundation initiative and feel that it matches the idea behind our conference - sharing the joy of programming." -[Floor Drees](https://twitter.com/floordrees), co-organizer of kod.io
