@@ -5,7 +5,7 @@ author: Anika Lindtner
 twitter: langziehohr
 ---
 
-UPDATE: Together with kod.io we decided to give away 5 free tickets to make it even easier for you to attend! So make sure you grab your free diversity ticket: Just **send us an email** to [foundation@travis-ci.org](mailto:foundation@travis-ci.org) until tomorrow 1 PM CET. See you in Linz!
+**UPDATE**: Together with kod.io we decided to **give away 5 diversity tickets for free** to make it even easier for you to attend! So make sure you grab your free ticket: Just **send us an email** to [foundation@travis-ci.org](mailto:foundation@travis-ci.org) until Feb 27, 1 PM CET. 
 
 Join us at [kod.io](http://linz.kod.io/) March 1, 2014! This developer conference with speakers like [Lea Verou](https://twitter.com/LeaVerou), [Arne Brasseur](https://twitter.com/plexus), [Joanne Cheng](https://twitter.com/joannecheng), [yours truly](https://twitter.com/langziehohr) and many more will take place in Linz, Austria. 
 
