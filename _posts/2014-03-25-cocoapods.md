@@ -16,12 +16,17 @@ Dependency managers are common in the various programming communities and thus i
 
 During the 3 months of sponsored work I plan to focus my effort in the following areas
 
-+ Support the specification of dependencies per build configuration. As there are important restrictions on the applications which can be distributed via the app stores it is important to remove any library which uses forbidden functionality for debug or similar purposes before shopping the application.
-+ Provide support for local development dependencies. This feature is about being able to conveniently use a checkout of a dependency for development purposes without requiring the other users working on the project to do a checkout for that specific library and keep it in sync.
-+  Pod "edit" command. Would allow to conveniently edit and contribute back to the source of a library without leaving the context of the project.
-+ Iterative resolver. This feature is a must have for every respectable dependency manager and involves the ability to resolve any version requirement conflict without user intervention if possible. There hasn't been a lot of direct demand for this functionality by the users, nonetheless it is important because it allows to properly develop other more popular features (like the ability to just update a library) without bandaid solutions which might prove costly down the road.
-+ Document the architecture to facilitate higher level contributions.
-+ Housekeeping and consolidation of the existing codebase.
+-**Support the specification of dependencies per build configuration.** As there are important restrictions on the applications which can be distributed via the app stores it is important to remove any library which uses forbidden functionality for debug or similar purposes before shopping the application.
+
+-**Provide support for local development dependencies.** This feature is about being able to conveniently use a checkout of a dependency for development purposes without requiring the other users working on the project to do a checkout for that specific library and keep it in sync.
+
+-**Pod 'edit' command.** Would allow to conveniently edit and contribute back to the source of a library without leaving the context of the project.
+
+-**Iterative resolver.** This feature is a must have for every respectable dependency manager and involves the ability to resolve any version requirement conflict without user intervention if possible. There hasn't been a lot of direct demand for this functionality by the users, nonetheless it is important because it allows to properly develop other more popular features (like the ability to just update a library) without bandaid solutions which might prove costly down the road.
+
+-**Document the architecture** to facilitate higher level contributions.
+
+-**Housekeeping and consolidation** of the existing codebase.
 
 As many software developers know, during development assumptions can and often will change, therefore I can’t promise that the aforementioned list is definitive. However, I’m confident that this sponsorship will help CocoaPods to move closer to `1.0`. So if you are an Objective-C developer stay tuned!
 
