@@ -4,7 +4,7 @@ title: CocoaPods - First day of three months
 author: Fabio Pelosin
 twitter: fabiopelosin
 ---
-*Fabio Pelosin is the co-author of CocoaPods. Travis Foundation has secured funding for Cocoapods from [SoundCloud](http://soundcloud.com) so that Fabio can work on RVM for three months, beginning  today.*
+*Fabio Pelosin is the co-author of CocoaPods. Travis Foundation has secured funding for CocoaPods from [SoundCloud](http://soundcloud.com) so that Fabio can work on CocoaPods for three months, beginning  today.*
 
 ---
 
