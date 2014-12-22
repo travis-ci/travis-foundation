@@ -5,6 +5,7 @@ author: Fabio Pelosin
 twitter: fabiopelosin
 ---
 *Fabio Pelosin is the co-author of CocoaPods. Travis Foundation has secured funding for CocoaPods from [SoundCloud](http://soundcloud.com) so that Fabio could work on CocoaPods for three months.*
+
 ---
 
 
