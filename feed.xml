@@ -1,0 +1,32 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Travis Foundation</title>
+  <link href="http://foundation.travis-ci.org/feed.xml" rel="self" />
+  <link href="http://foundation.travis-ci.org/blog/" rel="alternate" />
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>http://foundation.travis-ci.org/blog/</id>
+  <author>
+    <name>Team Travis CI</name>
+    <uri>https://github.com/travis-ci</uri>
+  </author>
+
+  {% for post in site.posts limit:10 %}
+  <entry>
+    <title>{{ post.title }}</title>
+    <author>
+      <name>{{ post.author }}</name>
+      {% if post.twitter %}
+      <uri>http://twitter.com/{{ post.twitter }}</uri>
+      {% endif %}
+    </author>
+    <link href="http://foundation.travis-ci.org{{ post.url }}" />
+    <published>{{ post.date | date_to_xmlschema }}</published>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <id>http://foundation.travis-ci.org{{ post.id }}</id>
+    <content type="html">{{ post.content | xml_escape }}</content>
+  </entry>
+  {% endfor %}
+</feed>
