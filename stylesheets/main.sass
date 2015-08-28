@@ -4,5 +4,15 @@
 @import url(https://fonts.googleapis.com/css?family=Arapey:400italic)
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300)
 
+
+$gridGutter: 32px
+$totalColumns: 12
+
+@function grid-calc($colNumber, $totalColumns)
+  $result: percentage(($colNumber / $totalColumns))
+  @if $result == 0%
+    $result: 0
+  @return $result
+
 @import "normalize.scss"
 @import "layout.sass"
