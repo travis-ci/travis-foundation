@@ -1,0 +1,15 @@
+- 1:
+  title: "Prompt"
+  text: "Here goes some text"
+  image: "/images/rebrand/prompt.png"
+  link: "/2015/07/23/prompt-joins-the-travis-foundation/"
+- 2:
+  title: "Rails Girls Summer of Code"
+  text: "Here goes some text"
+  image: "/images/rebrand/rgsoc.png"
+  link: "/rgsoc/"
+- 3:
+  title: "Cocoa Pods"
+  text: "Here goes some text"
+  image: "/images/rebrand/cocoapods.png"
+  link: "/2014/03/08/cocoapods/"

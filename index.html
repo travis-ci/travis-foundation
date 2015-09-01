@@ -1,6 +1,7 @@
 ---
-title: rebrand
 layout: rebrand
+title: We are
+description: Making Open Source a better place
 --- 
 
 <div class="hero">
@@ -52,45 +53,20 @@ layout: rebrand
 <div class="features" id="projects">
   <div class="inner">
     <ul class="featurelist">
-      <li>
-        <a href="#">
-          <img src="/images/rebrand/prompt.png" alt="" />
-          <div class="feature-title">
-            <h2>Rails Girls Summer of Code</h2>
-            <span class="feature-slider"></span>
-          </div>
-          <div class="feature-info">
-            <p>A joint effort with SoundCloud</p>
-            <p>CocoaPods receives help to move a step closer to a stable release of 1.0 <span class="feature-arrow"></span></p>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <img src="/images/rebrand/rgsoc.png" alt="" />
-          <div class="feature-title">
-            <h2>Rails Girls Summer of Code</h2>
-            <span class="feature-slider"></span>
-          </div>
-          <div class="feature-info">
-            <p>A joint effort with SoundCloud</p>
-            <p>CocoaPods receives help to move a step closer to a stable release of 1.0 <span class="feature-arrow"></span></p>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <img src="/images/rebrand/cocoapods.png" alt="" />
-          <div class="feature-title">
-            <h2>Rails Girls Summer of Code</h2>
-            <span class="feature-slider"></span>
-          </div>
-          <div class="feature-info">
-            <p>A joint effort with SoundCloud</p>
-            <p>CocoaPods receives help to move a step closer to a stable release of 1.0 <span class="feature-arrow"></span></p>
-          </div>
-        </a>
-      </li>
+      {% for feature in site.data.features %}
+          <li>
+            <a href="{{feature.link}}">
+              <img src="{{feature.image}}" alt="" />
+              <div class="feature-title">
+                <h2>{{feature.title}}</h2>
+                <span class="feature-slider"></span>
+              </div>
+              <div class="feature-info">
+                <p>{{feature.text}} <span class="feature-arrow"></span></p>
+              </div>
+            </a>
+          </li>
+      {% endfor %}
     </ul>
   </div>
 </div>
