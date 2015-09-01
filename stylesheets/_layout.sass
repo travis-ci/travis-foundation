@@ -26,6 +26,7 @@ p
   color: white
 
 .topbar .inner,
+.topbar--inverted .inner,
 .quote .inner
   padding: 0 $gridGutter / 2
 
@@ -43,4 +44,8 @@ p
 .inner
   @media (min-width: $bp-l)
     max-width: $gridMaxWidth
+    margin: auto
+
+  .center &
+    max-width: $centeredMaxWidth
     margin: auto

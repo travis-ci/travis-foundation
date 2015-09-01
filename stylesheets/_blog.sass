@@ -1,0 +1,160 @@
+
+@function blog-thing($col, $colTotal, $total)
+  $result: ($col / $colTotal)
+  @return $total * $result
+
+
+.blog-container
+  display: flex
+  flex-direction: row-reverse
+  justify-content: center
+  flex-wrap: wrap
+  align-items: stretch
+
+.blog-sidebar
+  position: absolute
+  width: 60%
+  height: 100%
+  transition: transform 200ms ease
+  transform: translateX(-100%)
+  display: flex
+  justify-content: flex-end
+  align-items: stretch
+  background: 
+    image: url(/images/rebrand/eurucamprailsgirls.png)
+    size: cover
+    position: top
+    repeat: no-repeat
+  h3
+    @extend %font-serif
+    display: inline-block
+    font-size: 26px
+    color: white
+    border-bottom: 2px solid $seafoam-light
+
+  &.is-open
+    transform: translateX(0)
+
+  @media (min-width: $bp-m)
+    position: static
+    width: 38%
+    transform: none
+    height: auto
+
+.blog-list
+  width: 100%
+  @media (min-width: $bp-m)
+    width: 62%
+
+.blog-sidebar-inner
+  padding: $gridGutter/ 2
+  @media (min-width: $centeredMaxWidth + 100)
+    width: blog-thing(1, 3, $centeredMaxWidth)
+.blog-list-inner
+  padding: $gridGutter/ 2
+  @media (min-width: $centeredMaxWidth + 100)
+    width: blog-thing(2, 3, $centeredMaxWidth)
+
+
+.sidebar-heart
+  width: 9em
+  height: 9em
+  margin: 1.5em auto 1em
+  text-align: center
+  background:
+    image: url(/images/rebrand/foundation-logo.svg)
+    size: 100%
+    position: center center
+    repeat: no-repeat
+  a
+    display: block
+    width: 100%
+    height: 100%
+  h2
+    margin: 2.7em auto 0
+    font-weight: 300
+    color: white
+    text-transform: uppercase
+    background-color: rgba($dark-grey, .8)
+    display: inline-block
+    font-size: 18px
+    padding: 0.1em 0.9em
+    text-align: center
+
+.sidebar-list
+  @extend %resetul
+
+  li
+    margin-bottom: 1em
+
+  .sidebar-arrow
+    display: inline-block
+    width: .8em
+    height: 1.1em
+    transform: rotate(90deg)
+    transition: transform 200ms ease
+    vertical-align: middle
+    svg polygon
+      fill: $seafoam-light
+      stroke: #9CD3B1
+      stroke-width: 2px
+      stroke-linecap: square
+  a
+    color: white
+    text-decoration: none
+    &:hover
+      // color: $seafoam-light
+      .sidebar-arrow
+        transform: rotate(90deg) translateY(-.4em)
+
+.post
+  img, iframe, video
+    width: 100%
+  // p em
+  //   color: $anika-grey
+  hr
+    border-top: none
+    border-bottom: 1px solid $henrietta-grey
+  a
+    color: $seafoam-dark
+    text-decoration: none
+    &:hover,
+    &:active,
+    &:focus
+      text-decoration: underline
+
+  blockquote
+    position: relative
+    // em
+    //   color: $dark-grey
+    &:before
+      content: "\201C"
+      position: absolute
+      left: -0.6em
+      top: -0.2em
+      font-size: 66px
+      color: $anika-grey
+      
+
+.post-title
+  margin-bottom: .4rem
+  a
+    @extend %font-serif
+    display: inline-block
+    font-size: 32px
+    color: $dark-grey
+    text-decoration: none
+    border-bottom: 2px solid $seafoam-light
+    &:hover
+      text-decoration: none
+      background-color: $seafoam-light
+
+.post-meta
+  margin-top: .5rem
+  color: $anika-grey
+  a
+    color: $seafoam-dark
+    text-decoration: none
+    &:hover
+      text-decoration: underline
+

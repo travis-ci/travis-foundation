@@ -1,11 +1,20 @@
 %toplinks
-  color: white
   font-weight: 300
   text-decoration: none
+  .topbar &
+    color: white
+  .topbar--inverted &
+    color: $dark-grey
 
 $topbar-height: 52px
 
-.topbar .inner
+.topbar,
+.topbar--inverted
+  position: relative
+  z-index: 99
+
+.topbar .inner,
+.topbar--inverted .inner
   clear: both
   overflow: visible
   @media (min-width: $bp-m)
@@ -40,3 +49,10 @@ $topbar-height: 52px
 
   @media (min-width: $bp-m)
     float: right
+
+  .toggle
+    float: right
+    .topbar &
+      display: none
+    @media (min-width: $bp-m)
+      display: none

@@ -1,24 +1,26 @@
-<footer>
-  <ul class="left">
-    <li>
-      <img id="travis-mascot" src="/images/travis-mascot-200px.png" />
-    </li>
-    <li>
-      <a href="http://about.travis-ci.org">An initiative run by Travis CI &rarr; </a>
-    </li>
-  </ul>
-  <h1>
-    <a href="/">Travis <span></span> Foundation</a>
-  </h1>
-  <ul class="right">
-    <li>
-      <a href="mailto:foundation@travis-ci.com">E-Mail</a>
-    </li>
-    <li>
-      <a href="/imprint">Imprint</a>
-    </li>
-    <li>
-      <img id="made-in-berlin" src="/images/made-in-berlin-badge.png" />
-    </li>
-  </ul>
-</footer>
+<div class="footer" id="contact">
+  <footer class="inner">
+    <ul class="contactlist">
+      <li>
+        <a href="#"><span class="icon-mail"></span><span>Email Travis Foundation</span></a>
+      </li>
+      <li>
+        <a href="#"><span class="icon-twitter"></span><span>Follow Travis Foundation</span></a>
+      </li>
+    </ul>
+    <div class="call-to-travis">
+      <p><a href="#">An initiative run by Travis CI</a><span class="mascot"></span></p>
+    </div>
+  </footer>
+</div>
+<script src="/scripts/vendor/jquery-2.1.4.min.js"></script>
+<script src="/scripts/vendor/jquery.widowFix.min.js"></script>
+<script>
+$(document).ready(function() {
+  $('.about-text h2, .about-text p, .people-body p').widowFix();
+
+  $('.toggle').on('click', function() {
+    $('.blog-sidebar').toggleClass('is-open');
+  });
+});
+</script>

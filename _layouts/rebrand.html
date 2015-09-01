@@ -1,64 +1,16 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title }} {% unless page.short_title%}- Travis Foundation{% endunless %}</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="{{ page.description }}">
-    <link rel="stylesheet" href="{{ "/stylesheets/main.css" | prepend: site.baseurl }}">
-  </head>
+  {% include head.html %}
   <body class="rebrand">
     
     <div class="topbar">
-      <header class="inner">
-        <h1 class="logo">
-          <a href="/">Travis Foundation</a>
-        </h1>
-        <nav class="navigation">
-          <ul>
-            <li>
-              <a href="/#about">About</a>
-            </li>
-            <li>
-              <a href="/#projects">Projects</a>
-            </li>
-            <li>
-              <a href="/blog">Blog</a>
-            </li>
-            <li>
-              <a href="/#contact">Contact</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
+      {% include header.html %}
     </div>
       
     <main>
       {{content}}
     </main>
 
-    <div class="footer" id="contact">
-      <footer class="inner">
-        <ul class="contactlist">
-          <li>
-            <a href="#"><span class="icon-mail"></span><span>Email Travis Foundation</span></a>
-          </li>
-          <li>
-            <a href="#"><span class="icon-twitter"></span><span>Follow Travis Foundation</span></a>
-          </li>
-        </ul>
-        <div class="call-to-travis">
-          <p><a href="#">An initiative run by Travis CI</a><span class="mascot"></span></p>
-        </div>
-      </footer>
-    </div>
-    <script src="/scripts/vendor/jquery-2.1.4.min.js"></script>
-    <script src="/scripts/vendor/jquery.widowFix.min.js"></script>
-    <script>
-    $(document).ready(function() {
-      $('.about-text h2, .about-text p, .people-body p, .feature-info p').widowFix();
-    });
-    </script>
+    {% include footer.html %}
   </body>
 </html>

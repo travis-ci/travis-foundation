@@ -1,17 +1,21 @@
 ---
 layout: blog
 --- 
-{% for post in site.posts %}
-<article>
-  <h2>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-  </h2>
-  <p class="info">
-    {% if post.twitter %} <a href="http://twitter.com/{{ post.twitter }}">{{ post.author }},</a>{% else %}
-    ' {{ post.author }}, {% endif %} {{ post.date | date: "%B %-d, %Y" }} 
-  </p>
-  <div class="content">
-    {{ post.content }}
+<div class="blog-list">
+  <div class="blog-list-inner">
+    {% for post in site.posts limit:1 %}
+    <article class="post">
+      <h1 class="post-title">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </h1>
+      <p class="post-meta">
+        {% if post.twitter %} <a href="http://twitter.com/{{ post.twitter }}">{{ post.author }}</a>,{% else %}
+        ' {{ post.author }}, {% endif %} {{ post.date | date: "%B %-d, %Y" }} 
+      </p>
+      <div class="content">
+        {{ post.content }}
+      </div>
+    </article>
+    {% endfor %}
   </div>
-</article>
-{% endfor %}
+</div>

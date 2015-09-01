@@ -1,11 +1,28 @@
-<aside class="right">
-  <h3>
-    Recent Posts
-  </h3>
-  <ul></ul>
-  {% for post in site.posts limit:15 %}
-  <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-  </li>
-  {% endfor %}
+<aside class="blog-sidebar">
+  <div class="blog-sidebar-inner">
+    <div class="sidebar-heart">
+      <a href="/blog">
+        <h2>Blog</h2>
+      </a>
+    </div>
+    <h3>
+      Recent Posts
+    </h3>
+    <ul class="sidebar-list">
+      {% for post in site.posts limit:15 %}
+      <li>
+        <a href="{{ post.url }}">
+        <span class="sidebar-arrow">
+          <svg version="1.1" id="Layer_1" x="0px" y="0px"
+             viewBox="0 0 19.9 10.7" style="enable-background:new 0 0 19.9 10.7;" xml:space="preserve">
+            <g>
+                <polygon points="0.7,10.7 0,10 10,0 19.9,10 19.2,10.7 10,1.4"/>
+            </g>
+          </svg>
+        </span>
+        {{ post.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
 </aside>

@@ -1,14 +1,18 @@
 
 .hero
   .inner
-    position: relative
-    height: 0
-    padding-bottom: 55%
+    position: relative    
+    height: 100vh
     background:
       image: url(/images/rebrand/foundation-hero.jpg)
       repeat: no-repeat
       size: cover
-    max-height: 90vh
+      position: center center
+    margin-top: -$topbar-height
+
+    @media (max-width: $bp-m)
+      height: 0
+      padding-bottom: 55%
 
   .hero-center
     position: absolute
