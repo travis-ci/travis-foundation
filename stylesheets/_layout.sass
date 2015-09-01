@@ -1,10 +1,46 @@
 %font-serif
   font-family: 'Arapey', Times New Roman, serif
   font-weight: 400
+  font-style: italic
 
 %font-sansserif
   font-family: 'Source Sans Pro', sans-serif
 
 
+*,
+*:before,
+*:after
+  box-sizing: border-box
+
 html, body
   @extend %font-sansserif
+  color: $dark-grey
+  font-size: 16px
+
+p
+  line-height: 1.45
+
+.topbar,
+.about
+  background: $dark-grey
+  color: white
+
+.topbar .inner,
+.quote .inner
+  padding: 0 $gridGutter / 2
+
+.hero
+  background: $another-dark-grey
+
+.features,
+.spokespeople
+  background: $dark-seafoam-green
+
+.quote,
+.footer
+  background: white
+
+.inner
+  @media (min-width: $bp-l)
+    max-width: $gridMaxWidth
+    margin: auto

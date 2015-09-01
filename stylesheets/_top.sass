@@ -1,0 +1,42 @@
+%toplinks
+  color: white
+  font-weight: 300
+  text-decoration: none
+
+$topbar-height: 52px
+
+.topbar .inner
+  clear: both
+  overflow: visible
+  @media (min-width: $bp-m)
+    height: $topbar-height
+
+.logo
+  margin: 0
+  line-height: 1.45
+  a
+    @extend %toplinks
+    font-size: 22px
+  @media (min-width: $bp-m)
+    float: left
+
+.navigation
+  ul
+    @extend %resetul
+  li
+    display: inline-block
+    margin-right: 1em
+    &:last-child
+      margin-right: 0
+  a
+    @extend %toplinks
+    display: block
+    height: $topbar-height
+    padding: 1em 0
+    font-size: 16px
+    border-bottom: 4px solid transparent
+    &:hover
+      border-bottom: 4px solid $seafoam-light
+
+  @media (min-width: $bp-m)
+    float: right

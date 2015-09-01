@@ -5,8 +5,28 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300)
 
 
-$gridGutter: 32px
+$gridGutter: 60px
 $totalColumns: 12
+$gridMaxWidth: 1680px
+
+$bp-s: 460px
+$bp-m: 800px
+$bp-l: $gridMaxWidth
+
+$dark-grey: #303030
+$another-dark-grey: #454545
+$seafoam-light: #9CD3B1
+$seafoam-dark: #68B28E
+$dark-seafoam-green: #314A47
+
+$henrietta-grey: #E9E9EA
+$josh-grey: #F4F4F4
+$anika-grey: #D2D4D5
+
+%resetul
+  padding: 0
+  margin: 0
+  list-style-type: none
 
 @function grid-calc($colNumber, $totalColumns)
   $result: percentage(($colNumber / $totalColumns))
@@ -16,3 +36,6 @@ $totalColumns: 12
 
 @import "normalize.scss"
 @import "layout.sass"
+@import "top.sass"
+@import "footer.sass"
+@import "landing.sass"
