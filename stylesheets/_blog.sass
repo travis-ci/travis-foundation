@@ -5,6 +5,12 @@
 
 
 .blog-container
+  display: -webkit-flex
+  -webkit-flex-direction: row-reverse
+  -webkit-justify-content: center
+  -webkit-flex-wrap: wrap
+  -webkit-align-items: stretch
+
   display: flex
   flex-direction: row-reverse
   justify-content: center
@@ -15,11 +21,17 @@
   position: absolute
   width: 60%
   height: 100%
+  -webkit-transition: transform 200ms ease
   transition: transform 200ms ease
+  -webkit-transform: translateX(-100%)
   transform: translateX(-100%)
+  display: -webkit-flex
+  -webkit-justify-content: flex-end
+  -webkit-align-items: stretch
   display: flex
   justify-content: flex-end
   align-items: stretch
+
   background: 
     image: url(/images/rebrand/eurucamprailsgirls.png)
     size: cover
@@ -33,11 +45,13 @@
     border-bottom: 2px solid $seafoam-light
 
   &.is-open
+    -webkit-transform: translateX(0)
     transform: translateX(0)
 
   @media (min-width: $bp-m)
     position: static
     width: 38%
+    -webkit-transform: none
     transform: none
     height: auto
 
@@ -91,7 +105,9 @@
     display: inline-block
     width: .8em
     height: 1.1em
+    -webkit-transform: rotate(90deg)
     transform: rotate(90deg)
+    -webkit-transition: transform 200ms ease
     transition: transform 200ms ease
     vertical-align: middle
     svg polygon
@@ -104,6 +120,7 @@
     text-decoration: none
     &:hover
       .sidebar-arrow
+        -webkit-transform: rotate(90deg) translateY(-.4em)
         transform: rotate(90deg) translateY(-.4em)
 
 .bullet-list--inverted
@@ -114,6 +131,7 @@
   @media (min-width: $bp-m)
     a:hover
       .sidebar-arrow
+        -webkit-transform: rotate(90deg)
         transform: rotate(90deg)
 
 .list-columns
