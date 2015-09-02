@@ -20,12 +20,6 @@
 
   background: white
 
-  @media (min-width: $bp-m)
-    height: 100vh
-    margin-top: -$topbar-height
-    padding-top: $topbar-height
-    overflow: hidden
-
 .blog-sidebar
   position: absolute
   width: 60%
@@ -66,9 +60,12 @@
 
 .blog-list
   width: 100%
-  overflow: auto
   @media (min-width: $bp-m)
     width: 62%
+    height: 100vh
+    margin-top: -$topbar-height
+    padding-top: $topbar-height
+    overflow-y: scroll
 
 .blog-sidebar-inner
   padding: $gridGutter/ 2
