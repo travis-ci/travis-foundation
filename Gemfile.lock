@@ -15,7 +15,7 @@ GEM
     fast-stemmer (1.0.2)
     ffi (1.9.10)
     hitimes (1.2.2)
-    jekyll (2.5.3)
+    jekyll (2.4.0)
       classifier-reborn (~> 2.0)
       colorator (~> 0.1)
       jekyll-coffeescript (~> 1.0)
@@ -67,4 +67,4 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (~> 2.5.3)
+  jekyll (~> 2.4.0)
