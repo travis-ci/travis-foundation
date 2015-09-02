@@ -81,7 +81,7 @@
     padding: 0.1em 0.9em
     text-align: center
 
-.sidebar-list
+.bullet-list
   @extend %resetul
 
   li
@@ -103,38 +103,31 @@
     color: white
     text-decoration: none
     &:hover
-      // color: $seafoam-light
       .sidebar-arrow
         transform: rotate(90deg) translateY(-.4em)
+
+.bullet-list--inverted
+  @extend .bullet-list
+  a
+    color: $dark-grey
+
+  @media (min-width: $bp-m)
+    a:hover
+      .sidebar-arrow
+        transform: rotate(90deg)
+
+.list-columns
+  @media (min-width: $bp-m)
+    -webkit-columns: 2 4em
+    -moz-columns: 2 4em
+    columns: 2 4em
 
 .post
   img, iframe, video
     width: 100%
-  // p em
-  //   color: $anika-grey
   hr
     border-top: none
     border-bottom: 1px solid $henrietta-grey
-  a
-    color: $seafoam-dark
-    text-decoration: none
-    &:hover,
-    &:active,
-    &:focus
-      text-decoration: underline
-
-  blockquote
-    position: relative
-    // em
-    //   color: $dark-grey
-    &:before
-      content: "\201C"
-      position: absolute
-      left: -0.6em
-      top: -0.2em
-      font-size: 66px
-      color: $anika-grey
-      
 
 .post-title
   margin-bottom: .4rem

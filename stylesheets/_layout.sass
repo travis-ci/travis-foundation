@@ -20,6 +20,29 @@ html, body
 p
   line-height: 1.45
 
+a
+  color: $seafoam-dark
+  text-decoration: none
+  &:hover,
+  &:active,
+  &:focus
+    text-decoration: underline
+
+blockquote
+  position: relative
+  &:before
+    content: "\201C"
+    position: absolute
+    left: -0.6em
+    top: -0.2em
+    font-size: 66px
+    color: $anika-grey
+cite
+  display: block
+  margin-top: .6em
+  font-style: normal
+  color: $seafoam-dark
+
 .topbar,
 .about
   background: $dark-grey

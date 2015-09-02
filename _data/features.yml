@@ -1,15 +1,15 @@
 - 1:
   title: "Prompt"
-  text: "Here goes some text"
+  text: "Prompt is an initiative to start a conversation about mental health in the tech community, and today we are excited to announce that it joins the Travis Foundation."
   image: "/images/rebrand/prompt.png"
   link: "/2015/07/23/prompt-joins-the-travis-foundation/"
 - 2:
   title: "Rails Girls Summer of Code"
-  text: "Here goes some text"
+  text: "Rails Girls Summer of Code funds women around the world to work full-time over summer on open-source software projects. Modelled after Google Summer of Code, but with a focus on beginners and women wanting to get into Open Source programming."
   image: "/images/rebrand/rgsoc.png"
   link: "/rgsoc/"
 - 3:
   title: "Cocoa Pods"
-  text: "Here goes some text"
+  text: "We are happy to announce our next Open Source Grant: CocoaPods supported by our wonderful friends at SoundCloud."
   image: "/images/rebrand/cocoapods.png"
   link: "/2014/03/08/cocoapods/"
