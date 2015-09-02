@@ -4,9 +4,9 @@ exclude:
   - 'Gemfile*'
   - 'Guardfile'
   - '*.coffeescript'
-  - '*.scss'
   - '*.slim'
   - 'source'
+  - 'vendor'
 markdown: kramdown
 syntax-highlighting:
   enabled: true
