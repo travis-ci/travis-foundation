@@ -13,14 +13,4 @@
     </div>
   </footer>
 </div>
-<script src="/scripts/vendor/jquery-2.1.4.min.js"></script>
-<script src="/scripts/vendor/jquery.widowFix.min.js"></script>
-<script>
-$(document).ready(function() {
-  $('.about-text h2, .about-text p, .people-body p').widowFix();
-
-  $('.toggle').on('click', function() {
-    $('.blog-sidebar').toggleClass('is-open');
-  });
-});
-</script>
+{% include scripts.html %}

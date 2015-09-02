@@ -5,6 +5,7 @@
 
 
 .blog-container
+
   display: -webkit-flex
   -webkit-flex-direction: row-reverse
   -webkit-justify-content: center
@@ -16,6 +17,14 @@
   justify-content: center
   flex-wrap: wrap
   align-items: stretch
+
+  background: white
+
+  @media (min-width: $bp-m)
+    height: 100vh
+    margin-top: -$topbar-height
+    padding-top: $topbar-height
+    overflow: hidden
 
 .blog-sidebar
   position: absolute
@@ -57,6 +66,7 @@
 
 .blog-list
   width: 100%
+  overflow: auto
   @media (min-width: $bp-m)
     width: 62%
 
