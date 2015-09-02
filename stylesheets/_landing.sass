@@ -19,6 +19,7 @@
     top: 50%
     left: 0
     right: 0
+    -webkit-transform: translateY(-50%)
     transform: translateY(-50%)
     margin: auto
     width: 218px
@@ -73,8 +74,8 @@
     width: 100%
     height: 100%
     color: white
-    font-size: 16px
     line-height: 21px
+    font-size: 14px
     background-color: $dark-grey
     padding-top: 3.5em
     -webkit-transform: translateY(200%)
@@ -82,6 +83,8 @@
     -webkit-transition: all 300ms ease
     transition: all 300ms ease
     will-change: transform
+    @media (min-width: $bp-m)
+      font-size: 16px
     p
       font-weight: 200
       padding: 0 $gridGutter / 4 0 $gridGutter / 2 
