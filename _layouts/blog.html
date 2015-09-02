@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-  <body class="blog">
-    {% include header.html %}
-    <section>
-      <main>{{content}}</main>{% include blog_sidebar.html %}
-    </section>
-    {% include footer.html %}
+  <body class="center">
+    <div class="topbar--inverted">
+      {% include header.html %}
+    </div>
+
+    <main>
+      <div class="blog-container">
+        {{content}}
+        {% include blog_sidebar.html %}
+      </div>
+    </main>
+    {% include scripts.html %}
   </body>
 </html>

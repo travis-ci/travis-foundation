@@ -1,0 +1,58 @@
+%toplinks
+  font-weight: 300
+  text-decoration: none
+  .topbar &
+    color: white
+  .topbar--inverted &
+    color: $dark-grey
+
+$topbar-height: 52px
+
+.topbar,
+.topbar--inverted
+  position: relative
+  z-index: 99
+
+.topbar .inner,
+.topbar--inverted .inner
+  clear: both
+  overflow: visible
+  @media (min-width: $bp-m)
+    height: $topbar-height
+
+.logo
+  margin: 0
+  line-height: 1.45
+  a
+    @extend %toplinks
+    font-size: 22px
+  @media (min-width: $bp-m)
+    float: left
+
+.navigation
+  ul
+    @extend %resetul
+  li
+    display: inline-block
+    margin-right: 1em
+    &:last-child
+      margin-right: 0
+  a
+    @extend %toplinks
+    display: block
+    height: $topbar-height
+    padding: 1em 0
+    font-size: 16px
+    border-bottom: 4px solid transparent
+    &:hover
+      border-bottom: 4px solid $seafoam-light
+
+  @media (min-width: $bp-m)
+    float: right
+
+  .toggle
+    float: right
+    .topbar &
+      display: none
+    @media (min-width: $bp-m)
+      display: none
