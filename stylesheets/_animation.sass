@@ -14,6 +14,20 @@
 
   animation: changeColor ($time * 0.9) infinite ease ($time * 0.5)
 
+  @-webkit-keyframes changeColor
+    0%
+      fill: rgba($color, 1)
+    30%
+      fill: darken(rgba($color, 1), 5)
+    60%
+      fill: lighten(rgba($color, 1), 5)
+    90%
+      fill: rgba($color, 1)
+    100%
+      fill: rgba($color, 1)
+
+  -webkit-animation: changeColor ($time * 0.9) infinite ease ($time * 0.5)
+
 
 
 .foundation-logo
