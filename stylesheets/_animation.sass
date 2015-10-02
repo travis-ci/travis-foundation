@@ -1,4 +1,6 @@
 
+// Foundation sparkles
+
 @mixin allTheColors($color, $time)
   @keyframes changeColor
     0%
@@ -27,10 +29,6 @@
       fill: rgba($color, 1)
 
   -webkit-animation: changeColor ($time * 0.9) infinite ease ($time * 0.5)
-
-
-
-.foundation-logo
 
 #Right-Side
   .st0
@@ -79,3 +77,28 @@
     @include allTheColors(#81CAA7, 7s)
   .st10
     @include allTheColors(#A7D8BC, 5s)
+
+
+
+// Foundation line 
+
+
+.fnd-heart-outline
+  fill: transparent
+  stroke: #fff
+  stroke-dasharray: 500
+  stroke-dashoffset: 500
+
+.is-animating
+  path
+    -webkit-animation: lineAnim 4s ease-out forwards
+    animation: lineAnim 4s ease-out forwards
+
+@keyframes lineAnim
+  to
+    stroke-dashoffset: 0
+
+@-webkit-keyframes lineAnim
+  to
+    stroke-dashoffset: 0
+
