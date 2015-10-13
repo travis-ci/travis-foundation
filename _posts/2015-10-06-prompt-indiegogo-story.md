@@ -37,7 +37,7 @@ I put together a video showing some of our speakers and explaining what it is we
 
 At the beginning we saw people donating at a trickle.  A few per day as we tweeted, emailed, cajoled, and mentioned it to anyone anywhere who was willing to give us a sympathetic ear.
 
-After about a week we received an email from [Ashe Dryden](https://twitter.com/ashedryden) and [Shanley Kane](https://twitter.com/shanley) at [Model, View, Culture](https://modelviewculture.com/)(MVC for short).  These two scions of community activism introduced us to MVC's Fund Club.  This is a club of MVC subscribers and interested parties who are notified by Ashe and Shanley about causes worth supporting.  
+After about a week we received an email from [Ashe Dryden](https://twitter.com/ashedryden) of [AlterConf](http://www.alterconf.com/) and [Shanley Kane](https://twitter.com/shanley) at [Model, View, Culture](https://modelviewculture.com/)(MVC for short).  These two scions of community activism introduced us to MVC's and AlterConf's joint venture, Fund Club.  This is a club of MVC subscribers and AlterConf attendees/followers along with other interested parties who are notified by Ashe and Shanley about causes worth supporting.  
 
 We couldn't have been more surprised at the upsurge.  The Fund Club folks boosted us to the tune of nearly $8,000 USD.  We were ecstatic - we were going to be able to do this, to bring our speakers back to stages all over the world.  Thanks is not enough for what Ashe and Shanley helped us accomplish.
 
