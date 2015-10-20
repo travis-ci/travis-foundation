@@ -57,4 +57,4 @@ If you are an event organizer and are interested in having one of our speakers a
 
 ## Back on the Stage
 
-We want to bring people together everywhere, to share what we've experienced and what we've learned.  We want to make the tech community a better, more metally healthy place to be.  Let's do this together.
+We want to bring people together everywhere, to share what we've experienced and what we've learned.  We want to make the tech community a better, more mentally healthy place to be.  Let's do this together.
