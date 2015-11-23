@@ -26,13 +26,11 @@
 .contactlist
   @extend %resetul
   margin-top: 0.6em
-  li
-    margin-left: -$gridGutter / 4
   @media (min-width: $bp-s)
+    li:first-child
+      margin-left: -10px
     li
       display: inline-block
-      &:last-child
-        margin-left: 0
   span
     display: inline-block
     vertical-align: middle
@@ -56,6 +54,12 @@
   background:
     image: url(/images/rebrand/twitter-icon.svg)
 
+.icon-imprint
+  @extend %bg-icon
+  width: 1em
+  height: 1em
+  background:
+    image: url(/images/rebrand/imprint-icon.svg)
 
 .call-to-travis
   p
