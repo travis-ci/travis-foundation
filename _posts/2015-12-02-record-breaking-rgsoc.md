@@ -16,7 +16,7 @@ Ideas in the programming community can be found everywhere; that’s why we love
 
 The third year is an important one. For most grassroots organisations and initiatives like ours, that’s when it becomes more difficult to keep ‘the buzz’ and generate ever more support from the general public – especially financially. Supporters might feel as though we don’t need them as much anymore to create a successful program, and individual contributors tend to get what is called donor fatigue. As well as this, first and foremost: by the third year, a program is expected to run smoothly. Whereas the first and second year were an exploration into what works and what doesn’t, in the third year, RGSoC grew and became an established organisation with a well-defined purpose.  
 
-![](/images/blog/record-breaking-rgsoc-all-teams.jpg)
+![](/images/blog/2015-02-03-rgsoc-all-teams.jpg)
 
 > How would I summarize my summer? **Awesome, awesome, awesome!** I feel like it has been a **great adventure** and I've learned so much and **it wasn't only about the code, but also how to work in a team.**  
 > _Ines Coelho, 2015 Alumna_
@@ -43,13 +43,13 @@ In 2015, against all odds, Rails Girls Summer of Code broke all of its records. 
 
 Even though the program starts in July and ends in September, the months before the program even starts are the busiest with the groundwork being laid from January. With the campaign having opened in March this year, we only had about two and a half months to collect the money through donations and sponsorships in order to fund as many teams as possible. For this, we were incredibly lucky to have [Travis CI](https://travis-ci.org) as partners on board from the beginning and be able to use their network of contacts; the support of partners is incredibly valuable, because it enables us to connect with other interested sponsors. Travis Foundation also leads the organisation of Rails Girls Summer of Code; this means bringing together and leading a team, reaching out to sponsors and possible volunteers, organising and setting up a road map for the summer, and making sure that all runs smoothly and according to plan. **This support, combined with 160 people involved in varying voluntary capacities, means a HUGE dedication to fostering more diversity in Open Source.**
 
-![](/images/blog/record-breaking-rgsoc-map.png)
+![](/images/blog/2015-02-03-rgsoc-map.png)
 
 ## With a little help from our friends
 
 We work in a distributed team, with [amazing volunteers](http://railsgirlssummerofcode.org/about/team/) who put a lot of time and work into RGSoC. And we’re not just talking about the program organisers! This year alone we had over 140 people helping out: this includes project mentors, team coaches, team supervisors, [trust committee](http://railsgirlssummerofcode.org/about/code-of-conduct/#contact) members, designers and of course, organisers. We try to provide an inclusive environment for everyone involved, and often see volunteers come back year after year to help out, or alumni becoming organisers, supervisors and even coaches and mentors. This is incredibly valuable to us; we know that a program with only core organisers isn’t sustainable, and we have succeeded in creating a worldwide community that people like to be a part of and contribute back to. We try to keep the organisation as professional as we can but the personal always comes first. We are people first, organisers second, and we deeply care about each other and everyone involved in the program. We don't just have a [Code of Conduct](http://railsgirlssummerofcode.org/about/code-of-conduct/), but also a trust committee every member of RGSoC can contact if they need help - in any form. **RGSoC is about building connections, relationships and a different future of the Open Source world: One that is sustainable and diverse**.
 
-![](/images/blog/record-breaking-rgsoc-alumni.png)
+![](/images/blog/2015-02-03-rgsoc-alumni.png)
 
 > RGSoC was without a doubt one of the **most exciting moments in the Hoodie project history**. Not only did it force us to make it easier to contribute to Hoodie overall, but also: we got to work with some very **enthusiastic and capable people that have enriched our project and our lives tremendously**. We hope we can be back in 2016.  
 > Jan Lenhardt, Maintainer of Hoodie
