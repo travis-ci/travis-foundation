@@ -52,7 +52,7 @@ We work in a distributed team, with [amazing volunteers](http://railsgirlssummer
 ![](/images/blog/2015-02-03-rgsoc-alumni.png)
 
 > RGSoC was without a doubt one of the **most exciting moments in the Hoodie project history**. Not only did it force us to make it easier to contribute to Hoodie overall, but also: we got to work with some very **enthusiastic and capable people that have enriched our project and our lives tremendously**. We hope we can be back in 2016.  
-> Jan Lenhardt, Maintainer of Hoodie
+> _Jan Lenhardt, Maintainer of Hoodie_
 
 We care about Open Source Software a lot – so much that we and all of our volunteers give up large chunks of our time to make it all happen. We care about giving back to the software we use daily, but we mostly want to see the current numbers (only 11% of Open Source Software contributors are women) change for the better. We want to see more women in this community, and want female role models that future women can look up to and follow suit.  
 We dreamed that RGSoC would be a small step step towards that, but we can stop dreaming – because we're already writing history and creating a different future of Open Source. One summer at a time.
