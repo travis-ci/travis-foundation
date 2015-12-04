@@ -21,7 +21,7 @@ The third year is an important one. For most grassroots organisations and initia
 > _Sofia Ramos, 2015 Alumna_
 
 
-In 2015, against all odds, Rails Girls Summer of Code broke all of its records. We had the highest amount of sponsors to date (54), and were able to sponsor 16 teams (in contrast to 10 from the previous year) to work full-time during the three months of the program. We had teams apply worldwide, and we accepted at least one team from every single continent. Furthermore, we’ve found out that over 90% of our past participants have stayed in the STEM fields and found a job, or even started their own company. How did we manage this?
+In 2015, against all odds, Rails Girls Summer of Code broke all of its records. We had the highest number of sponsors to date (54), and were able to sponsor 16 teams (in contrast to 10 from the previous year) to work full-time during the three months of the program. We had teams apply worldwide, and we accepted at least one team from every single continent. Furthermore, we’ve found out that over 90% of our past participants have stayed in the STEM fields and found a job, or even started their own company. How did we manage this?
 
 > I got involved, because **I believe that the program empowers women in a field that is both exciting and scary**, and because **I would have benefited from this kind of support myself 10 years ago**.   
 > _Alexandra Leisse, Supervisor_
