@@ -5,10 +5,6 @@ author: Laura Gaetano
 twitter: alicetragedy
 ---
 
-*Laura Gaetano is a co-organiser of Rails Girls Summer of Code, which Travis Foundation has helped from day one, providing financial and organisational support.*
-
----
-
 Ideas in the programming community can be found everywhere; that’s why we love being a part of it. The idea of an international scholarship program for women to contribute to Open Source for the summer came up at a 2013 Rails Girls meetup and could have been just a fleeting dream – but was actually turned into a reality that has now helped jumpstart the careers over 95 developers.  
 [Rails Girls Summer of Code](http://railsgirlssummerofcode.org/) is one of those ambitious Open Source projects that could have disappeared into the ether without the right determination and [a sustainable setup](http://writing.jan.io/2015/11/20/sustainable-open-source.html) to see it become a success. And here we are, three years later. 
 
