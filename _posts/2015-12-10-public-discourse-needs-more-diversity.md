@@ -15,11 +15,12 @@ Speakerinnen.org was launched in March 2014 and was built by the [Rubymonstas](h
 The Rubymonstas is also where we met Sven Fuchs from Travis Foundation who is our coach and mentor and runs the study group every monday - since 2012. 
 Thanks to the Foundation we can host speakerinnen at Heroku and were able to print these beautiful postcards.  
 
+![](/images/blog/2015-12-10-speakerinnen-postcards.jpg)
 
 
 But it’s not only small things: we can always rely on the support of the Travis Foundation people helping us out with good advice and networking as well as giving us a legal entity to refer to plus a structure and platform to collaborate.  
 We are steadily working on improving the app and adding new features (see our code and open issues [on Github](https://github.com/rubymonsters/speakerinnen_liste)). We are also working on getting more women listed and more event organizers using this directory.  
-Our work is not only focused on technical issues but also implies community building, marketing and networking. We want the public discourse to be more diverse. That also means: To create awareness for the imbalance. For these discussions follow us on [twitter](https://www.twitter.com/speakerinnen), read our blog (http://blog.speakerinnen.org/) and help us count the gender ratio [at conferences](http://50prozent.speakerinnen.org/). If you are a conference or event organizer: Go to our website and find your speakers! But most importantly: If you identify yourself as a woman* and you have something to say, create a profile on our [list](https://speakerinnen.org/). If that isn’t the case: Recommend speakerinnen.org to others and encourage them to sign up!  
+Our work is not only focused on technical issues but also implies community building, marketing and networking. We want the public discourse to be more diverse. That also means: To create awareness for the imbalance. For these discussions follow us on [twitter](https://www.twitter.com/speakerinnen), read our [blog](http://blog.speakerinnen.org/) and help us count the gender ratio [at conferences](http://50prozent.speakerinnen.org/). If you are a conference or event organizer: Go to our website and find your speakers! But most importantly: If you identify yourself as a woman* and you have something to say, create a profile on our [list](https://speakerinnen.org/). If that isn’t the case: Recommend speakerinnen.org to others and encourage them to sign up!  
 Thank you for your support!  
 * *When we say women * we mean everyone who defines herself as a woman*.
 
