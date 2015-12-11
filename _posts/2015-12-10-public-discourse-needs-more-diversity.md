@@ -5,7 +5,7 @@ author: Maren Heltsche
 twitter: zaziemo
 ---
 
-Maren Heltsche is the project manager and one of the developers of speakerinnen.org. Her passions are DIY, digital media and programming Ruby on Rails with Railsgirls Berlin. She is also the co-founder and editor of the online magazine [Rosegarden](rosegarden-mag.de) and head of the local chapter Berlin of the Digital Media Women. Maren works as a freelance data analyst and project manager.  
+*Maren Heltsche is the project manager and one of the developers of speakerinnen.org. Her passions are DIY, digital media and programming Ruby on Rails with Railsgirls Berlin. She is also the co-founder and editor of the online magazine [Rosegarden](rosegarden-mag.de) and head of the local chapter Berlin of the Digital Media Women. Maren works as a freelance data analyst and project manager.*  
 
 ---
 
@@ -13,7 +13,7 @@ Speakerinnen.org is a platform that aims to increase the visibility of women* on
 
 <div class="small-img">
 <img src="/images/blog/2015-12-10-speakerinnen-logo.jpg">
-<div class="caption"><em>Image: speakerinnen.org</em></div>
+<em>Image: speakerinnen.org</em>
 </div>
 
 
@@ -31,6 +31,7 @@ But it’s not only small things: we can always rely on the support of the Travi
 We are steadily working on improving the app and adding new features (see our code and open issues [on Github](https://github.com/rubymonsters/speakerinnen_liste)). We are also working on getting more women listed and more event organizers using this directory. We've recently improved the search function and turned the 50prozent blog project into its own database to document gender ratio for public talks; you can read more about it in our latest [blog post](http://blog.speakerinnen.org/post/35).  
 
 Our work is not only focused on technical issues but also implies community building, marketing and networking. We want the public discourse to be more diverse. That also means: To create awareness for the imbalance. For these discussions follow us on [twitter](https://www.twitter.com/speakerinnen), read our [blog](http://blog.speakerinnen.org/) and help us count the gender ratio [at conferences](http://50prozent.speakerinnen.org/). If you are a conference or event organizer: Go to our website and find your speakers! But most importantly: If you identify yourself as a woman* and you have something to say, create a profile on our [list](https://speakerinnen.org/). If that isn’t the case: Recommend speakerinnen.org to others and encourage them to sign up. Thank you for your support!  
+
 * *When we say women * we mean everyone who defines herself as a woman*.  
 
 
