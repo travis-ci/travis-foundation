@@ -13,8 +13,9 @@ Speakerinnen.org is a platform that aims to increase the visibility of women* on
 
 <div class="small-img">
 <img src="/images/blog/2015-12-10-speakerinnen-logo.jpg">
-<em>Image: speakerinnen.org</em>
+<div class="caption"><em>Image: speakerinnen.org</em></div>
 </div>
+
 
 There are many competent women* around who are willing to speak in public. And speakerinnen.org gives them a platform to show their expertise. Event organizers can search the directory to find women speakers for their conferences, and journalists can reach out to experts for interviews. The platform is steadily growing and today lists almost 1.000 women who provide a broad range of topics. It’s a list of 3.500 topics that vary from internet & media over arts & culture to science & technology.  
 Speakerinnen.org was launched in March 2014 and was built by the [Rubymonstas](http://rubymonstas.org/), a Berlin-based [Rails Girls](http://railsgirlsberlin.de/) study group. Isn’t this a nice story? Women who learn to code, train their coding skills by building an app that helps raising gender balance. Yay! And it’s not only a nice story but also a lot of fun still maintaining the project and seeing it grow. Also, seeing ourselves and our programming skills grow by solving real life issues is amazing.  
