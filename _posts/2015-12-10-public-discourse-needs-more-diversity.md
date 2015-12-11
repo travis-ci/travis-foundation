@@ -32,7 +32,7 @@ We are steadily working on improving the app and adding new features (see our co
 
 Our work is not only focused on technical issues but also implies community building, marketing and networking. We want the public discourse to be more diverse. That also means: To create awareness for the imbalance. For these discussions follow us on [twitter](https://www.twitter.com/speakerinnen), read our [blog](http://blog.speakerinnen.org/) and help us count the gender ratio [at conferences](http://50prozent.speakerinnen.org/). If you are a conference or event organizer: Go to our website and find your speakers! But most importantly: If you identify yourself as a woman* and you have something to say, create a profile on our [list](https://speakerinnen.org/). If that isn’t the case: Recommend speakerinnen.org to others and encourage them to sign up. Thank you for your support!  
 
-* *When we say women * we mean everyone who defines herself as a woman*.  
+\* *When we say women * we mean everyone who defines herself as a woman*.  
 
 
 
