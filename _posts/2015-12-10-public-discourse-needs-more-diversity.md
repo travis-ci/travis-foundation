@@ -13,7 +13,7 @@ Speakerinnen.org is a platform that aims to increase the visibility of women* on
 
 <div class="small-img">
 <img src="/images/blog/2015-12-10-speakerinnen-logo.jpg">
-<em>Image: speakerinnen.org</em>
+<div class="caption">Image: speakerinnen.org</div>
 </div>
 
 
