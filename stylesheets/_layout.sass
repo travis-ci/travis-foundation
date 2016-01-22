@@ -12,6 +12,12 @@
 *:after
   box-sizing: border-box
 
+html
+  height: 100%
+
+body
+  min-height: 100%
+
 html, body
   @extend %font-sansserif
   color: $dark-grey
@@ -75,3 +81,15 @@ cite
   .center &
     max-width: $centeredMaxWidth
     margin: auto
+
+.default,
+.project
+  display: -webkit-flex
+  display: flex
+
+  -webkit-flex-direction: column
+  flex-direction: column
+
+  main
+    -webkit-flex: 1 0 auto
+    flex: 1 0 auto
