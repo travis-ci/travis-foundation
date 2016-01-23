@@ -22,8 +22,9 @@
 
 .blog-sidebar
   position: absolute
-  width: 60%
   height: 100%
+  -webkit-flex: 1 0 60%
+  flex: 1 0 60%
   -webkit-transition: transform 200ms ease
   transition: transform 200ms ease
   -webkit-transform: translateX(-100%)
@@ -53,7 +54,8 @@
 
   @media (min-width: $bp-m)
     position: static
-    width: 38%
+    -webkit-flex: 1 0 38%
+    flex: 1 0 38%
     -webkit-transform: none
     transform: none
     height: auto
@@ -61,11 +63,13 @@
 .blog-list
   width: 100%
   @media (min-width: $bp-m)
-    width: 62%
+    -webkit-flex: 0 0 62%
+    flex: 0 0 62%
     height: 100vh
     margin-top: -$topbar-height
     padding-top: $topbar-height
     overflow-y: scroll
+    overflow-x: hidden
 
 .blog-sidebar-inner
   padding: $gridGutter/ 2
