@@ -28,6 +28,7 @@ Back home, I was charged with energy after such exciting times and got right bac
 
 All in all, a lot happened the last month, I made new friends and wrote lots of great code. What a way to end the year and start the new one!
 
---
+---
+
 *Michal Papis is visting Berlin from the 9th till 10th of January. He will give an introduction to RVM 2 at [rug-b](http://berlin.onruby.de/) on the 9th and afterwards discuss and brainstorm some new ideas for RVM 2 with Michal. Hope to see you all there, Berliners!*
 
