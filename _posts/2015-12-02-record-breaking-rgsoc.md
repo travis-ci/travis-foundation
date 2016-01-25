@@ -15,25 +15,25 @@ The third year is an important one. For most grassroots organisations and initia
 ![](/images/blog/2015-12-03-rgsoc-all-teams.jpg)
 
 > How would I summarize my summer? **Awesome, awesome, awesome!** I feel like it has been a **great adventure** and I've learned so much and **it wasn't only about the code, but also how to work in a team.**  
-> _Ines Coelho, 2015 Alumna_
+<span class="author">Ines Coelho, 2015 Alumna</span>
 
 > Rails Girls Summer of Code was the best experience ever! I learnt that **coding is like making art**: having a talent isn't worth much unless you know what to do with it.  
-> _Sofia Ramos, 2015 Alumna_
+<span class="author">Sofia Ramos, 2015 Alumna</span>
 
 
 In 2015, against all odds, Rails Girls Summer of Code broke all of its records. We had the highest number of sponsors to date (54), and were able to sponsor 16 teams (in contrast to 10 from the previous year) to work full-time during the three months of the program. We had teams apply worldwide, and we accepted at least one team from every single continent. Furthermore, we’ve found out that over 90% of our past participants have stayed in the STEM fields and found a job, or even started their own company. How did we manage this?
 
 > I got involved, because **I believe that the program empowers women in a field that is both exciting and scary**, and because **I would have benefited from this kind of support myself 10 years ago**.   
-> _Alexandra Leisse, Supervisor_
+<span class="author">Alexandra Leisse, Supervisor</span>
 
 > I was instantly bought over by the **love and dedication coming from the community and organisers**. It only made sense to join in the moment it was possible for me to do so.
-> _Ramón Huidobro, Organiser_
+<span class="author">Ramón Huidobro, Organiser</span>
 
 > I really wanted to participate again somehow, **the program is great, so I wanted to be a part of it and also give back**.  
-> _Magdalena Frankiewicz, Alumna and Supervisor_
+<span class="author">Magdalena Frankiewicz, Alumna and Supervisor</span>
 
 > RGSoC for me was an opportunity to **help two smart people get their feet wet in Open Source** (which can be incredibly intimidating). The contributions to the project were valuable and as a bonus, I got some insights into **how I can improve the experience for new contributors in the future**.  
-> _Katrina Owen, Maintainer of exercism.io_
+<span class="author">Katrina Owen, Maintainer of exercism.io</span>
 
 ## Behind the scenes
 
@@ -48,7 +48,7 @@ We work in a distributed team, with [amazing volunteers](http://railsgirlssummer
 ![](/images/blog/2015-12-03-rgsoc-alumni.png)
 
 > RGSoC was without a doubt one of the **most exciting moments in the Hoodie project history**. Not only did it force us to make it easier to contribute to Hoodie overall, but also: we got to work with some very **enthusiastic and capable people that have enriched our project and our lives tremendously**. We hope we can be back in 2016.  
-> _Jan Lenhardt, Maintainer of Hoodie_
+<span class="author">Jan Lenhardt, Maintainer of Hoodie</span>
 
 We care about Open Source Software a lot – so much that we and all of our volunteers give up large chunks of our time to make it all happen. We care about giving back to the software we use daily, but we mostly want to see the current numbers (only 11% of Open Source Software contributors are women) change for the better. We want to see more women in this community, and want female role models that future women can look up to and follow suit.  
 We dreamed that RGSoC would be a small step step towards that, but we can stop dreaming – because we're already writing history and creating a different future of Open Source. One summer at a time.

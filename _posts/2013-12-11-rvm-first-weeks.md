@@ -25,6 +25,6 @@ Second, on my way back home to [Gorzow](https://maps.google.com/?q=Gorzow&z=7), 
 I am excited about all the travels and changes; I will meet new friends, visit new places, write new code. It is all for Open Source, so everyone can benefit!
 Thank you PAYMILL and Travis Foundation for this opportunity.
 
---
+---
 
 *Stay tuned for more and swing by, if you are in Munich tonight: Michal is giving his short talk at the [Munich Rubyshift meetup](http://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/events/150475432/), starting 6:30 at Blutenburgstr. 43.*
