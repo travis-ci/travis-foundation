@@ -141,7 +141,7 @@ After months of preparation we can see the results of our efforts, and we can
 start thinking about the next event.
 
 
-_To stay informed about future events you can subscribe to the [ClojureBridge Berlin mailing list](http://eepurl.com/bOa5Yr), or you can follow them on Twitter ([@ClojureeBerlinDE](https://twitter.com/ClojureBridgeDE)) and Instagram ([@clojurebridge_berlin](https://instagram.com/clojurebridge_berlin)). See you at the next event!_
+_To stay informed about future events you can subscribe to the [ClojureBridge Berlin mailing list](http://eepurl.com/bOa5Yr), or you can follow them on Twitter ([@ClojureBridgeDE](https://twitter.com/ClojureBridgeDE)) and Instagram ([@clojurebridge_berlin](https://instagram.com/clojurebridge_berlin)). See you at the next event!_
 
 ![ClojureBridge 2016 group photo](/images/blog/2016-01-28-clojurebridge-group.jpg)
 <em>ClojureBridge Berlin, second edition</em>
