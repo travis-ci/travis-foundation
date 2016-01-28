@@ -5,7 +5,7 @@ author: Arne Brasseur
 twitter: plexus
 ---
 
-*Arne Brasseur is one of the organisers of ClojureBridge Berlin, which Travis Foundation has helped in the past by handling their finances.*
+*Arne Brasseur is one of the organisers of ClojureBridge Berlin, which Travis Foundation has supported since their first workshop.*
 
 ---
 
