@@ -6,7 +6,7 @@ twitter: langziehohr
 ---
 
 ![](/images/blog/anika-laura.jpg)
-<em> Anika Lindtner and Laura Gaetano| Image: Michael Berger </em>
+<em> Anika Lindtner and Laura Gaetano | Image: Michael Berger </em>
 
 The new year brought some changes! I’m thrilled to announce that [Laura Gaetano](http://twitter.com/alicetragedy) has joined the Travis Foundation as a manager. She is now helping to manage all our wonderful projects and will especially take the lead on the communication side of things. She has helped develop [Rails Girls Summer of Code](http://railsgirlssummerofcode.org/) since 2014, has organised events in the Ruby community, coaches at Rails Girls events around Europe when she can and is involved in a variety of Open Source projects, which is she’s a perfect fit for Travis Foundation and the goals we want to achieve.
 
