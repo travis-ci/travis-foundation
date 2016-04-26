@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Diversity tickets
-author: Laura Gaetano
-twitter: alicetragedy
+author: Laura Gaetano & Anika Lindtner
+twitter: travis_fnd
 ---
 
 Organising a conference is difficult. First and foremost, there are the logistics of putting a team together, finding a location, and getting the financial support. Then there’s the issue of the talks — making a speaker line-up as diverse as possible while also offering a wide range of interesting talk topics — and of making sure that the event is as inclusive as possible, by offering a code of conduct, a way to enforce it, and thinking of the many little details which turn a good conference into a great one.
@@ -22,7 +22,9 @@ With years of expertise in the field of conferences and of diversity in Open Sou
 
 The concept is simple: Organisers can add their conference to the platform and outline how many diversity tickets they’re offering; this also includes information regarding the offer of travel grants or accommodation support. As soon as we start working together with the conference, it’s visible in our overview and applicants can apply for a diversity ticket through our system. We handle the applications and selection process, which includes a triaging of the applications, an unbiased raffled out selection and the communication with the applicants; we can also handle travel grants if needed. In this way, we hope to reduce the workload for conference organisers around the world, so they can concentrate on other tasks. With a centralised place for diversity ticket applications, applicants can also find conferences they would not have otherwise known about, using the app as a “hub” to find interesting new inclusive conferences to attend.  
 
-SOME RUBY MONSTAS TESTIMONIAL HERE
+> It is very inspiring to work on this project, because I believe it is very meaningful as it will help the tech community to be a more diverse place. I hope that events find it easier to give out free tickets for underrepresented groups in tech, as Travis Foundation can now offer to handle the applications with this app. I am really proud to be a part of this and can't wait to work on all the ideas we already have to make this app even better.  
+<span class="author">Katrin Marschner, RubyMonstas</span>
+
 
 **Unbiased selection processes**
 
