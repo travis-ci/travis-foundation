@@ -26,9 +26,9 @@ The concept is simple: Organisers can add their conference to the platform and o
 <span class="author">Katrin Marschner, RubyMonstas</span>
 
 
-## Unbiased* selection processes
+## Unbiased* selection processes and meritocracy 
 
-We have thought about and experimented with different ways to select “the best” diversity tickets holders, for example through a jury process. A jury seems like the most obvious solution for many, however jury selection is based on meritocracy, which is a system and ideology we wish to step away from, and it also introduces bias, no matter how hard we try to select applications objectively. 
+We have thought about and experimented with different ways to select “the best” diversity tickets holders, for example through a jury process. A jury seems like the most obvious solution for many, however jury selection is based on [the myth of meritocracy](http://becausefinanceisboring.com/post/93511167174/the-problem-with-disruption-and-the-idealization), which is an ideology that is in the end [harming Tech and Open Source](https://modelviewculture.com/pieces/the-open-source-identity-crisis) and we wish to step away from. Jury based selection also introduces [bias](https://implicit.harvard.edu/implicit/index.jsp), no matter how hard we try to select applications objectively. 
 
 This leads to the people who make out the majority of tech deciding who “deserves the ticket the most”, and puts underrepresented people in tech in the position of [having to educate others again](http://www.ashedryden.com/blog/the-responsibility-of-diversity) and making themselves vulnerable by having to answer intrusive questions about their background and private situation. This is why we don’t believe in jury based selection – the process of having a jury decide who’s worthy enough to get a diversity ticket alone is questionable.
 
@@ -50,3 +50,11 @@ Since we are a non-profit organization we depend on donations to continue the pr
 While the app is currently only used specifically for conferences interested in working together with us, in the near future it’s going to give all conferences the possibility to use diversitytickets.org to advertise their diversity tickets, so that applicants can get informed about the conferences that offer special tickets or grants. Are you interested in making your conference more inclusive and offering diversity tickets for your attendees? [Get in touch](mailto:foundation@travis-ci.org)!  
 
 We’re grateful to the Rubymonstas for building this app for and with us, and can’t thank them enough for the amazing work they’ve done. A big shout out to their whole team, including Justine and Lisa, Matt and Joe — and a huge thank you to Katrin, Johanna and Ariane.
+
+--
+
+[Diversitytickets.org](https://diversitytickets.org)
+
+
+
+
