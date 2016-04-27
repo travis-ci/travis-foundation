@@ -15,9 +15,6 @@ Supporting attendees who would not be able to attend the conference otherwise al
 
 ## Meet DiversityTickets.org
 
-![](/images/blog/2016-04-26-diversity-tickets-app.png)
-<em>Diversitytickets.org</em>
-
 With years of expertise in the field of conferences and of diversity in Open Source and tech, Travis Foundation has been offering diversity consultancy to conference organisers, to support them in making their conference more inclusive, one change at a time. This consultancy also includes helping organisers with the extra load of work that comes with offering diversity tickets, using our very own app. We have partnered with [RubyMonstas](http://rubymonstas.org/), a Rails Girls study group based in Berlin, to create a platform that would allow conference organisers to quickly and easily set up a diversity ticket system for their conference: meet [diversitytickets.org](https://diversitytickets.org)!
 
 ![](/images/blog/2016-04-26-diversity-tickets-group.jpg)
@@ -42,6 +39,9 @@ This is the process we found works best and in the least intrusive way for diver
 
 ## Get in touch!
 
+![](/images/blog/2016-04-26-diversity-tickets-app.png)
+<em>Diversitytickets.org</em>
+
 While the app is currently only used specifically for conferences interested in working together with us, in the near future it’s going to give all conferences the possibility to use diversitytickets.org to advertise their diversity tickets, so that applicants can get informed about the conferences that offer special tickets or grants. Are you interested in making your conference more inclusive and offering diversity tickets for your attendees? [Get in touch](mailto:foundation@travis-ci.org)!  
 
-We’re grateful to the Rubymonstas for building this app for and with us, and can’t thank them enough for the amazing work they’ve done. A big shout out to their whole team, including Justine and Lisa, Matt and Joe, and a huge thank you to Katrin, Johanna and Ariane.
+We’re grateful to the Rubymonstas for building this app for and with us, and can’t thank them enough for the amazing work they’ve done. A big shout out to their whole team, including Justine and Lisa, Matt and Joe — and a huge thank you to Katrin, Johanna and Ariane.
