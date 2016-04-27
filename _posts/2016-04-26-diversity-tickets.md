@@ -37,6 +37,11 @@ This is the process we found works best and in the least intrusive way for diver
 
 **We use the word unbiased here because we want it to be that way. But of course there is no such thing as an unbiased process (even by building the app in English and using a specific design we introduce some of our biases and assumptions about diversity ticket applicants into the whole app). We want to learn how to build a process as unbiased as possible – so if you have feedback, please let us know.*  
 
+## Is it free? 
+
+Since we are a non-profit organization we depend on donations to continue the projects we build. To be able to put in working hours to manage your conference tickets and meanwhile still support our other projects, we ask for a small donation to Travis Foundation for our service. We will take into consideration the resources and size of the conference when asking for a contribution and are sure we will always find a way to make this work. 
+
+
 ## Get in touch!
 
 <a href="https://diversitytickets.org"><img src="/images/blog/2016-04-26-diversity-tickets-app.png"></a>
