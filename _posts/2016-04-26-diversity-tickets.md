@@ -39,7 +39,7 @@ This is the process we found works best and in the least intrusive way for diver
 
 ## Get in touch!
 
-![](/images/blog/2016-04-26-diversity-tickets-app.png)
+<a href="https://diversitytickets.org"><img src="/images/blog/2016-04-26-diversity-tickets-app.png"></a>a>
 <em>Diversitytickets.org</em>
 
 While the app is currently only used specifically for conferences interested in working together with us, in the near future it’s going to give all conferences the possibility to use diversitytickets.org to advertise their diversity tickets, so that applicants can get informed about the conferences that offer special tickets or grants. Are you interested in making your conference more inclusive and offering diversity tickets for your attendees? [Get in touch](mailto:foundation@travis-ci.org)!  
