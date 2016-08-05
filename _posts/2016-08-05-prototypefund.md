@@ -8,7 +8,7 @@ twitter: okfde
 <img src="/images/blog/2016-08-05-helloprototype.jpg"><br>
 <em> "Hello Prototype Fund" / Image: OKF </em>
 
-*Eileen Wagner is content manager of Code for Germany and the Prototype Fund at the Open Knowledge Foundation. She is interested in promoting civic tech in Germany and talking about all things open. Her background is in logic and philosophy, and her super power is writing nerdy jokes on Twitter.*
+*Eileen Wagner is content manager of Code for Germany and the Prototype Fund at the [Open Knowledge Foundation](https://okfn.org/). She is interested in promoting civic tech in Germany and talking about all things open. Her background is in logic and philosophy, and her super power is writing nerdy jokes on Twitter.*
 
 --- 
 
