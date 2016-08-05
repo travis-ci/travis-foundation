@@ -21,7 +21,7 @@ The Prototype Fund adjusts its application process to the needs of the community
 
 This is the first program of its kind in Germany. We'd be lying if we said that we're confident everything will go swimmingly. This is why we are truly amazed and bedazzled by the overwhelming response to our launch. (Follow us [on Twitter](https://twitter.com/prototypefund) to see some of the awesome reactions.) Now it is up to us – and to you! – to demonstrate that public funding can make a difference for our community, and for society at large.
 
-Apply now: [prototypefund.de/en](https://prototypefund.de/en/)
+Apply now: [prototypefund.de/en](https://prototypefund.de/en/) <br> 
 More information: [prototypefund.de/en/faq](https://prototypefund.de/en/faq/) and [info@prototypefund.de](mailto:info@prototypefund.de)
 
 <img src="/images/blog/2016-08-05-PrototypeFundLogo.png" class="medium-width">
