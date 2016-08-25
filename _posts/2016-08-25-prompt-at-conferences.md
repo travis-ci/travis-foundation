@@ -28,6 +28,6 @@ This autumn, Prompt is the sponsor of [CodeDaze](http://codedaze.io), a conferen
 
 ## How It's Done
 
-None of this would be possible with out our team at the [Travis Foundation](http://foundation.travis-ci.org/), who make our lives easier by handling the business side of things. We are extremely grateful for their help.
+None of this would be possible without our team at the [Travis Foundation](http://foundation.travis-ci.org/), who make our lives easier by handling the business side of things. We are extremely grateful for their help.
 
 If you are interested in Prompt, getting a speaker for your event, want to write a guest post for the blog, want to make a donation (Prompt runs on your donations), or just have questions about what we do, please reach out at [team@mhprompt.org](mailto:team@mhprompt.org). We're always happy to hear from you. You can also [follow us on Twitter](https://twitter.com/mhprompt) for updates and the latest news on where we'll be.
