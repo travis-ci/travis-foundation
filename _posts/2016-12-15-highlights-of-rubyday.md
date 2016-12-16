@@ -11,8 +11,10 @@ twitter: oanasipos
 
 Thanks to Travis Foundation and the RubyDay organizers, I was able to attend RubyDay, an awesome, Ruby-focused conference in Italy. I am already looking forward to the next one—so if you happen to stumble upon it and have doubts about going, think no more: it will surely be great. Read on to find insights about this edition.  
 
-[RubyDay](http://www.rubyday.it/) or RubyConf Italy is a two-day conference that took place at the end of November, with the first day (Friday) being dedicated to two-track presentations, and Saturday to workshops. Choosing which talk to go to or which workshop to attend was difficult sometimes; but luckily, frequent breaks made it easier to catch up with what happened in the other room and what everybody was generally doing.  
+[RubyDay](http://www.rubyday.it/) or RubyConf Italy is a two-day conference that took place at the end of November, with the first day (Friday) being dedicated to two-track presentations, and Saturday to workshops. Choosing which talk to go to or which workshop to attend was difficult sometimes; but luckily, frequent breaks made it easier to catch up with what happened in the other room and what everybody was generally doing.
+
 Even though the conference was hosted in beautiful Florence, I only managed to see the part of the city between the train station and my hotel. As someone jokingly said sometime during the conference: all conferences should happen in ugly places so you can totally focus on the presentations and not mind that you cannot spend time exploring :) In the end, missing out on sightseeing  was not much of an issue, because my purpose was to be part of this awesome-wild-like-minded atmosphere. I took this purpose seriously and every day from 9 am to 1 am, my brain was all wired to absorb new knowledge and generate ideas.
+
 Let's face it, at a conference you feel more comfortable when you go accompanied or if you know you’ll meet some old friends there; even though I only knew few people attending, the atmosphere was very friendly, as well as international and diverse, making me feel at ease right away. Thanks to the organizers, who accepted my offer for help, I even got to 'MC' one of the two rooms on Friday! This gave me the chance to get out of my comfort zone and contribute to the success of the conference.
 
 
@@ -36,5 +38,6 @@ Saturday was all dedicated to workshops. The first one I attended was Luca's on 
 ![](/images/blog/2016-12-15-rubyday-hanami.jpg)
 <em> Hanami workshop with Luca Guidi | Image: Oana Sipos</em>
 
-Yes, the recommendation is biased. You'll be finding me contributing to Hanami's community in the very near future. There are suggestions everywhere in our industry to contribute to open source, but the everlasting question in my case was "where do I start?". Luca helped me with the answer and opened the doors of Hanami; together we'll try to make an even more welcoming and diverse space for beginners.  
+Yes, the recommendation is biased. You'll be finding me contributing to Hanami's community in the very near future. There are suggestions everywhere in our industry to contribute to open source, but the everlasting question in my case was "where do I start?". Luca helped me with the answer and opened the doors of Hanami; together we'll try to make an even more welcoming and diverse space for beginners.
+
 To summarize, RubyDay was an amazing experience and a refreshing event that gave me new ideas, expanded my views and helped me meet new people. Conferences are meant to give you a boost of energy and motivation which are often needed to go through the daily routine. RubyDay did exactly that and much more, therefore I am sending all my gratitude and love to Travis Foundation and the organizers. You did a very good job!
