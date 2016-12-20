@@ -12,113 +12,90 @@ layout: project
       
       <section>
         <h2 id="diversity">Diversity</h2>
-      		<ul>
-      			<li>
-      				<a href="https://www.youtube.com/watch?v=D3e3V66TH2Y">Talk about Nothing</a> - an examination of some of the rules that shape our experience, current society's roots in ancient philosophy, and how that impacts' our different realities in developing software today.
-      			</li>
-      			<li>
-      				<a href="https://www.ashedryden.com/blog/the-responsibility-of-diversity ">The Responsibility of "Diversity"</a> - why there's a need for improvements in diversity in technology, how to have a conversation about it, and what to do when things go wrong.
-      			</li>
-  			</ul>
+          <ul>
+            {% for resource in site.data.resources %}
+              {% if resource.category == "diversity" %}
+                <li><a href="{{resource.link}}">"{{resource.title}}"</a> - {{resource.text}}</li>
+              {% endif %}
+            {% endfor %}
+          </ul>        
       </section>
 
       <section>
         <h2 id="reverse-discrimination">Reverse Discrimination</h2>
             <ul>
-              <li>
-                <a href="http://www.hanselman.com/blog/OnPieChartDiversityAtTechnicalConferences.aspx">On Pie Chart Diversity at Technical Conferences</a> - an argument for diversity of experiences and opinions, above and beyond token racial diversity.
-              </li>
-              <li>
-                <a href="http://everydayfeminism.com/2015/01/reverse-oppression-cant-exist/">Why Reverse Oppression Simply Cannot Exist (No Matter What Merriam-Webster Says)</a> - a discussion of how reverse oppression is impossible due to the way oppression works in social systems.
-              </li>
-              <li>
-                <a href="https://www.bustle.com/articles/71400-6-reasons-men-can-literally-never-be-victims-of-sexism-and-those-who-think-they">6 Reasons Men Can Literally Never Be Victims Of Sexism — And Those Who Think They Can Need To Learn What "Sexism" Is</a> - how sexism is different from discrimination, especially given historical context, power imbalance, and access to opportunities. 
-              </li>
-            </ul>
+            {% for resource in site.data.resources %}
+              {% if resource.category == "reverse-discrimination" %}
+                <li><a href="{{resource.link}}">"{{resource.title}}"</a> - {{resource.text}}</li>
+              {% endif %}
+            {% endfor %}
+          </ul> 
       </section>
 
       <section>
         <h2 id="codes-of-conduct">Codes of Conduct</h2>
       		<ul>
-      			<li>
-      				<a href=https://modelviewculture.com/pieces/a-code-of-conduct-is-not-enough>A Code of Conduct is Not Enough</a> - what can happen when a code of conduct is not followed at a conference, and lessons learned about managing code of conducts and events' culture.
-      			</li>
-            <li>
-                <a href="http://www.curiousefficiency.org/posts/2015/01/abuse-is-not-ok.html">Abuse is Not Ok</a> - an examination of abusive behavior in open source communities and what to do instead of making or allowing personal attacks to go on.
-            </li>
-      		</ul> 	
+            {% for resource in site.data.resources %}
+              {% if resource.category == "codes-of-conduct" %}
+                <li><a href="{{resource.link}}">"{{resource.title}}"</a> - {{resource.text}}</li>
+              {% endif %}
+            {% endfor %}
+          </ul>  	
       </section>
       
       <section>
       	<h2 id="unconscious-bias">Unconscious Bias</h2>
-      			<ul>
-      				<li>
-      					<a href="http://www.robot-hugs.com/privilege/">Managing Privilege</a> - an explanation of what is privilege and how to be responsible with it; Contains strong language.
-      				</li>
-              <li>
-                <a href="https://notapattern.net/2014/10/14/ways-men-in-tech-are-unintentionally-sexist/#the-list">Ways Men In Tech Are Unintentionally Sexist</a> - a list that highlights specific, common behaviors in the tech industry that are also sexist. 
-              </li>
-              <li>
-                <a href="https://drive.google.com/file/d/0B79UlI0LWGoAeTdibFVkUUhtV0U/view">Unconscious Bias Theory in Employment Discrimination Litigation</a> - case review from Harvard Law Review focusing on unconscious bias in hiring and the workplace.
-              </li>
-              <li>
-                <a href="https://drive.google.com/file/d/0B79UlI0LWGoARGdFTGIwYUQzQ1E/view">Implicit Bias: A Primer for Courts</a> - information for legal professionals on how implicit bias works.
-              </li>
-              <li>
-                <a href="https://drive.google.com/file/d/0B79UlI0LWGoAeS1rRkQ0TmF3Xzg/view">Double Jeopardy?: Bias against Women of Color in Science</a> - UC Hastings College of Law paper on issues of bias against women of color in science.
-              </li>
-      			</ul>
+      		<ul>
+      			{% for resource in site.data.resources %}
+              {% if resource.category == "unconscious-bias" %}
+                <li><a href="{{resource.link}}">"{{resource.title}}"</a> - {{resource.text}}</li>
+              {% endif %}
+            {% endfor %}
+      		</ul>
       </section>
 
       <section>
         <h2 id="inclusivity">Inclusivity</h3>
           <ul>
-            <li>
-              <a href="https://modelviewculture.com/pieces/dissent-unheard-of">Dissent Unheard Of</a> - a discussion of what is silencing, how to identify it, what it looks like when it's happening, and what to do if you see silencing happening.
-            </li>
-            <li>
-              <a href="https://petewarden.com/2014/10/05/why-nerd-culture-must-die/">Why Nerd Culture Must Die</a> - a discussion of how "nerd culture" needs to respect the wider, and more diverse group of people who see themselves as "nerds"
-              </li>
-            <li>
-                <a href="https://slowpokewell.wordpress.com/2015/01/17/theres-no-merit-in-meritocracy/">There's no Merit in Meritocracy</a> - a discussion of how communities that pride themselves on meritocracy can have an inherit exclusivity because of how power is balanced and imbalanced; Contains strong language.
-            </li>
-            <li>
-              <a href="http://ramp-up.me/">Ramp-Up.me</a> - information website that collecting information about making conferences accessible and inclusive. Language: German.
-            </li>
+            {% for resource in site.data.resources %}
+              {% if resource.category == "inclusivity" %}
+                <li><a href="{{resource.link}}">"{{resource.title}}"</a> - {{resource.text}}</li>
+              {% endif %}
+            {% endfor %}
           </ul>
       </section>
 
       <section>
         <h2 id="allyship">Allyship</h2>
-            <ul>
-              <li>
-                <a href="http://www.guidetoallyship.com/">Guide to Allyship</a> - an informational website on who is an ally and how to be an ally.
-              </li>
-              <li>
-                <a href="https://codeascraft.com/2016/10/19/being-an-effective-ally-to-women-and-non-binary-people/">Being an Effective Ally to Women and Non-Binary People</a> - a discussion of terminology and how to be an ally, in the context of allyship to women and non-binary people.
-              </li>
-              <li>
-                <a href="https://www.glaad.org/transgender/allies">Tips for Allies of Transgender People</a> - a list of suggestions and explanations for how to be an ally to transgender people.
-              </li>
-            </ul>
+          <ul>
+            {% for resource in site.data.resources %}
+              {% if resource.category == "allyship" %}
+                <li><a href="{{resource.link}}">"{{resource.title}}"</a> - {{resource.text}}</li>
+              {% endif %}
+            {% endfor %}
+          </ul>
       </section>
 
       <section>
         <h2 id="gender">Gender</h2>
-            <ul>
-              <li>
-                <a href="https://www.genderspectrum.org/quick-links/understanding-gender/">Understanding Gender</a> - a basic overview of gender and its terminology.
-              </li>
-            </ul>
+          <ul>
+              {% for resource in site.data.resources %}
+              {% if resource.category == "gender" %}
+                <li><a href="{{resource.link}}">"{{resource.title}}"</a> - {{resource.text}}</li>
+              {% endif %}
+            {% endfor %}
+          </ul>
       </section>
 
       <section>
         <h2 id="gender-pay-gap">Gender Pay Gap</h2>
-            <ul>
-              <li>
-                <a href="http://narrowthegapp.com/">Women in the U.S. make 81 cents to the dollar men earn doing the same job</a> - definition of the pay gap, why it's illegal and unfair, and action steps for how to address it.
-              </li>
-            </ul>
+          <ul>
+            {% for resource in site.data.resources %}
+              {% if resource.category == "inclusivity" %}
+                <li><a href="{{resource.link}}">"{{resource.title}}"</a> - {{resource.text}}</li>
+              {% endif %}
+            {% endfor %}
+          </ul>
       </section>
       
     
