@@ -91,7 +91,7 @@ layout: project
         <h2 id="gender-pay-gap">Gender Pay Gap</h2>
           <ul>
             {% for resource in site.data.resources %}
-              {% if resource.category == "inclusivity" %}
+              {% if resource.category == "gender-pay-gap" %}
                 <li><a href="{{resource.link}}">"{{resource.title}}"</a> - {{resource.text}}</li>
               {% endif %}
             {% endfor %}
