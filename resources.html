@@ -88,6 +88,17 @@ layout: project
       </section>
 
       <section>
+        <h2 id="intersectional-feminism">Intersectional Feminism</h2>
+          <ul>
+              {% for resource in site.data.resources %}
+              {% if resource.category == "intersectional-feminism" %}
+                <li><a href="{{resource.link}}">"{{resource.title}}"</a> - {{resource.text}}</li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+      </section>
+
+      <section>
         <h2 id="gender-pay-gap">Gender Pay Gap</h2>
           <ul>
             {% for resource in site.data.resources %}
