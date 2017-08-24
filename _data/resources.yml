@@ -110,7 +110,7 @@
   category: "inclusivity"
 - 23:
   title: "How to survive in intersectional feminist spaces 101"
-  text: "A really great article and general resource on intersectional feminism"
+  text: "A really great article and general resource on intersectional feminism; contains some strong language"
   link: "https://crossknit.wordpress.com/2017/01/23/so-you-wanna-be-an-intersectional-feminist/"
   category: "intersectional-feminism"
 - 24:
@@ -118,7 +118,11 @@
   text: "An article about writing inclusive tech postings"
   link: "https://medium.com/@fox/your-tech-job-posting-is-broken-heres-how-to-fix-it-6db06b9769cb"
   category: "inclusivity"
-
+- 25:
+  title: "Privilege 101: A Quick and Dirty Guide"
+  text: "Do you find the concept of privilege confusing? If so, this guide should help you understand a little more about what privilege is."
+  link: http://everydayfeminism.com/2014/09/what-is-privilege/
+  category: "unconscious-bias"
 
 
 
