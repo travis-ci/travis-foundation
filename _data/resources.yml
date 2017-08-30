@@ -77,7 +77,7 @@
   title: "Ramp-Up.me"
   text: "information website that collects information about making conferences accessible and inclusive"
   link: "http://ramp-up.me/"
-  category: "inclusivity"
+  category: "conferences-and-public-speaking"
 - 17:
   title: "Guide to Allyship"
   text: "an informational website on who is an ally and how to be an ally"
@@ -124,10 +124,20 @@
   link: http://everydayfeminism.com/2014/09/what-is-privilege/
   category: "unconscious-bias"
 - 26:
-  title:
-  text:
-  link:
-  category:
+  title: "Speakerline"
+  text: "Showcasing speakers' proposals and timelines in an effort to demystify the CFP process and help new speakers get started."
+  link: http://speakerline.io/
+  category: "conferences-and-public-speaking"
+- 27:
+  title: "So you think you know a thing: Feministing 201"
+  text: "A follow-up to the great intersectional feminism article above."
+  link: https://crossknit.wordpress.com/2017/01/24/so-you-think-you-know-a-thing-feministing-201/
+  category: "intersectional-feminism"
+- 28:
+  title: "Speakerinnen"
+  text: "Find women speakers and moderators for your conference"
+  link: https://speakerinnen.org/
+  category: "conferences-and-public speaking"
 
 
 
