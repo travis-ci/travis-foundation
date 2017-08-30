@@ -75,7 +75,7 @@
   category: "inclusivity"
 - 16:
   title: "Ramp-Up.me"
-  text: "information website that collecting information about making conferences accessible and inclusive"
+  text: "information website that collects information about making conferences accessible and inclusive"
   link: "http://ramp-up.me/"
   category: "inclusivity"
 - 17:
@@ -123,6 +123,11 @@
   text: "Do you find the concept of privilege confusing? If so, this guide should help you understand a little more about what privilege is."
   link: http://everydayfeminism.com/2014/09/what-is-privilege/
   category: "unconscious-bias"
+- 26:
+  title:
+  text:
+  link:
+  category:
 
 
 
