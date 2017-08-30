@@ -33,6 +33,17 @@ layout: project
       </section>
 
       <section>
+        <h2 id="conferences-and-public-speaking">Conferences and Public Speaking</h2>
+          <ul>
+            {% for resource in site.data.resources %}
+              {% if resource.category == "conferences-and-public-speaking" %}
+                <li><a href="{{resource.link}}">"{{resource.title}}"</a> - {{resource.text}}</li>
+              {% endif %}
+            {% endfor %}
+          </ul>   
+      </section>
+
+      <section>
         <h2 id="diversity">Diversity</h2>
           <ul>
             {% for resource in site.data.resources %}
