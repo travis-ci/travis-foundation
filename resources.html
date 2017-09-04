@@ -11,61 +11,6 @@ layout: project
     <div class="project-main">
       
       <section>
-        <h2 id="diversity">Diversity</h2>
-          <ul>
-            {% for resource in site.data.resources %}
-              {% if resource.category == "diversity" %}
-                <li><a href="{{resource.link}}">"{{resource.title}}"</a> - {{resource.text}}</li>
-              {% endif %}
-            {% endfor %}
-          </ul>        
-      </section>
-
-      <section>
-        <h2 id="reverse-discrimination">Reverse Discrimination</h2>
-            <ul>
-            {% for resource in site.data.resources %}
-              {% if resource.category == "reverse-discrimination" %}
-                <li><a href="{{resource.link}}">"{{resource.title}}"</a> - {{resource.text}}</li>
-              {% endif %}
-            {% endfor %}
-          </ul> 
-      </section>
-
-      <section>
-        <h2 id="codes-of-conduct">Codes of Conduct</h2>
-      		<ul>
-            {% for resource in site.data.resources %}
-              {% if resource.category == "codes-of-conduct" %}
-                <li><a href="{{resource.link}}">"{{resource.title}}"</a> - {{resource.text}}</li>
-              {% endif %}
-            {% endfor %}
-          </ul>  	
-      </section>
-      
-      <section>
-      	<h2 id="unconscious-bias">Unconscious Bias</h2>
-      		<ul>
-      			{% for resource in site.data.resources %}
-              {% if resource.category == "unconscious-bias" %}
-                <li><a href="{{resource.link}}">"{{resource.title}}"</a> - {{resource.text}}</li>
-              {% endif %}
-            {% endfor %}
-      		</ul>
-      </section>
-
-      <section>
-        <h2 id="inclusivity">Inclusivity</h3>
-          <ul>
-            {% for resource in site.data.resources %}
-              {% if resource.category == "inclusivity" %}
-                <li><a href="{{resource.link}}">"{{resource.title}}"</a> - {{resource.text}}</li>
-              {% endif %}
-            {% endfor %}
-          </ul>
-      </section>
-
-      <section>
         <h2 id="allyship">Allyship</h2>
           <ul>
             {% for resource in site.data.resources %}
@@ -77,10 +22,65 @@ layout: project
       </section>
 
       <section>
+        <h2 id="codes-of-conduct">Codes of Conduct</h2>
+          <ul>
+            {% for resource in site.data.resources %}
+              {% if resource.category == "codes-of-conduct" %}
+                <li><a href="{{resource.link}}">"{{resource.title}}"</a> - {{resource.text}}</li>
+              {% endif %}
+            {% endfor %}
+          </ul>   
+      </section>
+
+      <section>
+        <h2 id="conferences-and-public-speaking">Conferences and Public Speaking</h2>
+          <ul>
+            {% for resource in site.data.resources %}
+              {% if resource.category == "conferences-and-public-speaking" %}
+                <li><a href="{{resource.link}}">"{{resource.title}}"</a> - {{resource.text}}</li>
+              {% endif %}
+            {% endfor %}
+          </ul>   
+      </section>
+
+      <section>
+        <h2 id="diversity">Diversity</h2>
+          <ul>
+            {% for resource in site.data.resources %}
+              {% if resource.category == "diversity" %}
+                <li><a href="{{resource.link}}">"{{resource.title}}"</a> - {{resource.text}}</li>
+              {% endif %}
+            {% endfor %}
+          </ul>        
+      </section>
+
+      <section>
         <h2 id="gender">Gender</h2>
           <ul>
               {% for resource in site.data.resources %}
               {% if resource.category == "gender" %}
+                <li><a href="{{resource.link}}">"{{resource.title}}"</a> - {{resource.text}}</li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+      </section>
+
+      <section>
+        <h2 id="gender-pay-gap">Gender Pay Gap</h2>
+          <ul>
+            {% for resource in site.data.resources %}
+              {% if resource.category == "gender-pay-gap" %}
+                <li><a href="{{resource.link}}">"{{resource.title}}"</a> - {{resource.text}}</li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+      </section>
+
+      <section>
+        <h2 id="inclusivity">Inclusivity</h3>
+          <ul>
+            {% for resource in site.data.resources %}
+              {% if resource.category == "inclusivity" %}
                 <li><a href="{{resource.link}}">"{{resource.title}}"</a> - {{resource.text}}</li>
               {% endif %}
             {% endfor %}
@@ -99,15 +99,28 @@ layout: project
       </section>
 
       <section>
-        <h2 id="gender-pay-gap">Gender Pay Gap</h2>
-          <ul>
+        <h2 id="reverse-discrimination">Reverse Discrimination</h2>
+            <ul>
             {% for resource in site.data.resources %}
-              {% if resource.category == "gender-pay-gap" %}
+              {% if resource.category == "reverse-discrimination" %}
                 <li><a href="{{resource.link}}">"{{resource.title}}"</a> - {{resource.text}}</li>
               {% endif %}
             {% endfor %}
-          </ul>
+          </ul> 
       </section>
+      
+      <section>
+      	<h2 id="unconscious-bias">Unconscious Bias</h2>
+      		<ul>
+      			{% for resource in site.data.resources %}
+              {% if resource.category == "unconscious-bias" %}
+                <li><a href="{{resource.link}}">"{{resource.title}}"</a> - {{resource.text}}</li>
+              {% endif %}
+            {% endfor %}
+      		</ul>
+      </section>
+
+      
       
     
     </div>
