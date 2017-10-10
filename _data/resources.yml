@@ -143,6 +143,24 @@
   text: "A list of actionable suggestions to help make your conferences better and more inclusive"
   link: https://github.com/erikr/lessobviouschecklist
   category: "conferences-and-public-speaking"
-
-
+- 30:
+  title: "Enby Speakers in Tech"
+  text: "A list of non-binary speakers who do talks on technology"
+  link: https://enbytech.github.io/
+  category: "conferences-and-public-speaking"
+- 31:
+  title: "Outspoken Women"
+  text: "A resource for women and non-binary individuals in the Open Source tech industry to provide them with support, mentorship, and financial scholarships to speak at events"
+  link: http://outspokenwomen.io/
+  category: "conferences-and-public-speaking"
+- 32:
+  title: "On improving diversity in hiring"
+  text: "Tips on hiring diversely"
+  link: https://cate.blog/2017/09/28/on-improving-diversity-in-hiring/
+  category: "diversity"
+- 33:
+  title: "Speakers who want a platform"
+  text: "A directory of underrepresented speakers for Q&A panels/conferences/events"
+  link: https://github.com/iheanyi/speakers-who-want-a-platform
+  category: "conferences-and-public-speaking"
 
