@@ -46,16 +46,19 @@
       padding-bottom: .6em
       border-bottom: 1px solid $anika-grey
 
+%h2
+  @extend %font-serif
+  display: inline-block
+  padding-bottom: .1em
+  margin: .8em 0 .5em
+  font-size: 36px
+  border-bottom: 2px solid $seafoam-light
+
 .project-main
   padding: $gridGutter / 2
 
   h2
-    @extend %font-serif
-    display: inline-block
-    padding-bottom: .1em
-    margin: .8em 0 .5em
-    font-size: 36px
-    border-bottom: 2px solid $seafoam-light
+    @extend %h2
 
   h2 + p
     margin-top: 0
@@ -101,7 +104,3 @@
     bottom: 1rem
     a
       color: white
-      
-
-
-
