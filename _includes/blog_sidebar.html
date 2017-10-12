@@ -11,7 +11,7 @@
     <ul class="bullet-list">
       {% for post in site.posts limit:15 %}
       <li>
-        <a href="{{ post.url }}">
+        <a href="{{ post.url }}" title="{{ post.title }}">
         {% include bullet-arrow.html %}
         {{ post.title }}</a>
       </li>

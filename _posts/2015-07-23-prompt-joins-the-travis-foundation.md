@@ -11,7 +11,7 @@ twitter: nslater
 
 [Prompt](http://mhprompt.org/) is an initiative to start a conversation about mental health in the tech community, and today we are excited to announce that it joins the [Travis Foundation](http://foundation.travis-ci.org/), a not-for-profit organisation dedicated to improving Open Source for everyone.
 
-Prompt was launched by Eamon Leonard at [Distill 2013](https://distill.engineyard.com/2013). Eamon’s reasons for starting Prompt were very personal. He recalls: 
+Prompt was launched by Eamon Leonard at [Distill 2013](https://distill.engineyard.com/2013). Eamon’s reasons for starting Prompt were very personal. He recalls:
 
 > While attending JSConf 2011 in Portland, I got an early morning phone call telling me that I had lost a close friend to suicide. Because of this, I took an interest in mental health, and joined the board of [ReachOut.com](http://ie.reachout.com/) (which has a particular focus on young people) to help promote a better understanding of mental health issues.
 >
@@ -21,7 +21,7 @@ Prompt was launched by Eamon Leonard at [Distill 2013](https://distill.engineyar
 >
 > Prompt was born out of a desire to start that conversation in public in a way that combats the taboo and stigma that surrounds it.
 
-Prompt was then launched, funded, and managed by the Engine Yard community team, being [Eamon Leonard](https://twitter.com/eamonleonard), [Davey Shafik](http://https//twitter.com/dshafik), [PJ Hagerty](https://twitter.com/aspleenic), [Brendan Hastings](https://twitter.com/brendannh), and [myself](https://twitter.com/nslater).
+Prompt was then launched, funded, and managed by the Engine Yard community team, being [Eamon Leonard](https://twitter.com/eamonleonard), [Davey Shafik](https://twitter.com/dshafik), [PJ Hagerty](https://twitter.com/aspleenic), [Brendan Hastings](https://twitter.com/brendannh), and [myself](https://twitter.com/nslater).
 
 The goal was simple: find speakers who want to talk about mental health, and give them money so they can do it. On top of that, offering support and coaching for speakers, as well as helping organizations get in touch with speakers on these topics.
 
@@ -37,7 +37,7 @@ Then, at the beginning of Summer, I was speaking with [Konstantin Haase](http://
 
 As you might guess, that conversation went well. And as of today, Prompt is now officially an initiative of the Travis Foundation!
 
-What does that mean? Well, we’re legally a part of a not-for-profit organisation that handles donations, taxes, bank accounts, disbursement of funds, etc. We also have access to the pool of expertise behind the Foundation, as well as the Foundation’s infrastructure, network, connections, and brand. And all of this means we can now start thinking about fund-raising activities. 
+What does that mean? Well, we’re legally a part of a not-for-profit organisation that handles donations, taxes, bank accounts, disbursement of funds, etc. We also have access to the pool of expertise behind the Foundation, as well as the Foundation’s infrastructure, network, connections, and brand. And all of this means we can now start thinking about fund-raising activities.
 
 Prompt was always supposed to be bigger than Engine Yard. It was the start of something we hoped would grow and attract the support of many other companies. This diversified investment is absolutely critical for a continued presence within the community, and to make meaningful progress towards combating the stigma around mental health.
 

@@ -1,3 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '2.4.0'
+ruby '2.4.2'
+
+gem 'jekyll', '3.5.0'
+gem 'html-proofer', '3.7.2'
+gem 'rack-jekyll'
+gem 'thin'

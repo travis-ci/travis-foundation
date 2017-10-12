@@ -1,9 +1,9 @@
 <article>
   <h2>
-    <a href="{{ post.url }}">{{ post.title }}</a>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
   </h2>
   <p class="info">
-    {{ post.date | date: "%B %-d, %Y" }},&nbsp; {{ post.author }} 
+    {{ post.date | date: "%B %-d, %Y" }},&nbsp; {{ post.author }}
   </p>
   <div class="content">
     {{ post.content }}
