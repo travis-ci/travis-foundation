@@ -4,21 +4,40 @@
   padding: 0
   margin: 0
   list-style: none
+  li
+    margin-bottom: 3em
+    display: flex
+    flex-flow: column wrap
+    align-items: center
+    @media (min-width: $bp-logopage)
+      flex-flow: row wrap
+
+.logo-description
+  flex: 1 0 100%
 
 .logo
   position: relative
   display: block
   height: auto
+  padding: 1em
   overflow: hidden
-  img
-    width: 100%
-    height: auto
 
-  &.hor
-    width: 300px
+  &.dark
+    background-color: $dark-seafoam-green
 
-  &.ver
-    width: 250px
+  & ~ .logo
+    margin-top: 1.8em
+  @media (min-width: $bp-logopage)
+    & ~ .logo
+      margin-top: 0
+      margin-left: 1.8em
+
+.logo-preview
+  width: 270px
+  height: 150px
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: center
 
 .logo-hover
   background-color: rgba($dark-grey, 0.7)
