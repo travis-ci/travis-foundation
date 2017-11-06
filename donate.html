@@ -12,24 +12,23 @@ layout: project
     <div class="page-main">
       <p>You can make a donation via credit card.</p>
       <p>In case you want to make a dontion to a <strong>specific project</strong> or need a <strong>donation receipt</strong><br> please email us mentioning the email address and the date of the donation.</p>
-
       <div class="js-stripe-checkout">
-
         <noscript>You must enable JavaScript in your web browser to proceed with the donation.</noscript>
-
         <script src="https://checkout.stripe.com/checkout.js"></script>
-
-        <label>
-          Amount (in Euro)
-          <input type="number" id="donate-amount" placeholder="eg 20">
-        </label>
-
-        <button id="donate-btn">Donate</button>
-        <div id="dontation-result"></div>
+        <div id="donation-checkout">
+          <label>
+            Amount (in Euro)
+            <input type="number" id="donate-amount" placeholder="eg 20">
+          </label>
+          <button id="donate-btn">Donate</button>
+        </div>
+        <div id="donation-result"></div>
 
         <script>
+         var resultBox = document.getElementById('donation-result');
+         var checkoutBox = document.getElementById('donation-checkout');
          var checkoutHandler = StripeCheckout.configure({
-           key: "pk_live_CDQ1VjqbJHkFUm1qOGzeMI30",
+           key: "pk_test_RUBGjkgJ0PCjuCQ1VaUCwKM2",
            locale: "auto"
          });
 
@@ -48,9 +47,10 @@ layout: project
          });
 
          function handleToken(token, amount) {
-           fetch("http://localhost:8000/charge", {
+           resultBox.innerText = "Processing donation ...";
+           fetch("https://foundation-stripe-backend.herokuapp.com/charge", {
              method: "POST",
-             headers: {"Content-Type": "application/json", "Origin": "https://foundation.travis-ci.com"},
+             headers: {"Content-Type": "application/json", "Origin": "http://localhost:4000"},
              body: JSON.stringify({token, amount})
            })
              .then(response => {
@@ -59,13 +59,13 @@ layout: project
                return response.json();
              })
              .then(output => {
-               console.log("Donation succeeded:", output);
+               checkoutBox.setAttribute('style', 'display: none');
+               resultBox.innerText = "Your donation was successful. Thank you!";
              })
              .catch(err => {
-               console.log("Donation failed:", err);
+               resultBox.innerText = "Whoops, something went wrong. Your donation did not get through.";
              })
          }
-
         </script>
       </div>
     </div>
