@@ -17,10 +17,10 @@ layout: project
         <script src="https://checkout.stripe.com/checkout.js"></script>
         <div id="donation-checkout">
           <label>
-            Amount (in Euro)
+            Amount <small>(in EUR)</small>
             <input type="number" id="donate-amount" placeholder="eg 20">
           </label>
-          <button id="donate-btn">Donate</button>
+          <button id="donate-btn" class="button">Donate</button>
         </div>
         <div id="donation-result"></div>
 
@@ -29,7 +29,8 @@ layout: project
          var checkoutBox = document.getElementById('donation-checkout');
          var checkoutHandler = StripeCheckout.configure({
            key: "pk_test_RUBGjkgJ0PCjuCQ1VaUCwKM2",
-           locale: "auto"
+           locale: "auto",
+           image: 'https://travis-foundation-website.herokuapp.com/images/rebrand/favicon-96x96.png',
          });
 
          var button = document.getElementById("donate-btn");
