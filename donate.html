@@ -28,9 +28,9 @@ layout: project
          var resultBox = document.getElementById('donation-result');
          var checkoutBox = document.getElementById('donation-checkout');
          var checkoutHandler = StripeCheckout.configure({
-           key: "pk_test_RUBGjkgJ0PCjuCQ1VaUCwKM2",
+           key: "pk_live_CDQ1VjqbJHkFUm1qOGzeMI30",
            locale: "auto",
-           image: 'https://travis-foundation-website.herokuapp.com/images/rebrand/favicon-96x96.png',
+           image: 'https://foundation.travis-ci.org/images/rebrand/favicon-96x96.png',
          });
 
          var button = document.getElementById("donate-btn");
@@ -51,7 +51,7 @@ layout: project
            resultBox.innerText = "Processing donation ...";
            fetch("https://foundation-stripe-backend.herokuapp.com/charge", {
              method: "POST",
-             headers: {"Content-Type": "application/json", "Origin": "https://travis-foundation-website.herokuapp.com"},
+             headers: {"Content-Type": "application/json", "Origin": "https://foundation.travis-ci.org"},
              body: JSON.stringify({token, amount})
            })
              .then(response => {
