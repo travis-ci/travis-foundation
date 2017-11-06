@@ -50,7 +50,7 @@ layout: project
            resultBox.innerText = "Processing donation ...";
            fetch("https://foundation-stripe-backend.herokuapp.com/charge", {
              method: "POST",
-             headers: {"Content-Type": "application/json", "Origin": "http://localhost:4000"},
+             headers: {"Content-Type": "application/json", "Origin": "https://travis-foundation-website.herokuapp.com"},
              body: JSON.stringify({token, amount})
            })
              .then(response => {
