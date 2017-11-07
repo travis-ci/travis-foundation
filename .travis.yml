@@ -8,6 +8,6 @@ env:
 deploy:
   provider: heroku
   app: travis-foundation-website
-  on: gh-pages
+  on: master
   api_key:
     secure: qyM2saTxgnnEf9CgRZEDi3UjgDfPTx8DeK8Y0Ji3cG323HVWBDlDsJzFmKJ1qK8KS3h6w7aIeBAcqEaUqPZpHscLS+VK2VewRxGXSC5DAaIfraH26JGUEOBZvZiaAO/VgkBjeyEScpzbWwKKU9c5HNAjcunC/uDOybtsRH5CzXI=
