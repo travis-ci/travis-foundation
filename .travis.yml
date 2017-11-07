@@ -1,11 +1,13 @@
 language: ruby
-rvm:
-  - 2.4.2
-
+rvm: 2.4.2
 sudo: false
-
-script: ./ci/buildscript
-
+script: "./ci/buildscript"
 env:
   global:
-    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+deploy:
+  provider: heroku
+  app: travis-foundation-website
+  on: gh-pages
+  api_key:
+    secure: qyM2saTxgnnEf9CgRZEDi3UjgDfPTx8DeK8Y0Ji3cG323HVWBDlDsJzFmKJ1qK8KS3h6w7aIeBAcqEaUqPZpHscLS+VK2VewRxGXSC5DAaIfraH26JGUEOBZvZiaAO/VgkBjeyEScpzbWwKKU9c5HNAjcunC/uDOybtsRH5CzXI=
