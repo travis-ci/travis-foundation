@@ -1,0 +1,17 @@
+- 1:
+  title: "Diversity Tickets"
+  text: "A platform to help conferences offer diversity tickets for underrepresented minorities in tech."
+  image: "/images/rebrand/diversity-tickets-group.png"
+  link: "/projects/diversity-tickets/"
+- 2:
+  title: "Rails Girls Summer of Code"
+  text: "Rails Girls Summer of Code funds women around the world to work full-time over summer on open-source software projects."
+  image: "/images/rebrand/rgsoc.png"
+  link: "/projects/rgsoc/"
+- 3:
+  title: "Prompt"
+  text: "Prompt is an initiative to start a conversation about mental health in the tech community, and today we are excited to announce that it joins the Travis Foundation."
+  image: "/images/rebrand/prompt.png"
+  link: "/2015/07/23/prompt-joins-the-travis-foundation/"
+
+

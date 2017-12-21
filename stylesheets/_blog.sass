@@ -1,0 +1,216 @@
+@function blog-thing($col, $colTotal, $total)
+  $result: ($col / $colTotal)
+  @return $total * $result
+
+.center
+  @media (min-width: $bp-m)
+    overflow-y: hidden
+
+.blog-container
+  display: -webkit-flex
+  -webkit-flex-direction: row-reverse
+  -webkit-justify-content: center
+  -webkit-flex-wrap: wrap
+  -webkit-align-items: stretch
+
+  display: flex
+  flex-direction: row-reverse
+  justify-content: center
+  flex-wrap: wrap
+  align-items: stretch
+
+  width: 100%
+  background: white
+
+  /* class for iframe videos */
+  .videoWrapper
+    position: relative
+    padding-bottom: 56.25% /* 16:9 */
+    padding-top: 25px
+    height: 0
+
+  .videoWrapper iframe
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+
+
+.blog-sidebar
+  position: absolute
+  height: auto
+  -webkit-flex: 1 0 60%
+  flex: 1 0 60%
+  -webkit-transition: transform 200ms ease
+  transition: transform 200ms ease
+  -webkit-transform: translateX(-150%)
+  transform: translateX(-150%)
+  display: -webkit-flex
+  -webkit-justify-content: flex-end
+  -webkit-align-items: stretch
+  display: flex
+  justify-content: flex-end
+  align-items: stretch
+
+  background:
+    image: url(/images/rebrand/eurucamprailsgirls.png)
+    size: cover
+    position: top
+    repeat: no-repeat
+  h3
+    @extend %font-serif
+    display: inline-block
+    font-size: 26px
+    color: white
+    border-bottom: 2px solid $seafoam-light
+
+  &.is-open
+    -webkit-transform: translateX(0)
+    transform: translateX(0)
+
+  @media (min-width: $bp-m)
+    position: static
+    -webkit-flex: 1 0 38%
+    flex: 1 0 38%
+    -webkit-transform: none
+    transform: none
+    height: 100vh
+    overflow-y: auto
+    overflow-x: hidden
+
+.blog-list
+  width: 100%
+  @media (min-width: $bp-m)
+    -webkit-flex: 0 0 62%
+    flex: 0 0 62%
+    height: 100vh
+    margin-top: -$topbar-height
+    padding-top: $topbar-height
+    overflow-y: scroll
+    overflow-x: hidden
+
+.blog-sidebar-inner
+  padding: $gridGutter/ 2
+  @media (min-width: $centeredMaxWidth + 100)
+    width: blog-thing(1, 3, $centeredMaxWidth - $gridGutter)
+    .bullet-list
+      padding-bottom: 7em
+.blog-list-inner
+  padding: $gridGutter/ 2
+  @media (min-width: $centeredMaxWidth + 100)
+    width: blog-thing(2, 3, $centeredMaxWidth)
+
+
+.sidebar-heart
+  width: 9em
+  height: 9em
+  margin: 1.5em auto 1em
+  text-align: center
+  background:
+    image: url(/images/rebrand/foundation-logo.svg)
+    size: 100%
+    position: center center
+    repeat: no-repeat
+  a
+    display: block
+    width: 100%
+    height: 100%
+  h2
+    margin: 2.7em auto 0
+    font-weight: 300
+    color: white
+    text-transform: uppercase
+    background-color: rgba($dark-grey, .8)
+    display: inline-block
+    font-size: 18px
+    padding: 0.1em 0.9em
+    text-align: center
+
+.bullet-list
+  @extend %resetul
+
+  li
+    margin-bottom: 1em
+
+  .sidebar-arrow
+    display: inline-block
+    width: .8em
+    height: 1.1em
+    -webkit-transform: rotate(90deg)
+    transform: rotate(90deg)
+    -webkit-transition: transform 200ms ease
+    transition: transform 200ms ease
+    vertical-align: middle
+    svg polygon
+      fill: $seafoam-light
+      stroke: #9CD3B1
+      stroke-width: 2px
+      stroke-linecap: square
+  a
+    color: white
+    text-decoration: none
+    &:hover
+      .sidebar-arrow
+        -webkit-transform: rotate(90deg) translateY(-.4em)
+        transform: rotate(90deg) translateY(-.4em)
+
+.bullet-list--inverted
+  @extend .bullet-list
+  a
+    color: $dark-grey
+
+  @media (min-width: $bp-m)
+    a:hover
+      .sidebar-arrow
+        -webkit-transform: rotate(90deg)
+        transform: rotate(90deg)
+
+.list-columns
+  @media (min-width: $bp-m)
+    -webkit-columns: 2 4em
+    -moz-columns: 2 4em
+    columns: 2 4em
+
+.post
+  img, iframe, video
+    width: 100%
+  hr
+    border-top: none
+    border-bottom: 1px solid $henrietta-grey
+  span.author
+    display: block
+    text-align: right
+    font-style: italic
+
+  .small-img
+    width: 50%
+    margin-left: auto
+    margin-right: auto
+    .caption
+      text-align: center
+
+.post-title
+  margin-bottom: .4rem
+  a
+    @extend %font-serif
+    display: inline-block
+    font-size: 32px
+    color: $dark-grey
+    text-decoration: none
+    border-bottom: 2px solid $seafoam-light
+    &:hover
+      text-decoration: none
+      background-color: $seafoam-light
+
+.post-meta
+  margin-top: .5rem
+  color: $anika-grey
+  a
+    color: $seafoam-dark
+    text-decoration: none
+    &:hover
+      text-decoration: underline
+
+.medium-width
+  width: 200px !important

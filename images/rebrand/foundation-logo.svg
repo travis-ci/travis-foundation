@@ -1,0 +1,36 @@
+<svg version="1.1" id="Foundation-Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 133.3 108.4" style="enable-background:new 0 0 133.3 108.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#B4DEC8;}
+	.st1{fill:#88CCA7;}
+	.st2{fill:#9AD3B3;}
+	.st3{fill:#93D0AC;}
+	.st4{fill:#9DD5B8;}
+	.st5{fill:#C6E5D1;}
+	.st6{fill:#ABDABD;}
+	.st7{fill:#83C8A4;}
+	.st8{fill:#8CCEA7;}
+	.st9{fill:#81CAA7;}
+	.st10{fill:#A7D8BC;}
+</style>
+<path id="Background-Green" class="st0" d="M133.3,33.3l-11.1-18.1L91.9,0L66.5,19.4L40.8,0.5v0l-30,15.8L0,34.7l0,0L32.9,73
+	l34.6,35.4l0,0l34-36.2l-0.1,0L133.3,33.3L133.3,33.3z"/>
+<g id="Right-Side">
+	<polygon id="Right-Bottom-4" class="st1" points="67.1,72.4 67.5,108.4 101.4,72.2 	"/>
+	<polygon id="Right-Bottom-3" class="st2" points="102.2,32.4 101.3,72.3 133.3,33.3 	"/>
+	<polygon id="Right-Bottom-2" class="st3" points="67,72.5 102.2,32.4 101.3,72.3 	"/>
+	<polygon id="Right-Bottom-1" class="st4" points="102.2,32.4 66.8,46.1 67,72.5 	"/>
+	<polygon id="Right-Top-3" class="st5" points="133.3,33.3 122.2,15.2 91.9,0 102.2,32.4 	"/>
+	<polygon id="Right-Top-2" class="st6" points="66.8,46.1 91.9,0 102.2,32.4 	"/>
+	<polygon id="Right-Top-1" class="st3" points="66.8,46.1 66.5,19.4 91.9,0 	"/>
+</g>
+<g id="Left-Side">
+	<polygon id="Left-Bottom-4" class="st7" points="67.1,72.5 67.5,108.4 32.9,73 	"/>
+	<polygon id="Left-Bottom-3" class="st8" points="31.1,33.1 32.9,73 0,34.7 	"/>
+	<polygon id="Left-Bottom-2" class="st9" points="67.1,72.5 31.1,33.1 32.9,73 	"/>
+	<polygon id="Left-Bottom-1" class="st6" points="31.1,33.1 66.8,46.1 67.1,72.5 	"/>
+	<polygon id="Left-Top-3" class="st0" points="0,34.7 10.8,16.4 40.8,0.5 31.1,33.1 	"/>
+	<polygon id="Left-Top-2" class="st10" points="66.8,46.1 40.8,0.5 31.1,33.1 	"/>
+	<polygon id="Left-Top-1" class="st4" points="66.9,46.1 66.6,19.5 40.8,0.5 	"/>
+</g>
+</svg>

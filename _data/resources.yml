@@ -1,0 +1,166 @@
+- 1:
+  title: "Talk about Nothing"
+  text: "an examination of some of the rules that shape our experience, current society's roots in ancient philosophy, and how that impacts' our different realities in developing software today."
+  link: "https://www.youtube.com/watch?v=D3e3V66TH2Y"
+  category: "diversity"
+- 2:
+  title: "The Responsibility of 'Diversity'"
+  text: "why there's a need for improvements in diversity in technology, how to have a conversation about it, and what to do when things go wrong."
+  link: "https://www.ashedryden.com/blog/the-responsibility-of-diversity"
+  category: "diversity"
+- 3: 
+  title: "On Pie Chart Diversity at Technical Conferences"
+  text: an argument for diversity of experiences and opinions, above and beyond token racial diversity
+  link: "http://www.hanselman.com/blog/OnPieChartDiversityAtTechnicalConferences.aspx"
+  category: "reverse-discrimination"
+- 4:
+  title: "Why Reverse Oppression Simply Cannot Exist (No Matter What Merriam-Webster Says)"
+  text: "a discussion of how reverse oppression is impossible due to the way oppression works in social systems"
+  link: "http://everydayfeminism.com/2015/01/reverse-oppression-cant-exist/"
+  category: "reverse-discrimination"
+- 5:
+  title: "6 Reasons Men Can Literally Never Be Victims Of Sexism — And Those Who Think They Can Need To Learn What 'Sexism' Is"
+  text: "how sexism is different from discrimination, especially given historical context, power imbalance, and access to opportunities"
+  link: "https://www.bustle.com/articles/71400-6-reasons-men-can-literally-never-be-victims-of-sexism-and-those-who-think-they"
+  category: "reverse-discrimination"
+- 6:
+  title: "A Code of Conduct is Not Enough"
+  text: "what can happen when a code of conduct is not followed at a conference, and lessons learned about managing code of conducts and events' culture"
+  link: "https://modelviewculture.com/pieces/a-code-of-conduct-is-not-enough"
+  category: "codes-of-conduct"
+- 7:
+  title: "Abuse is Not Ok"
+  text: "an examination of abusive behavior in open source communities and what to do instead of making or allowing personal attacks to go on"
+  link: "http://www.curiousefficiency.org/posts/2015/01/abuse-is-not-ok.html"
+  category: "codes-of-conduct"
+- 8:
+  title: "Managing Privilege"
+  text: "an explanation of what is privilege and how to be responsible with it; Contains strong language"
+  link: "http://www.robot-hugs.com/privilege/"
+  category: "unconscious-bias"
+- 9:
+  title: "Ways Men In Tech Are Unintentionally Sexist"
+  text: "a list that highlights specific, common behaviors in the tech industry that are also sexist"
+  link: "https://notapattern.net/2014/10/14/ways-men-in-tech-are-unintentionally-sexist/#the-list"
+  category: "unconscious-bias"
+- 10:
+  title: "Unconscious Bias Theory in Employment Discrimination Litigation" 
+  text: "case review from Harvard Law Review focusing on unconscious bias in hiring and the workplace"
+  link: "https://drive.google.com/file/d/0B79UlI0LWGoAeTdibFVkUUhtV0U/view"
+  category: "unconscious-bias"
+- 11:
+  title: "Implicit Bias: A Primer for Courts"
+  text: "information for legal professionals on how implicit bias works"
+  link: "https://drive.google.com/file/d/0B79UlI0LWGoARGdFTGIwYUQzQ1E/view"
+  category: "unconscious-bias"
+- 12:
+  title: "Double Jeopardy?: Bias against Women of Color in Science"
+  text: "UC Hastings College of Law paper on issues of bias against women of color in science"
+  link: "https://drive.google.com/file/d/0B79UlI0LWGoAeS1rRkQ0TmF3Xzg/view"
+  category: "unconscious-bias"
+- 13:
+  title: "Dissent Unheard Of"
+  text: "a discussion of what is silencing, how to identify it, what it looks like when it's happening, and what to do if you see silencing happening"
+  link: "https://modelviewculture.com/pieces/dissent-unheard-of"
+  category: "inclusivity"
+- 14:
+  title: "Why Nerd Culture Must Die"
+  text: "a discussion of how 'nerd culture' needs to respect the wider, and more diverse group of people who see themselves as 'nerds'"
+  link: "https://petewarden.com/2014/10/05/why-nerd-culture-must-die/"
+  category: "inclusivity"
+- 15: 
+  title: "There's no Merit in Meritocracy"
+  text: "a discussion of how communities that pride themselves on meritocracy can have an inherit exclusivity because of how power is balanced and imbalanced; Contains strong language"
+  link: "https://slowpokewell.wordpress.com/2015/01/17/theres-no-merit-in-meritocracy/"
+  category: "inclusivity"
+- 16:
+  title: "Ramp-Up.me"
+  text: "information website that collects information about making conferences accessible and inclusive"
+  link: "http://ramp-up.me/"
+  category: "conferences-and-public-speaking"
+- 17:
+  title: "Guide to Allyship"
+  text: "an informational website on who is an ally and how to be an ally"
+  link: "http://www.guidetoallyship.com/"
+  category: "allyship"
+- 18:
+  title: "Being an Effective Ally to Women and Non-Binary People"
+  text: "a discussion of terminology and how to be an ally, in the context of allyship to women and non-binary people"
+  link: "https://codeascraft.com/2016/10/19/being-an-effective-ally-to-women-and-non-binary-people/"
+  category: "allyship"
+- 19:
+  title: "Tips for Allies of Transgender People"
+  text: "a list of suggestions and explanations for how to be an ally to transgender people"
+  link: "https://www.glaad.org/transgender/allies"
+  category: "allyship"
+- 20:
+  title: "Understanding Gender"
+  text: "a basic overview of gender and its terminology"
+  link: https://www.genderspectrum.org/quick-links/understanding-gender/
+  category: "gender"
+- 21:
+  title: "Women in the U.S. make 81 cents to the dollar men earn doing the same job"
+  text: "definition of the pay gap, why it's illegal and unfair, and action steps for how to address it"
+  link: "http://narrowthegapp.com/"
+  category: "gender-pay-gap"
+- 22:
+  title: "5 Essential Ways to Support the Autistic Community in Autism Acceptance"
+  text: "Going beyond autism awareness — actionable ways to support the autistic community"
+  link: "http://everydayfeminism.com/2017/05/support-autistic-community/"
+  category: "inclusivity"
+- 23:
+  title: "How to survive in intersectional feminist spaces 101"
+  text: "A really great article and general resource on intersectional feminism; contains some strong language"
+  link: "https://crossknit.wordpress.com/2017/01/23/so-you-wanna-be-an-intersectional-feminist/"
+  category: "intersectional-feminism"
+- 24:
+  title: "Your tech job posting is broken. Here’s how to fix it."
+  text: "An article about writing inclusive tech postings"
+  link: "https://medium.com/@fox/your-tech-job-posting-is-broken-heres-how-to-fix-it-6db06b9769cb"
+  category: "inclusivity"
+- 25:
+  title: "Privilege 101: A Quick and Dirty Guide"
+  text: "Do you find the concept of privilege confusing? If so, this guide should help you understand a little more about what privilege is."
+  link: http://everydayfeminism.com/2014/09/what-is-privilege/
+  category: "unconscious-bias"
+- 26:
+  title: "Speakerline"
+  text: "Showcasing speakers' proposals and timelines in an effort to demystify the CFP process and help new speakers get started."
+  link: http://speakerline.io/
+  category: "conferences-and-public-speaking"
+- 27:
+  title: "So you think you know a thing: Feministing 201"
+  text: "A follow-up to the great intersectional feminism article above."
+  link: https://crossknit.wordpress.com/2017/01/24/so-you-think-you-know-a-thing-feministing-201/
+  category: "intersectional-feminism"
+- 28:
+  title: "Speakerinnen"
+  text: "Find women speakers and moderators for your conference"
+  link: https://speakerinnen.org/
+  category: "conferences-and-public-speaking"
+- 29:
+  title: "The less obvious conference checklist"
+  text: "A list of actionable suggestions to help make your conferences better and more inclusive"
+  link: https://github.com/erikr/lessobviouschecklist
+  category: "conferences-and-public-speaking"
+- 30:
+  title: "Enby Speakers in Tech"
+  text: "A list of non-binary speakers who do talks on technology"
+  link: https://enbytech.github.io/
+  category: "conferences-and-public-speaking"
+- 31:
+  title: "Outspoken Women"
+  text: "A resource for women and non-binary individuals in the Open Source tech industry to provide them with support, mentorship, and financial scholarships to speak at events"
+  link: http://outspokenwomen.io/
+  category: "conferences-and-public-speaking"
+- 32:
+  title: "On improving diversity in hiring"
+  text: "Tips on hiring diversely"
+  link: https://cate.blog/2017/09/28/on-improving-diversity-in-hiring/
+  category: "diversity"
+- 33:
+  title: "Speakers who want a platform"
+  text: "A directory of underrepresented speakers for Q&A panels/conferences/events"
+  link: https://github.com/iheanyi/speakers-who-want-a-platform
+  category: "conferences-and-public-speaking"
+

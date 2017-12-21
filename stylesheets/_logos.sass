@@ -1,0 +1,71 @@
+.logo-list
+  display: flex
+  flex-direction: column
+  padding: 0
+  margin: 0
+  list-style: none
+  li
+    margin-bottom: 3em
+    display: flex
+    flex-flow: column wrap
+    align-items: center
+    @media (min-width: $bp-logopage)
+      flex-flow: row wrap
+
+.logo-description
+  flex: 1 0 100%
+
+.logo
+  position: relative
+  display: block
+  height: auto
+  padding: 1em
+  overflow: hidden
+
+  &.dark
+    background-color: $dark-seafoam-green
+
+  & ~ .logo
+    margin-top: 1.8em
+  @media (min-width: $bp-logopage)
+    & ~ .logo
+      margin-top: 0
+      margin-left: 1.8em
+
+.logo-preview
+  width: 270px
+  height: 150px
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: center
+
+.logo-hover
+  background-color: rgba($dark-grey, 0.7)
+  position: absolute
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+  will-change: opacity, transform
+  transition: opacity 200ms ease, transform 200ms ease
+  transform: scale(0.9) translateY(50%)
+  opacity: 0
+
+  &:hover,
+  &:active
+    opacity: 1
+    transform: scale(1)
+
+  p
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    margin: auto
+    height: 1.6em
+    text-align: center
+    text-transform: uppercase
+    color: white
+    font-weight: 400
+    font-size: 12px

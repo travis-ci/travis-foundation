@@ -1,0 +1,25 @@
+- 1:
+  title: "Rails Girls Summer of Code"
+  text: "Rails Girls Summer of Code funds women around the world to work full-time over summer on open-source software projects."
+  image: "/images/rebrand/rgsoc.png"
+  link: "/projects/rgsoc/"
+- 2:
+  title: "Diversity Tickets"
+  text: "As part of our diversity consulting, we give conference organisers the possibility to provide underrepresented minorities in tech with free diversity tickets for their conference."
+  image: 
+  link: "/projects/diversity-tickets"
+- 3:
+  title: "Speakerinnen"
+  text: "Speakerinnen.org was created to increase the visibility of women in the field of public speaking."
+  image:
+  link: "/projects/speakerinnen"
+- 4:
+  title: "Prompt"
+  text: "Prompt is an initiative to start a conversation about mental health in the tech community."
+  image: "/images/rebrand/prompt.png"
+  link: "/projects/prompt"
+- 5:
+  title: "Conference Support"
+  text: "Travis Foundation has supported various conferences by handling the financial side of things, so organisers can focus on organising."
+  image:
+  link: "/projects/conferences"

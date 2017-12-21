@@ -1,12 +1,14 @@
 <head>
-  <meta charset="utf-8" />
-  <title>
-    Travis Foundation
-  </title>
-  <link href="/styles/styles.css" rel="stylesheet" />
-  <link href="/styles/fonts/opensans.css" rel="stylesheet" type="text/css" />
-  <link href="/styles/fonts/lato.css" rel="stylesheet" type="text/css" />
-  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet" />
-  <script src="/scripts/vendor/jquery-1.9.1.min.js"></script>
-  <script src="/scripts/script.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} {% unless page.short_title%}- Travis Foundation{% endunless %}</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="{{ page.description }}">
+  <link rel="stylesheet" href="{{ "/stylesheets/main.css" | prepend: site.baseurl }}">
+  <link rel="alternate" href="/feed.xml" type="application/atom+xml" />
+
+  <meta property="og:title" content="{{ page.title }} - Travis Foundation" />
+  <meta property="og:url" content="http://foundation.travis-ci.org" />
+  <meta property="og:description" content="Working towards a better open source community - An initiative run by Travis CI">
+  <meta property="og:image" content="http://foundation.travis-ci.org/images/rebrand/favicon-96x96.png" />
 </head>

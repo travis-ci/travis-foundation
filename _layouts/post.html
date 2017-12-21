@@ -1,25 +1,31 @@
 ---
 layout: blog
 --- 
-<article>
-  <h2>
-    <a href="{{ page.url }}">{{ page.title }}</a>
-  </h2>
-  <p class="info">
-    {{ page.date | date: "%B %-d, %Y" }},&nbsp; {{ page.author }} 
-  </p>
-  <div class="content">
-    {{ content }} 
+
+<div class="blog-list">
+  <div class="blog-list-inner">
+    <article class="post">
+      <h1 class="post-title">
+        <a href="{{ page.url }}">{{ page.title }}</a>
+      </h1>
+      <p class="post-meta">
+        {% if page.twitter %} <a href="http://twitter.com/{{ page.twitter }}">{{ page.author }}</a>,{% else %}
+        ' {{ page.author }}, {% endif %} {{ page.date | date: "%B %-d, %Y" }} 
+      </p>
+      <div class="content">
+        {{ content }} 
+      </div>
+    </article>
+    <div id="disqus_thread">
+      <script type="text/javascript">
+        var disqus_shortname = 'travis-fnd';
+        (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></noscript><a class="dsq-brlink" href="http://disqus.com">comments powered by Disqus</a>
+    </div>
   </div>
-  <div id="disqus_thread">
-    <script type="text/javascript">
-      var disqus_shortname = 'travis-fnd';
-      (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-      })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></noscript><a class="dsq-brlink" href="http://disqus.com">comments powered by Disqus</a>
-  </div>
-</article>
+</div>

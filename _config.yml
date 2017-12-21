@@ -1,10 +1,20 @@
-safe: true
 permalink: pretty
+safe: true
 exclude:
   - 'vendor'
   - 'Gemfile*'
   - 'Guardfile'
   - '*.coffeescript'
-  - '*.sass'
   - '*.slim'
   - 'source'
+  - 'vendor'
+markdown: kramdown
+syntax-highlighting:
+  enabled: true
+kramdown:
+  hard_wrap: false
+  input: GFM
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+sass:
+  style: compressed
+  sass_dir: stylesheets

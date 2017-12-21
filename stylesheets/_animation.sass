@@ -1,0 +1,104 @@
+
+// Foundation sparkles
+
+@mixin allTheColors($color, $time)
+  @keyframes changeColor
+    0%
+      fill: rgba($color, 1)
+    30%
+      fill: darken(rgba($color, 1), 5)
+    60%
+      fill: lighten(rgba($color, 1), 5)
+    90%
+      fill: rgba($color, 1)
+    100%
+      fill: rgba($color, 1)
+
+  animation: changeColor ($time * 0.9) infinite ease ($time * 0.5)
+
+  @-webkit-keyframes changeColor
+    0%
+      fill: rgba($color, 1)
+    30%
+      fill: darken(rgba($color, 1), 5)
+    60%
+      fill: lighten(rgba($color, 1), 5)
+    90%
+      fill: rgba($color, 1)
+    100%
+      fill: rgba($color, 1)
+
+  -webkit-animation: changeColor ($time * 0.9) infinite ease ($time * 0.5)
+
+#Right-Side
+  .st0
+    @include allTheColors(#B4DEC8, 5s)
+  .st1
+    @include allTheColors(#88CCA7, 6s)
+  .st2
+    @include allTheColors(#9AD3B3, 7s)
+  .st3
+    @include allTheColors(#93D0AC, 6s)
+  .st4
+    @include allTheColors(#9DD5B8, 5s)
+  .st5
+    @include allTheColors(#C6E5D1, 4s)
+  .st6
+    @include allTheColors(#ABDABD, 7s)
+  .st7
+    @include allTheColors(#83C8A4, 6s)
+  .st8
+    @include allTheColors(#8CCEA7, 5s)
+  .st9
+    @include allTheColors(#81CAA7, 4s)
+  .st10
+    @include allTheColors(#A7D8BC, 7s)
+
+#Left-Side
+  .st0
+    @include allTheColors(#B4DEC8, 4s)
+  .st1
+    @include allTheColors(#88CCA7, 6s)
+  .st2
+    @include allTheColors(#9AD3B3, 5s)
+  .st3
+    @include allTheColors(#93D0AC, 7s)
+  .st4
+    @include allTheColors(#9DD5B8, 4s)
+  .st5
+    @include allTheColors(#C6E5D1, 8s)
+  .st6
+    @include allTheColors(#ABDABD, 6s)
+  .st7
+    @include allTheColors(#83C8A4, 4s)
+  .st8
+    @include allTheColors(#8CCEA7, 6s)
+  .st9
+    @include allTheColors(#81CAA7, 7s)
+  .st10
+    @include allTheColors(#A7D8BC, 5s)
+
+
+
+// Foundation line 
+
+
+.fnd-heart-outline
+  fill: transparent
+  stroke: #fff
+  stroke-dasharray: 500
+  stroke-dashoffset: 500
+
+.is-animating
+  path
+    -webkit-animation: lineAnim 4s ease-out forwards
+    animation: lineAnim 4s ease-out forwards
+
+@keyframes lineAnim
+  to
+    stroke-dashoffset: 0
+
+@-webkit-keyframes lineAnim
+  to
+    stroke-dashoffset: 0
+

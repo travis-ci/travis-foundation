@@ -1,8 +1,14 @@
-script: echo 'we have no tests yet'
+language: ruby
+rvm: 2.4.2
+sudo: false
+script: "./ci/buildscript"
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 deploy:
   provider: heroku
+  app: travis-foundation-website
+  on: master
   api_key:
-    secure: WsBQP3WRRP90Kes6HOJb1l8dj0W9Q+w76ZUxkvkX1eUyjVX1kJJ1TlGWINDlqxJHjQttxU7Q+gBAVUjaPCDYpKIZiz540zqTHlAyGqzpCL0NjK2iX3raVwNUPzcScQ4XfQ+72PCQCB9gAlpARjaSYvVfnjA1q7+ZYzUH+n1xGzM=
-  app: travis-foundation-production
-  on:
-    repo: travis-ci/travis-foundation
+    secure: qyM2saTxgnnEf9CgRZEDi3UjgDfPTx8DeK8Y0Ji3cG323HVWBDlDsJzFmKJ1qK8KS3h6w7aIeBAcqEaUqPZpHscLS+VK2VewRxGXSC5DAaIfraH26JGUEOBZvZiaAO/VgkBjeyEScpzbWwKKU9c5HNAjcunC/uDOybtsRH5CzXI=
+

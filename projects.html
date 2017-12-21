@@ -1,0 +1,25 @@
+---
+title: Our Projects
+layout: project
+---
+
+<article>
+  <div class="inner">
+    <div class="project-intro">
+      <p>At Travis Foundation, we are excited to support initiatives which focus on improving diversity in our community. </p>
+    </div>
+    <div class="project-main">
+      
+      {% for project in site.data.projects %}
+          <ul class="bullet-list--inverted list-columns">
+            <li><a href="{{project.link}}" title="{{project.title}}">{% include bullet-arrow.html %}<h2>{{project.title}}</h2></a></li>
+          </ul>  
+            
+          <p>{{project.text}}</p>
+            
+          
+      {% endfor %}
+      
+    </div>
+  </div>
+</article>

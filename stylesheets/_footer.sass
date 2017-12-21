@@ -1,0 +1,88 @@
+%footer-link
+  display: inline-block
+  padding: 0.1em 0.3em 0.2em
+  color: $dark-grey
+  text-decoration: none
+  vertical-align: middle
+  &:hover
+    background-color: $dark-grey
+    color: white
+
+%bg-icon
+  padding: 0 1em
+  margin-right: .5em
+  border-right: 1px $seafoam-dark solid
+  background:
+    size: 1em .9em
+    position: center center
+    repeat: no-repeat
+
+.footer
+  padding: $gridGutter / 2
+  clear: both
+  overflow: auto
+
+.contactlist
+  @extend %resetul
+  margin-top: 0.6em
+  @media (min-width: $bp-s)
+    li:first-child
+      margin-left: -10px
+    li
+      display: inline-block
+  span
+    display: inline-block
+    vertical-align: middle
+  a
+    @extend %footer-link
+
+  @media (min-width: $bp-m)
+    float: left
+
+.icon-mail
+  @extend %bg-icon
+  width: .9em
+  height: .9em
+  background:
+    image: url(/images/rebrand/email-icon.svg)
+
+.icon-twitter
+  @extend %bg-icon
+  width: 1em
+  height: 1em
+  background:
+    image: url(/images/rebrand/twitter-icon.svg)
+
+.icon-imprint
+  @extend %bg-icon
+  width: 1em
+  height: 1em
+  background:
+    image: url(/images/rebrand/imprint-icon.svg)
+
+.icon-heart
+  @extend %bg-icon
+  width: 1em
+  height: 1em
+  background:
+    image: url(/images/rebrand/heart-icon.svg)
+
+.call-to-travis
+  p
+    margin: 0
+  a
+    @extend %footer-link
+  @media (min-width: $bp-m)
+    float: right
+
+.mascot
+  display: inline-block
+  width: 3rem
+  height: 3rem
+  margin-left: 1.5em
+  vertical-align: middle
+  background:
+    image: url(/images/rebrand/travis-ci-logo.svg)
+    size: 100%
+    position: center center
+    repeat: no-repeat

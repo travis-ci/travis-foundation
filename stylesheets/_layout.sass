@@ -1,0 +1,101 @@
+%font-serif
+  font-family: 'Arapey', Times New Roman, serif
+  font-weight: 400
+  font-style: italic
+
+%font-sansserif
+  font-family: 'Source Sans Pro', sans-serif
+
+
+*,
+*:before,
+*:after
+  box-sizing: border-box
+
+html
+  height: 100%
+
+body
+  min-height: 100%
+
+html, body
+  @extend %font-sansserif
+  color: $dark-grey
+  font-size: 18px
+  background-color: $dark-grey
+  text-rendering: optimizelegibility
+
+p
+  line-height: 1.45
+
+a
+  color: $seafoam-dark
+  text-decoration: none
+  &:hover,
+  &:active,
+  &:focus
+    text-decoration: underline
+
+blockquote
+  position: relative
+  &:before
+    content: "\201C"
+    position: absolute
+    left: -0.6em
+    top: -0.2em
+    font-size: 66px
+    color: $anika-grey
+cite
+  display: block
+  margin-top: .6em
+  font-style: normal
+  color: $seafoam-dark
+
+input[type='number'],
+input[type='text']
+  padding: .3em .5em
+  border: 1px solid $dark-seafoam-green
+  border-radius: 2px
+
+.topbar,
+.about
+  background: $dark-grey
+  color: white
+
+.topbar .inner,
+.topbar--inverted .inner,
+.quote .inner
+  padding: 0 $gridGutter / 2
+
+.hero
+  background: $another-dark-grey
+
+.features,
+.spokespeople
+  background: $dark-seafoam-green
+
+.topbar--inverted,
+.quote,
+.footer
+  background: white
+
+.inner
+  @media (min-width: $bp-l)
+    max-width: $gridMaxWidth
+    margin: auto
+
+  .center &
+    max-width: $centeredMaxWidth
+    margin: auto
+
+.default,
+.project
+  display: -webkit-flex
+  display: flex
+
+  -webkit-flex-direction: column
+  flex-direction: column
+
+  main
+    -webkit-flex: 1 0 auto
+    flex: 1 0 auto
