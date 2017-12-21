@@ -10,5 +10,4 @@ deploy:
   app: travis-foundation-website
   on: master
   api_key:
-    secure: qyM2saTxgnnEf9CgRZEDi3UjgDfPTx8DeK8Y0Ji3cG323HVWBDlDsJzFmKJ1qK8KS3h6w7aIeBAcqEaUqPZpHscLS+VK2VewRxGXSC5DAaIfraH26JGUEOBZvZiaAO/VgkBjeyEScpzbWwKKU9c5HNAjcunC/uDOybtsRH5CzXI=
-
+    secure: jWnGUohGA9iYVAdmbYBkwlm0A57Wn3hZHZ8mc5q5QdcuFjXrnhkcKsFQHZD8yfSHdIwI56UzVFTy33i2qENMfMGws70dVDHUFlHosTvFF90pvnCdG/SkPGuhUr3lIjQlSOhZKdM8fQ7+MGrSnc64kyFUfXZIJiv8uGDW1fpgFh0=
