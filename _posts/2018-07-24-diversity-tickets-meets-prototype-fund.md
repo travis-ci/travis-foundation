@@ -2,20 +2,20 @@
 layout: post
 title: Diversity Tickets meets Prototype Fund
 author: Candela and Jessica
-twitter: 
+twitter: travis_fnd 
 
 ---
 
-*[Candela]() and [Jessica]() are the recipients of one of the Prototype Fund grants for 2018 and developers on the Open Source project Diversity Tickets.*
+*[Candela](https://github.com/mauditecandela) and [Jessica](https://github.com/guainumbi) are the recipients of one of the Prototype Fund grants for 2018 and developers on the Open Source project Diversity Tickets.*
 
 ---
 
-[Diversity Tickets](https://diversitytickets.org/) was originally born as an initiative of Rails Girls Berlin (http://railsgirlsberlin.de/) and the RubyMonstas (http://rubymonstas.org/) study group at Travis CI and is now being run by Travis Foundation as a non-profit project.
+[Diversity Tickets](https://diversitytickets.org/) was originally born as an initiative of [Rails Girls Berlin](http://railsgirlsberlin.de/) and the [RubyMonstas](http://rubymonstas.org/) study group at Travis CI and is now being run by Travis Foundation as a non-profit project.
 
 ## Who are we?
 
 [Candela](https://github.com/mauditecandela) has been working for more than 7 years in the tech industry. She is passionate about clean code, collaborative and open source projects and DIY.  
-[Jessica](https://github.com/guainumbi) is a freelance web developer at codenoiz.com. She also has a professional music background and when she is not writing code she works as a singer at lieblingslied-hochzeitsgesang.de.  
+[Jessica](https://github.com/guainumbi) is a freelance web developer at [codenoiz.com](http://www.codenoiz.com/). She also has a professional music background and when she is not writing code she works as a singer at [lieblingslied-hochzeitsgesang.de](http://www.lieblingslied-hochzeitsgesang.de/).  
 
 The two of us met in May last year at the RubyMonstas Monday study group where we became Svens’ Ruby Padawans; together we founded the codersdiv GbR to be able to work on Diversity Tickets as part of the Prototype Foundation Program: https://prototypefund.de/project/diversity-ticket/.
 
@@ -47,10 +47,10 @@ We are also working to extend automated processes like email notifications and a
 Another big topic during our work on the app in the last months has been the introduction of the GDPR. While we created the possibility to save more user data, we are also hoping to give the user more control over their own data. We implemented a download option of all stored data connected to an account so users can see a detailed overview of what information we store, autonomously. In addition to that we created the option for users to delete their account independently and with immediate effect without the need to contact Travis Foundation.  
 We also updated the app to Rails 5. ;)
 
-We are happy to be able to develop the project further for already three months now and improve the experience for Diversity Tickets users, make the life of Travis Foundation and particularly Laura’s (@alicetragedy) and Anika’s lives easier by implementing new features and hopefully be able to help Diversity Tickets reach an even bigger audience.
+We are happy to be able to develop the project further for already three months now and improve the experience for Diversity Tickets users, make the life of Travis Foundation and particularly [Laura](https://twitter.com/alicetragedy)’s and Anika’s lives easier by implementing new features and hopefully be able to help Diversity Tickets reach an even bigger audience.
 
 ## What’s next?
 We will continue to implement and develop more features in the upcoming months. Diversity Tickets is an amazing Open Source project which we are very excited to be a part of and hope to be able to contribute to even more in the weeks to come. Thank you and a big shout out to the community for making this happen! We’d particularly like to thank:  
-Katrin (@lisbethmarianne) and Anika (@langziehohr) from Travis Foundation who introduced us to the app and explained to us the procedures and challenges that come with managing Diversity Tickets. The same goes for Maren (@zaziemo) and Anja (@_tyranja_) from speakerinnen.org who were part of the first Prototype Fund round with their project and gave us helpful advice for our application.
-Last but not least — A big thank you goes to our RubyMonstas heroes Sven(@svenfuchs) and Andy(@A5308Y) and everyone else who supported us along the process, including the team of the Open Knowledge Foundation (https://okfn.de/). 
+[Katrin](https://twitter.com/lisbethmarianne) and [Anika](https://twitter.com/langziehohr) from Travis Foundation who introduced us to the app and explained to us the procedures and challenges that come with managing Diversity Tickets. The same goes for [Maren](https://twitter.com/zaziemo) and [Anja](https://twitter.com/_tyranja_) from speakerinnen.org who were part of the first Prototype Fund round with their project and gave us helpful advice for our application.  
+Last but not least — A big thank you goes to our RubyMonstas heroes [Sven](https://twitter.com/svenfuchs) and [Andy](https://twitter.com/A5308Y) and everyone else who supported us along the process, including the team of the [Open Knowledge Foundation](https://okfn.de/). 
 
