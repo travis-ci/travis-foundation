@@ -6,7 +6,7 @@ twitter: travis_fnd
 
 ---
 
-*[Candela](https://github.com/mauditecandela) and [Jessica](https://github.com/guainumbi) are the recipients of one of the Prototype Fund grants for 2018 and developers on the Open Source project Diversity Tickets.*
+*[Candela](https://github.com/mauditecandela) and [Jessica](https://twitter.com/guainumbi_) are the recipients of one of the Prototype Fund grants for 2018 and developers on the Open Source project Diversity Tickets.*
 
 ---
 
