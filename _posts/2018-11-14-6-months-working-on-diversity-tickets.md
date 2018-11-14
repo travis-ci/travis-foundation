@@ -20,13 +20,13 @@ Wow, time flies when you’re having fun — and a long list of features to impl
 
 While working on the user profiles feature, we implemented personalized profiles for applicants in addition to those for admins and event organizers. (You can find more details about that [in our earlier post](https://foundation.travis-ci.org/2018/07/24/diversity-tickets-meets-prototype-fund/)). Since our last update users can now also save fields of interest to their profiles, such as certain programming languages, spoken languages or fields of expertise, and choose to get notified if a new event has been published on Diversity Tickets that matches these fields. 
 
-[IMAGE]
+![Screenshot of account settings on diversitytickets.org](/images/blog/2018-11-14-screenshot-1.png)
 
 If you are an event organizer, you now also have the option to get notified once the number of submitted applications has exceeded the number of offered tickets, so you can decide whether you would like to open up more tickets for application. You can even choose to get notified each time the application number breaks the threshold for multiple rounds of ticket increases. But don’t worry — You will always receive only one email per threshold mark.
 
 ### User Applications / Drafts
 
-[IMAGE]
+![Screenshot of a user application draft on diversitytickets.org](/images/blog/2018-11-14-screenshot-2.png)
 
 Did we mention you can now save drafts for your applications in your user profile? Pretty neat, indeed. We even included a deadline reminder for you that will notify you a couple of days before the deadline of the event you saved your draft for, to make sure you do not miss your opportunity to apply.
 
@@ -36,7 +36,7 @@ Diversity Tickets is available in English AND Spanish now! If you are a develope
 
 ### Event search
 
-[IMAGE]
+![Screenshot of the filter & search system on diversitytickets.org](/images/blog/2018-11-14-screenshot-3.png)
 
 We added an event search to help you find events more easily. As the platform and its user-base is growing, Diversity Tickets is receiving more and more events. To help you navigate through them and find the events you are looking for, we implemented a filter-by-tags system and a keyword search. They work combined as well as individually.
 
@@ -49,11 +49,15 @@ If you like what Diversity Tickets does, help spread the word about the platform
 
 ## Diversity Tickets at BMBF
 
-https://twitter.com/alicetragedy/status/1048128237170245632
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">.<a href="https://twitter.com/guainumbi_?ref_src=twsrc%5Etfw">@guainumbi_</a> and <a href="https://twitter.com/mauditecandela?ref_src=twsrc%5Etfw">@mauditecandela</a> on stage for <a href="https://twitter.com/hashtag/prototypedemos?src=hash&amp;ref_src=twsrc%5Etfw">#prototypedemos</a>, to present all the work they’ve done on <a href="https://twitter.com/hashtag/DiversityTickets?src=hash&amp;ref_src=twsrc%5Etfw">#DiversityTickets</a> over the last 6 months supported by <a href="https://twitter.com/travis_fnd?ref_src=twsrc%5Etfw">@travis_fnd</a>  🙏💪🏼💖🎉 <a href="https://t.co/do17gJxm4l">pic.twitter.com/do17gJxm4l</a></p>&mdash; Laura (@alicetragedy) <a href="https://twitter.com/alicetragedy/status/1048128237170245632?ref_src=twsrc%5Etfw">October 5, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 In early October this year we had the opportunity to talk about Diversity Tickets at the German Federal Ministry of Education and Research (BMBF), which hosted the Demo Day of [Prototype Fund’s 3rd Round “Diversity”](https://prototypefund.de/projects/round3/) and enabled our work over the past 6 months. As participants of the program we presented our work on the platform and introduced Diversity Tickets to the audience and other teams who presented their projects that day.  
 We are immensely proud to be able to contribute to this amazing project and would like to thank, once again, everyone who made this work possible: **The Prototype Fund, the Open Knowledge Foundation, Travis CI, RubyMonstas, Laura, Anika, Sven, Andy** and everyone else who helped to make it happen. <3 
 
-You can find links to a video about the Prototype Fund Demo Day and the slides of our presentation below:
-[[Video](https://www.youtube.com/watch?v=zgkci_5avz0)]
-[[link to presentation here]()] 
+You can find links to a video about the Prototype Fund Demo Day and the slides of our presentation below:  
+[[Video](https://www.youtube.com/watch?v=zgkci_5avz0)]  
+[[download presentation](/images/blog/2018-11-14-Diversity-Tickets-Prototype-Fund.pdf)]   
+
+![Screenshot of account settings on diversitytickets.org](/images/blog/2018-11-14-rubymonstas-travis-foundation.jpg)
