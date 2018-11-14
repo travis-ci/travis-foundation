@@ -60,4 +60,5 @@ You can find links to a video about the Prototype Fund Demo Day and the slides o
 [[Video](https://www.youtube.com/watch?v=zgkci_5avz0)]  
 [[download presentation](/images/blog/2018-11-14-Diversity-Tickets-Prototype-Fund.pdf)]   
 
-![Screenshot of account settings on diversitytickets.org](/images/blog/2018-11-14-rubymonstas-travis-foundation.jpg)
+![Rubymonstas and Travis Foundation](/images/blog/2018-11-14-rubymonstas-travis-foundation.jpg)
+*From left to right: Laura, Candela, Jess, Anika*
