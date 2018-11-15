@@ -61,4 +61,4 @@ You can find links to a video about the Prototype Fund Demo Day and the slides o
 [[download presentation](/images/blog/2018-11-14-Diversity-Tickets-Prototype-Fund.pdf)]   
 
 ![Rubymonstas and Travis Foundation](/images/blog/2018-11-14-rubymonstas-travis-foundation.jpg)
-*From left to right: Laura, Candela, Jess, Anika*
+*From left to right: Laura, Candela, Jess, Anika at the BMBF*
