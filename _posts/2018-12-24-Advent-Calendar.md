@@ -12,7 +12,6 @@ twitter: travis_fnd
 
 As a surprise for all our friends and followers we created an [Advent Calendar on Twitter](https://twitter.com/hashtag/tfadventcalendar?f=tweets&vertical=default&src=hash) for you. Every day we tweeted recommendation what was good this year regarding feminism, diversity or open source. We got way way more recommendations from friends & family of the Foundation than we could include (we definitely need a longer advent calendar!), so here we are sharing all whooping 74 recommendations with you (if you have additions that made your year, share them in the comments with us!) — Happy Holidays! 
 
-
 # articles and comics 
 
 + [You should have asked - a comic about mental load](https://english.emmaclit.com/2017/05/20/you-shouldve-asked/)
