@@ -7,7 +7,7 @@ twitter: travis_fnd
 ---
 
 
-![](/images/blog/2018-12-24-travisfoundation-advent-calendar.png)
+![illistration of the words Travis Foundation Advents Calendar](/images/blog/2018-12-24-travisfoundation-advent-calendar.png)
 
 
 As a surprise for all our friends and followers we created an [Advent Calendar on Twitter](https://twitter.com/hashtag/tfadventcalendar?f=tweets&vertical=default&src=hash) for you. Every day we tweeted recommendation what was good this year regarding feminism, diversity or open source. We got way way more recommendations from friends & family of the Foundation than we could include (we definitely need a longer advent calendar!), so here we are sharing all whooping 74 recommendations with you (if you have additions that made your year, share them in the comments with us!) — Happy Holidays! 
