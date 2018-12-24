@@ -103,7 +103,7 @@ Wie wir voneinander lernen & zusammen wachsen Konferenzpanel Bits & Bäume](http
 + [List of Women in Tech to follow on Twitter - by Ashley McNamara](https://twitter.com/ashleymcnamara/status/1063120296369020935)
 + [Confbuddy](https://conferencebuddy.io)
 + [CoderDojoLinz & CoderDojoWien ](https://coderdojo.com/)
-+ [Codeland, the conference by @saronyitbarek & @CodeNewbies](codeland.org)
++ [Codeland, the conference by @saronyitbarek & @CodeNewbies](https://codelandconf.com/)
 + [JS Conf Scholarships](https://2019.jsconf.eu/scholarships/)
 + https://twitter.com/Mandinka_X
 + https://twitter.com/EricaJoy?
