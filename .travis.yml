@@ -9,5 +9,4 @@ deploy:
   provider: heroku
   app: travis-foundation-website
   on: master
-  api_key:
-    secure: Rm1cRna+t7MpnxtntICizgDlY1o111R7GeAjNVbOQf4publ5coL9vC7KoKQx/cz5jeooE9Wx/4qe83/JIXdIVtAJZEcFDuEq+mTDPFn4z3teOp6Mwlr7jT83bWSajGHeuF9Bmw1BetFJ1TwKPJEbOc8ceDnHyqEIKfZkbnatc4M=
+  api_key: $HEROKU_TOKEN
