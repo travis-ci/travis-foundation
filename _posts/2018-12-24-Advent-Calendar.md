@@ -7,10 +7,10 @@ twitter: travis_fnd
 ---
 
 
-![illistration of the words Travis Foundation Advents Calendar](/images/blog/2018-12-24-travisfoundation-advent-calendar.png)
+![illustration of the words Travis Foundation Advent Calendar 2018](/images/blog/2018-12-24-travisfoundation-advent-calendar.png)
 
 
-As a surprise for all our friends and followers we created an [Advent Calendar on Twitter](https://twitter.com/hashtag/tfadventcalendar?f=tweets&vertical=default&src=hash) for you. Every day we tweeted recommendation what was good this year regarding feminism, diversity or open source. We got way way more recommendations from friends & family of the Foundation than we could include (we definitely need a longer advent calendar!), so here we are sharing all whooping 74 recommendations with you (if you have additions that made your year, share them in the comments with us!) — Happy Holidays! 
+As a surprise for all our friends and followers we created an [Advent Calendar on Twitter](https://twitter.com/hashtag/tfadventcalendar?f=tweets&vertical=default&src=hash). Every day we tweeted recommendations of what was good this year regarding feminism, diversity or open source. We got way, way more recommendations from friends & family of the Foundation than we could include (we definitely need a longer advent calendar!), so here we are sharing all whooping 74 recommendations with you — Happy Holidays! 
 
 # articles and comics 
 
@@ -24,7 +24,7 @@ As a surprise for all our friends and followers we created an [Advent Calendar o
 
 + [#wewontbeerased - 42 members of the trans and non-binary communities sat down with British Vogue](https://www.youtube.com/watch?v=Omyhocy02wo)
 + [224 Alterconf talk videos](https://alterconf.com/speakers)
-+ [The Big Television Debate | Ellen Pompeo, Emma Roberts, Gina Rodriguez and Gabrielle Union about the worth of actresses in Holliwood](https://www.youtube.com/watch?v=AQ0lWxFZHYY)
++ [The Big Television Debate: Ellen Pompeo, Emma Roberts, Gina Rodriguez and Gabrielle Union about the worth of actresses in Hollywood](https://www.youtube.com/watch?v=AQ0lWxFZHYY)
 + [Organisiert euch!
 Wie wir voneinander lernen & zusammen wachsen Konferenzpanel Bits & Bäume](https://media.ccc.de/v/bub2018-361-organisiert_euch#t=9)
 
@@ -43,7 +43,7 @@ Wie wir voneinander lernen & zusammen wachsen Konferenzpanel Bits & Bäume](http
 
 # books
 
-+ How to Respond to Code of Conduct Reports by by Valerie Aurora and Mary Gardiner free download: https://frameshiftconsulting.com/code-of-conduct-book/ 
++ How to Respond to Code of Conduct Reports by by Valerie Aurora and Mary Gardiner — [free download](https://frameshiftconsulting.com/code-of-conduct-book/)   
 + Binti by Nnedi Okorafor
 + Homegoing by Yaa Gyasi
 + Mental load - a feminist comic by Emma 
@@ -52,7 +52,7 @@ Wie wir voneinander lernen & zusammen wachsen Konferenzpanel Bits & Bäume](http
 + Crash Override by Zoë Quinn
 + King Kong Theory by Virginie Despentes
 + Exit Racism by Tupoka Ogette 
-+ Good and Mad by Rebecca Traister (podcast interview with her: http://www.stitcher.com/s?eid=52285930) 
++ Good and Mad by Rebecca Traister (podcast interview with her [here](http://www.stitcher.com/s?eid=52285930)) 
 + Neapolitan novels by Elena Ferrante
 + Life in Code by Ellen Ullman
 + Why be happy if you could be normal? by Jeanette Winterson
@@ -98,24 +98,24 @@ Wie wir voneinander lernen & zusammen wachsen Konferenzpanel Bits & Bäume](http
 + [Oskar, the mobile braille-keyboard](https://jojoba.ddns.info/wiki/Oskar), presentation: [here](https://oskar.ddns.mobi/mediawiki/images/8/8c/Ikt-forum-vortrag.pdf) Open Source manual: [gitlab.com/teamoskar](https://gitlab.com/teamoskar)
 + [womenandcode - initiative for women* in Vienna](http://womenandcode.org/)
 + [list of feminist events in Vienna](https://femvienna.wordpress.com/)
-+ [Open Source Diversity - ](https://opensourcediversity.org)
++ [Open Source Diversity](https://opensourcediversity.org)
 + [List of Women in Tech to follow on Twitter - by Ashley McNamara](https://twitter.com/ashleymcnamara/status/1063120296369020935)
 + [Confbuddy](https://conferencebuddy.io)
 + [CoderDojoLinz & CoderDojoWien ](https://coderdojo.com/)
 + [Codeland, the conference by @saronyitbarek & @CodeNewbies](https://codelandconf.com/)
 + [JS Conf Scholarships](https://2019.jsconf.eu/scholarships/)
-+ https://twitter.com/Mandinka_X
-+ https://twitter.com/EricaJoy?
-+ Women in gaming on Twitter: [@WomenInGaming](https://twitter.com/WomenInGaming) [@IGDA_WIGSIG(https://twitter.com/IGDA_WIGSIG) and [@wigj](https://twitter.com/wigj)
++ [Mandinka_X on twitter](https://twitter.com/Mandinka_X)
++ [Erica Joy on twitter](https://twitter.com/EricaJoy)
++ Women in gaming on Twitter: [@WomenInGaming](https://twitter.com/WomenInGaming), [@IGDA_WIGSIG](https://twitter.com/IGDA_WIGSIG) and [@wigj](https://twitter.com/wigj)
 + [Black Hoodie Conference](https://www.blackhoodie.re/about/)
 
  
 
-Check out also the projects that are close to our hearts, learn more about RGSoC, Diversity Tickets, speakerinnen and prompt: https://foundation.travis-ci.org/projects and resources we offer: https://foundation.travis-ci.org/resources. Want to show your appreciation for our work? You can donate here - every amount counts <3 https://foundation.travis-ci.org/donate
+Check out also the projects that are close to our hearts: learn more about RGSoC, Diversity Tickets, speakerinnen and prompt [here](https://foundation.travis-ci.org/projects) and read our [list of resources](https://foundation.travis-ci.org/resources). Want to show your appreciation for our work? You can [donate here](https://foundation.travis-ci.org/donate) — every amount counts <3  
 
 
 Thank you to everyone who sent us their recommendations!
 
-Twitter: @anasofiapinho, @fraulea, @malienamadrina, @lauralindal, @misprintedtype @troubalex, Carmen, Alex, @malienamadrina, @alicetragedy, @unangespiesst) @lauralindal, @bitboxer, @troubalex, @floord, 
+Twitter: @anasofiapinho, @fraulea, @malienamadrina, @lauralindal, @misprintedtype @troubalex, Carmen, Alex, @malienamadrina, @alicetragedy, @unangespiesst, @lauralindal, @bitboxer, @troubalex, @floord, 
 @unangespiesst, @anasofiapinho, @acnagy, @ulrikestrommer, @mmatuzo, @mmatuzo, @henne, @fraulea, @womanandcode, 
 @akwickert, @kriesse, @elisabethirg, @zaziemo, @walkthelineg, Trinh Nguyen, @misprintedtype, @fotografina, @bioshrimp, @writethedocs and Josefine (instagram.com/womanofheartandmind).
