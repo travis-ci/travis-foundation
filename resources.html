@@ -10,6 +10,18 @@ layout: project
     </div>
     <div class="project-main">
       
+      
+      <section>
+        <h2 id="accessibility">Accessibility</h2>
+          <ul>
+            {% for resource in site.data.resources %}
+              {% if resource.category == "accessibility" %}
+                <li><a href="{{resource.link}}">"{{resource.title}}"</a> - {{resource.text}}</li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+      </section>
+
       <section>
         <h2 id="allyship">Allyship</h2>
           <ul>
