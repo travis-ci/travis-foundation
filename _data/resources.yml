@@ -168,4 +168,9 @@
   text: "A community-driven effort to make web accessibility easier; page with interesting articles, tips and resources on the topic of accessibility on the web."
   link: https://a11yproject.com/
   category: "accessibility"
+- 35:
+  title: "Color accessibility"
+  text: "An overview of tools and resources to help you design inclusive products"
+  link: https://stephaniewalter.design/blog/color-accessibility-tools-resources-to-design-inclusive-products/
+  category: "accessibility"
 
