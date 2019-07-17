@@ -4,11 +4,11 @@ First off, thank you for taking the time to contribute 🙌🏼  Any contributio
 Before you get started, please make sure you read and understand our [Code of Conduct](CODE_OF_CONDUCT.md).
 
 **Table of contents**
-1. Setting up and getting started
-2. Reporting a bug
-3. Suggesting a new feature
-4. Contributing to an existing issue
-5. Issue labels
+1. [Setting up and getting started](#setting-up-and-getting-started)
+2. [Reporting a bug](#reporting-a-bug)
+3. [Suggesting a new feature](#suggesting-a-new-feature)
+4. [Contributing to an existing issue](#contributing-to-an-existing-feature)
+5. [Issue labels](#issue-labels)
 
 ## Setting up and getting started
 The [Travis Foundation website](https://foundation.travis-ci.org/) is built using [Jekyll](https://jekyllrb.com/). In order to set up and run the site locally for development, you'll need to have Ruby installed on your machine, have a GitHub account, and [fork our repo](https://help.github.com/en/articles/fork-a-repo).  
