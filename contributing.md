@@ -11,7 +11,16 @@ Before you get started, please make sure you read and understand our [Code of Co
 5. Issue labels
 
 ## Setting up and getting started
+The [Travis Foundation website](https://foundation.travis-ci.org/) is built using [Jekyll](https://jekyllrb.com/). In order to set up and run the site locally for development, you'll need to have Ruby installed on your machine, have a GitHub account, and [fork our repo](https://help.github.com/en/articles/fork-a-repo).  
+Once you're all set up, you'll have to bundle the gems using bundler and start jekyll:  
 
+```
+gem install bundler
+bundle install
+bundle exec jekyll serve --watch
+
+```
+To see the site locally, just head to `http://localhost:4000` in your browser. If you are new to Jekyll, you can find more about it [here](https://jekyllrb.com/docs/). Otherwise, you're ready to go!  
 
 ## Reporting a bug
 Before reporting a bug, please check if it has [already been reported](https://github.com/travis-ci/travis-foundation/issues?&q=is%3Aissue%20label%3Abug%20). If it hasn't and you want to file [a new bug report](https://github.com/travis-ci/travis-foundation/issues/new), provide the following information:
