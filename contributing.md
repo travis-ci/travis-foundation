@@ -11,8 +11,8 @@ Before you get started, please make sure you read and understand our [Code of Co
 5. [Issue labels](#issue-labels)
 
 ## Setting up and getting started
-The [Travis Foundation website](https://foundation.travis-ci.org/) is built using [Jekyll](https://jekyllrb.com/). In order to set up and run the site locally for development, you'll need to have Ruby installed on your machine, have a GitHub account, and [fork our repo](https://help.github.com/en/articles/fork-a-repo).  
-Once you're all set up, you'll have to bundle the gems using bundler and start jekyll:  
+The [Travis Foundation website](https://foundation.travis-ci.org/) is built using [Jekyll](https://jekyllrb.com/). In order to set up and run the site locally for development, you'll need to have Ruby and RubyGems installed on your machine, have a GitHub account, and [fork our repo](https://help.github.com/en/articles/fork-a-repo).  
+Once you're all set up, you'll have to bundle the gems using [Bundler](http://bundler.io/) and start [Jekyll](https://jekyllrb.com/):  
 
 ```
 gem install bundler
