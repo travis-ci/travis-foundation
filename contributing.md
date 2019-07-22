@@ -12,7 +12,7 @@ Before you get started, please make sure you read and understand our [Code of Co
 
 ## Setting up and getting started
 The [Travis Foundation website](https://foundation.travis-ci.org/) is built using [Jekyll](https://jekyllrb.com/). In order to set up and run the site locally for development, you'll need to have Ruby and RubyGems installed on your machine, have a GitHub account, and [fork our repo](https://help.github.com/en/articles/fork-a-repo).  
-Once you're all set up, you'll have to bundle the gems using [Bundler](http://bundler.io/) and start [Jekyll](https://jekyllrb.com/):  
+Once you're all set up, you'll have to bundle the gems using [Bundler](http://bundler.io/) and start [Jekyll](https://jekyllrb.com/). Type the following into your terminal / shell session:  
 
 ```
 gem install bundler
@@ -45,7 +45,9 @@ If it seems like no one is working on the issue, great! You've officially found 
 
 ### Creating a pull request
 
-Once you're happy with your changes, commit them and make a pull request. You can find very thorough information on Pull Requests in [GitHub's documentation](https://help.github.com/en/articles/creating-a-pull-request). The most important thing to keep in mind is that all pull requests should be made against `master`, which is our main branch.  
+Once you're happy with your changes, commit them and make a pull request. You can find very thorough information on Pull Requests in [GitHub's documentation](https://help.github.com/en/articles/creating-a-pull-request).
+
+❗️ The most important thing to keep in mind is that all pull requests should be made against `master`, which is our main branch.  
 
 ## Issue labels
 We use labels to track, manage and organise issues and pull requests.  
