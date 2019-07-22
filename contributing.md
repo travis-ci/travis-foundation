@@ -1,4 +1,4 @@
-# Contributing to the Travis Foundation site
+# Contributing to the Travis Foundation Site
 
 First off, thank you for taking the time to contribute 🙌🏼  Any contribution is welcome and appreciated. Below you'll find an overview of contribution guidelines, with what's expected of contributors.  
 Before you get started, please make sure you read and understand our [Code of Conduct](CODE_OF_CONDUCT.md).
@@ -41,7 +41,7 @@ You can view all of the currently open issues [on our issue tracker](https://git
 
 A good starting point if you're new to open source is the list of `beginner-friendly` issues. These are issues that don't require much prior knowledge of our structure or our website to get started. Before getting started, please check that no one else is working on the issue: this will be clear by the assigned user (if there is one) and by the issue's comments/discussion.
 
-If it seems like no one is working on the issue, great! You've officially found an issue to work on. You can leave a comment mentioning you'd like to work on the issue. Feel free to also leave a comment with your questions if anything is unclear or if you need help: Is the issue still valid? Are there any more detailed specifications to the issue?
+If it seems like no one is working on the issue, great! You've officially found an issue to work on. You can leave a comment mentioning you'd like to work on the issue. Feel free to also leave a comment with your questions, if anything is unclear or if you need help: Is the issue still valid? Are there any more detailed specifications to the issue?
 
 ### Creating a pull request
 
