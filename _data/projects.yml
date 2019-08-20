@@ -6,7 +6,7 @@
 - 2:
   title: "Diversity Tickets"
   text: "As part of our diversity consulting, we give conference organisers the possibility to provide underrepresented minorities in tech with free diversity tickets for their conference."
-  image: 
+  image:
   link: "/projects/diversity-tickets"
 - 3:
   title: "Speakerinnen"
@@ -23,3 +23,8 @@
   text: "Travis Foundation has supported various conferences by handling the financial side of things, so organisers can focus on organising."
   image:
   link: "/projects/conferences"
+- 6:
+  title: "Annual report"
+  text: "Our annual report offers an overview of the work we've done and goals we've reached with each project."
+  image:
+  link: "/projects/annual-report"
