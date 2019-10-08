@@ -14,59 +14,68 @@ layout: project
       <p>In case you want to make a donation to a <strong>specific project</strong> or need a <strong>donation receipt</strong>,<br> please email us (foundation@travis-ci.org) mentioning the email address and the date of the donation.</p>
       <div class="js-stripe-checkout">
         <noscript>You must enable JavaScript in your web browser to proceed with the donation.</noscript>
-        <script src="https://checkout.stripe.com/checkout.js"></script>
-        <div id="donation-checkout">
+        <script src="https://js.stripe.com/v3/"></script>
+        <form id="donation-checkout">
           <label>
             Amount <small>(in EUR)</small>
-            <input type="number" id="donate-amount" placeholder="e.g. 20">
+            <input name="donation-amount" type="number" id="donation-amount" placeholder="e.g. 20">
           </label>
-          <button id="donate-btn" class="button">Donate</button>
-        </div>
+          <button style="cursor:pointer" id="donation-btn" class="button">Donate</button>
+        </form>
+        <br/>
         <div id="donation-result"></div>
 
         <script>
-         var resultBox = document.getElementById('donation-result');
-         var checkoutBox = document.getElementById('donation-checkout');
-         var checkoutHandler = StripeCheckout.configure({
-           key: "pk_live_CDQ1VjqbJHkFUm1qOGzeMI30",
-           locale: "auto",
-           image: 'https://foundation.travis-ci.org/images/rebrand/favicon-96x96.png',
-         });
+          const stripe = Stripe('pk_live_CDQ1VjqbJHkFUm1qOGzeMI30');
+          const resultBox = document.getElementById('donation-result');
+          const button = document.getElementById("donation-btn");
 
-         var button = document.getElementById("donate-btn");
-         button.addEventListener("click", function(ev) {
-           let amount = (parseInt(document.getElementById('donate-amount').value, 10) * 100);
-           checkoutHandler.open({
-             amount: amount,
-             currency: 'eur',
-             name: "Travis Foundation",
-             description: "Donation",
-             token: (token) => {
-               handleToken(token, amount);
-             }
-           });
-         });
+          if(window.location.search.split("?")[1] === "success") {
+            resultBox.innerText = "Your donation was successful. Thank you!"
+          }
 
-         function handleToken(token, amount) {
-           resultBox.innerText = "Processing donation ...";
-           fetch("https://foundation-stripe-backend.herokuapp.com/charge", {
-             method: "POST",
-             headers: {"Content-Type": "application/json", "Origin": "https://foundation.travis-ci.org"},
-             body: JSON.stringify({token, amount})
-           })
-             .then(response => {
-               if (!response.ok)
-                 throw response;
-               return response.json();
-             })
-             .then(output => {
-               checkoutBox.setAttribute('style', 'display: none');
-               resultBox.innerText = "Your donation was successful. Thank you!";
-             })
-             .catch(err => {
-               resultBox.innerText = "Whoops, something went wrong. Your donation did not get through.";
-             })
-         }
+          button.addEventListener("click", function(ev) {
+            ev.preventDefault();
+            let amount = document.getElementById("donation-amount").value;
+            if(amount >= 0.5) { // min amount required by stripe
+
+              button.style.opacity = "0.5";
+              button.setAttribute("disabled", "disabled");
+              resultBox.innerText = "Processing donation ...";
+
+              postForm("https://www.ranorex.com/wp-json/sage/v2/travis/foundation-donation", "donation-checkout")
+              .then(data => {
+                stripe.redirectToCheckout({
+                  sessionId: data["id"]
+                }).then(function (result) {
+                  resultBox.innerText = "Whoops, something went wrong. Your donation did not get through.";
+                  button.style.opacity = "1";
+                  button.removeAttribute("disabled");
+                  console.log(result);
+                });
+              })
+              .catch(error => {
+                resultBox.innerText = "Whoops, something went wrong. Your donation did not get through.";
+                button.style.opacity = "1";
+                button.removeAttribute("disabled");
+                console.log(error);
+              })
+            }
+            else {
+              resultBox.innerText = "The minimum donation amount is €0.5";
+            }
+          });
+
+          function postForm(url, formID) {
+            const formData = new FormData(document.getElementById(formID));
+
+            return fetch(url, {
+              method: 'POST',
+              body: formData  // a FormData will automatically set the 'Content-Type'
+            })
+            .then(response => response.json())
+          }
+
         </script>
       </div>
     </div>
