@@ -1,9 +1,6 @@
 ---
-title: Travis Foundation Statement
 layout: post
-created_at: Mon June 15 2020
-permalink: blog/2020-06-15-foundation-update
-current: blog
+title: Travis Foundation Statement
 author: Foundation Team
 twitter: travis_fnd
 ---
