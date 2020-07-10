@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Prompt Joins the Travis Foundation
-author: Noah Slater
+author: Naomi Slater
 twitter: nslater
 ---
 
-*Noah Slater is a co-organiser of Prompt. The Foundation is providing an new organisational home for Prompt so it may continue its important work.*
+*Naomi Slater is a co-organiser of Prompt. The Foundation is providing an new organisational home for Prompt so it may continue its important work.*
 
 ---
 
